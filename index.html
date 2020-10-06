@@ -119,11 +119,11 @@ categories:
         {% for paper in site.categories.papers limit:4 %}   
         <div>
           <i class="fa fa-file-text-o fa-fw"></i>
-          <a class="verysmallhead" href="{{ paper.url }}">
+          <a class="note" href="{{ paper.url }}">
           {{ paper.title }}
           </a>
         </div>
-        <div class="note">
+        <div class="verysmallhead">
           {{ paper.shortref }}
         </div>
         <div class="smallnote">
