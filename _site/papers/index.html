@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="layout of website">
 
-	<title>{{ page.title }}</title>
+	<title>multiscale fluid X (mfX)</title>
 
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,47 +53,37 @@
         				<span class="icon-bar"></span>
       				</button>
 
-      				{% if page.categories.first != 'home' %}
+      				
        				<a href="/" class="navbar-left"><img src="/images/logo/logo.png" width="138" height="60" style="vertical-align:middle"></a>
-       				{% endif %}
+       				
      			</div>
 
    				<div class="collapse navbar-collapse" id="navbar-collapse-element" >
 					<ul class="nav navbar-nav navbar-right navbar-small">
 
-						{% if page.categories.first == 'Team' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/team/">Team</a></li>	  
 
-						{% if page.categories.first == 'Research' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/research/">Research</a></li>	
 
-						{% if page.categories.first == 'Papers' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/papers/">Papers</a></li>	  
 
-						{% if page.categories.first == 'Code' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/code/">Code</a></li>		
 
-						{% if page.categories.first == 'Join mfX!' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/join-mfX/">Join mfX!</a></li>	  
 					</ul>
 				</div>
@@ -105,7 +95,58 @@
 	<div class="container">	
 
 		
-		{{ content }}
+		<div class="spacer"></div> 
+    
+        
+            
+            
+             <!-- opening of a new row -->
+                <div class="row">
+            
+
+            <div class="col-md-4 paperbox">
+            <div class="media">
+                <a class="pull-right" href="/papers/paper/2020/10/05/coupling-md-to-dsmc-comp-fluid.html">
+                    <img width=100 class="media-object" src="/images/papers/comp-fluid.png">
+                </a> 
+                <div class="media-body">
+                <div class="smallhead media-heading">
+                    <a href="/papers/paper/2020/10/05/coupling-md-to-dsmc-comp-fluid.html" class="off">Coupling Molecular Dynamics and Direct Simulation Monte Carlo using a general and high-performance code coupling library</a>
+                </div>
+                    <p class="note">Longshaw <i>et al.</i> <i>Comp. & Flu.</i> 2020</p>
+                </div>
+            </div>
+            </div>
+            
+        
+            
+            
+            
+
+            <div class="col-md-4 paperbox">
+            <div class="media">
+                <a class="pull-right" href="/papers/paper/2019/03/13/drop-coalescence-prl.html">
+                    <img width=100 class="media-object" src="/images/papers/coal-drop-prl-sreehari.png">
+                </a> 
+                <div class="media-body">
+                <div class="smallhead media-heading">
+                    <a href="/papers/paper/2019/03/13/drop-coalescence-prl.html" class="off">Droplet Coalescence is Initiated by Thermal Motion</a>
+                </div>
+                    <p class="note">Perumanath <i>et al.</i> <i>Phys. Rev. Lett.</i> 2019</p>
+                </div>
+            </div>
+            </div>
+            
+        
+             <!-- close last open row -->
+                </div><div class="spacer"></div>
+            
+
+<div class="spacer"></div>
+
+
+
+
 	
 	</div>
 	
@@ -122,8 +163,8 @@
       
       		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
         		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
-          		<li><a href={{ site.university.url }}>{{ site.university.name }}</a></li>
-          		<li><a href={{ site.institute.url }}>{{ site.institute.name }}</a></li>
+          		<li><a href=https://www.ed.ac.uk/>University of Edinburgh</a></li>
+          		<li><a href=https://www.eng.ed.ac.uk/research/institutes/imt>Institute of Multiscale Thermofluids</a></li>
         		</ul>
         		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
           		<li><a href='/about/index.html'>About </a></li>

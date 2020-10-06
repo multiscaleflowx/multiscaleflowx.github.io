@@ -1,0 +1,75 @@
+---
+layout: default
+title: multiscale fluid X (mfX)
+categories:
+ - team
+---
+<div class="spacer"></div>
+{% assign current_team = site.categories.team | where: "alumni","false"%}
+{% assign memberindex = 0 %}
+{% for member in current_team reversed %}
+    {% assign memberindex = memberindex | plus: 1 %}
+    {% assign colindex = memberindex | modulo: 3 %}
+    {% if colindex == 1 %} <!-- opening of a new row -->
+    <div class="row">
+    {% endif %}
+    <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="{{ member.url }}">
+            <img class="media-object member-photo" src="{{ member.image }}">
+            </a>
+            <div class="media-body">
+                <div class="smallhead"><a href="{{ member.url }}" class="bignote">{{ member.title }}</a></div>
+                <p class="note">{{ member.position }}</p>
+            </div>
+        </div>
+    </div>    
+  {% if colindex == 0 %} <!-- closing a row -->
+  </div><div class="spacer"></div>
+  {% endif %}
+{% endfor %}
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="spacer"></div>
+{% endif %}
+
+<div class="spacer"></div>
+<hr/>
+
+<!-- Need to replace this static image with carousel at some point -->
+  <div class=" smallspace">
+    <img src="/images/carousel-team/MFX-China_red.jpg" class="center" width='100%' height='10%' alt="">
+  </div>
+
+<div class="spacer"></div>
+<hr/>
+<div class="bigtitle text-center">Alumni</div>
+<div class="spacer"></div>
+
+{% assign alumni = site.categories.team | where: "alumni","true"%}
+{% assign memberindex = 0 %}
+{% for member in alumni %}
+  {% assign memberindex = memberindex | plus: 1 %}
+  {% assign colindex = memberindex | modulo: 3 %}
+  {% if colindex == 1 %} <!-- opening of a new row -->
+  <div class="row">
+  {% endif %}
+  <div class="col-md-4 memberbox">
+    <div class="media">
+<!--        <a class="pull-left" href="{{ member.url }}">
+        <img class="media-object member-photo" src="{{ member.image }}">
+        </a> -->
+        <div class="media-body">
+        <div class="head media-heading member-name"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+        <p class="note">{{ member.position }}</p>
+        </div>
+    </div>
+    </div>    
+  {% if colindex == 0 %} <!-- closing a row -->
+  </div><div class="spacer"></div>
+  {% endif %}
+{% endfor %}
+{% if colindex != 0 %} <!-- close last open row -->
+</div><div class="spacer"></div>
+{% endif %}
+
+

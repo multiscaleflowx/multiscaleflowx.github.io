@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="layout of website">
 
-	<title>{{ page.title }}</title>
+	<title>multiscale fluid X (mfX)</title>
 
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,47 +53,37 @@
         				<span class="icon-bar"></span>
       				</button>
 
-      				{% if page.categories.first != 'home' %}
+      				
        				<a href="/" class="navbar-left"><img src="/images/logo/logo.png" width="138" height="60" style="vertical-align:middle"></a>
-       				{% endif %}
+       				
      			</div>
 
    				<div class="collapse navbar-collapse" id="navbar-collapse-element" >
 					<ul class="nav navbar-nav navbar-right navbar-small">
 
-						{% if page.categories.first == 'Team' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/team/">Team</a></li>	  
 
-						{% if page.categories.first == 'Research' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/research/">Research</a></li>	
 
-						{% if page.categories.first == 'Papers' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/papers/">Papers</a></li>	  
 
-						{% if page.categories.first == 'Code' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/code/">Code</a></li>		
 
-						{% if page.categories.first == 'Join mfX!' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/join-mfX/">Join mfX!</a></li>	  
 					</ul>
 				</div>
@@ -105,7 +95,52 @@
 	<div class="container">	
 
 		
-		{{ content }}
+		<div class="smallhead"> 
+  <p>All of the codes featured here, and more, is available from our GitHub repository:</p>
+
+<i class="fa fa-github text-center" aria-hidden="true"></i> <a href="https://github.com/multiscaleflowx">Multiscale Flow X GitHub</a></li>
+
+  </div>
+  <div class="mediumspacer"></div>
+
+<div class="bigtitle text-center">Software</div>
+<div class="mediumspacer"></div>
+
+
+<div class="smallhead"> 
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://git.ecdf.ed.ac.uk/multiscale/lammps">DynIMM</a></h5>
+        <p class="card-text">A coupled LAMMPS-OpenFOAM code to run dynamic Internal flow Multiscale Method (IMM) simulations.</p>
+        <a href="https://doi.org/10.5281/zenodo.500000" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.500000.svg" alt="DOI" /></a>
+        <a href="https://anaconda.org/slackha/pyjac" class="card-link"> <img src="https://anaconda.org/slackha/pyjac/badges/version.svg" /></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"><a href="https://git.ecdf.ed.ac.uk/multiscale/lammps">DynIMM</a></h5>
+        <p class="card-text">A coupled LAMMPS-OpenFOAM code to run dynamic Internal flow Multiscale Method (IMM) simulations.</p>
+        <a href="https://doi.org/10.5281/zenodo.500000" class="card-link"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.500000.svg" alt="DOI" /></a>
+        <a href="https://anaconda.org/slackha/pyjac" class="card-link"> <img src="https://anaconda.org/slackha/pyjac/badges/version.svg" /></a>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  <div class="hugespacer"></div>
+
+  <div class="bigtitle text-center">Scripts</div>
+
+
+
+
 	
 	</div>
 	
@@ -122,8 +157,8 @@
       
       		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
         		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
-          		<li><a href={{ site.university.url }}>{{ site.university.name }}</a></li>
-          		<li><a href={{ site.institute.url }}>{{ site.institute.name }}</a></li>
+          		<li><a href=https://www.ed.ac.uk/>University of Edinburgh</a></li>
+          		<li><a href=https://www.eng.ed.ac.uk/research/institutes/imt>Institute of Multiscale Thermofluids</a></li>
         		</ul>
         		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
           		<li><a href='/about/index.html'>About </a></li>

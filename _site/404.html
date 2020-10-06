@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="layout of website">
 
-	<title>{{ page.title }}</title>
+	<title></title>
 
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,47 +53,37 @@
         				<span class="icon-bar"></span>
       				</button>
 
-      				{% if page.categories.first != 'home' %}
+      				
        				<a href="/" class="navbar-left"><img src="/images/logo/logo.png" width="138" height="60" style="vertical-align:middle"></a>
-       				{% endif %}
+       				
      			</div>
 
    				<div class="collapse navbar-collapse" id="navbar-collapse-element" >
 					<ul class="nav navbar-nav navbar-right navbar-small">
 
-						{% if page.categories.first == 'Team' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/team/">Team</a></li>	  
 
-						{% if page.categories.first == 'Research' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/research/">Research</a></li>	
 
-						{% if page.categories.first == 'Papers' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/papers/">Papers</a></li>	  
 
-						{% if page.categories.first == 'Code' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/code/">Code</a></li>		
 
-						{% if page.categories.first == 'Join mfX!' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/join-mfX/">Join mfX!</a></li>	  
 					</ul>
 				</div>
@@ -105,7 +95,28 @@
 	<div class="container">	
 
 		
-		{{ content }}
+		<!-- <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+ -->
+<div class="container smallhead">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>We may have accidently led you astray! Click on the lab logo at the top left of this page to return to more familiar territory.</p>
+  <a> </a>
+</div>
+
 	
 	</div>
 	
@@ -122,8 +133,8 @@
       
       		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
         		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
-          		<li><a href={{ site.university.url }}>{{ site.university.name }}</a></li>
-          		<li><a href={{ site.institute.url }}>{{ site.institute.name }}</a></li>
+          		<li><a href=https://www.ed.ac.uk/>University of Edinburgh</a></li>
+          		<li><a href=https://www.eng.ed.ac.uk/research/institutes/imt>Institute of Multiscale Thermofluids</a></li>
         		</ul>
         		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
           		<li><a href='/about/index.html'>About </a></li>
