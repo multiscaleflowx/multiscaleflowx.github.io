@@ -48,16 +48,17 @@ layout: default
 	<div class="col-md-4">
 		<div class="mediumspacer"></div>
 		<div class="glyphbox note"> <!-- DAD: what is this class? -->
-			{% if page.pdflink %}
 			<div class="smallhead subtle">
 			Full text
 			</div>	
 				<div class="pad-left note">
 				<div class="smallspacer"></div>
+			{% if page.pdflink %}
+
 					<i class="fa fa-file-pdf-o fa-fw"></i>
 					<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
+					<br>
 			{% endif %}
-			<br/>
 			{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
