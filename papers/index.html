@@ -1,0 +1,40 @@
+---
+layout: default
+title: multiscale fluid X (mfX)
+categories:
+ - papers
+---
+<div class="spacer"></div> 
+    {% assign memberindex = 0 %}
+        {% for paper in site.categories.papers %}
+            {% assign memberindex = memberindex | plus: 1 %}
+            {% assign colindex = memberindex | modulo: 3 %}
+            {% if colindex == 1 %} <!-- opening of a new row -->
+                <div class="row">
+            {% endif %}
+
+            <div class="col-md-4 paperbox">
+            <div class="media">
+                <a class="pull-right" href="{{ paper.url }}">
+                    <img width=100 class="media-object" src="{{ paper.image }}">
+                </a> 
+                <div class="media-body">
+                <div class="smallhead media-heading">
+                    <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+                </div>
+                    <p class="note">{{ paper.shortref }}</p>
+                </div>
+            </div>
+            </div>
+            {% if colindex == 0 %} <!-- closing a row -->
+                </div><div class="spacer"></div>
+            {% endif %}
+        {% endfor %}
+            {% if colindex != 0 %} <!-- close last open row -->
+                </div><div class="spacer"></div>
+            {% endif %}
+
+<div class="spacer"></div>
+
+
+

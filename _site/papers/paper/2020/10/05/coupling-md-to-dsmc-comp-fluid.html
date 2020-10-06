@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="layout of website">
+
+	<title>Coupling Molecular Dynamics and Direct Simulation Monte Carlo using a general and high-performance code coupling library</title>
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- jQuery -->
+	<script src="/jquery-3.5.1.js"></script>
+
+    <!-- Bootstrap styles-->
+    <link href="/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    
+    <!-- Custom font choice -->
+<!--     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> -->
+
+	<!-- Custom style.css fiel to override bootstrap defaults whenever necessary-->
+    <link href="/css/style.css" rel="stylesheet"/>
+
+    <!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
+    <link href="/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    
+	<!-- Website logo (designed by Matthew Borg) -->
+	<link rel="shortcut icon" href="/images/logo/logo-square.png"/>
+
+    <!-- Math via MathJax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js">
+  	</script>
+
+</head>
+
+
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-default">
+  			<div class="container">
+   				<div class="navbar-header">
+     				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+
+      				
+       				<a href="/" class="navbar-left"><img src="/images/logo/logo.png" width="138" height="60" style="vertical-align:middle"></a>
+       				
+     			</div>
+
+   				<div class="collapse navbar-collapse" id="navbar-collapse-element" >
+					<ul class="nav navbar-nav navbar-right navbar-small">
+
+						
+						<li>
+						
+						<a href="/team/">Team</a></li>	  
+
+						
+						<li>
+						
+						<a href="/research/">Research</a></li>	
+
+						
+						<li>
+						
+						<a href="/papers/">Papers</a></li>	  
+
+						
+						<li>
+						
+						<a href="/code/">Code</a></li>		
+
+						
+						<li>
+						
+						<a href="/join-mfX/">Join mfX!</a></li>	  
+					</ul>
+				</div>
+  			</div>
+		</nav>
+	
+	</div>
+
+	<div class="container">	
+
+		
+		<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object paper-image" src="/images/papers/comp-fluid.png">
+			
+		</div>
+	</div>
+
+	<div class="col-md-8">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				Coupling Molecular Dynamics and Direct Simulation Monte Carlo using a general and high-performance code coupling library
+				
+			</div>
+			<p>
+			<div class="smallhead">
+				Longshaw SL, Emerson DR, Pillai R, Gibelli L, Lockerby DA, 
+				<span class="journal">
+				Computers & Fluids
+				</span>
+				
+				 213
+				
+				
+				
+				:104726 
+				
+				(2020).
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="mediumspacer"></div>
+		<div class="glyphbox note"> <!-- DAD: what is this class? -->
+			
+			<div class="smallhead subtle">
+			Full text
+			</div>	
+				<div class="pad-left note">
+				<div class="smallspacer"></div>
+					<i class="fa fa-file-pdf-o fa-fw"></i>
+					<a class="off" href="https://www.researchgate.net/publication/344427994_Coupling_Molecular_Dynamics_and_Direct_Simulation_Monte_Carlo_using_a_general_and_high-performance_code_coupling_library">Journal PDF</a>
+			
+			<br/>
+			
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="https://www.sciencedirect.com/science/article/pii/S0045793020302966">Journal HTML</a>
+			
+			</div>
+			<div class="mediumspacer"></div>			
+			
+						
+			
+			<div class="smallhead subtle">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1016/j.compfluid.2020.104726">10.1016/j.compfluid.2020.104726</a>
+			</div>
+			<div class="mediumspacer"></div>			
+			
+			
+			
+
+			
+
+			
+
+		</div>
+	</div>
+
+	<div class="col-md-8">	
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
+
+<p>A domain-decomposed method to simultaneously couple the classical Molecular Dynamics (MD) and Direct Simulation Monte Carlo (DSMC) methods is proposed. This approach utilises the MPI-based general coupling library, the Multiscale Universal Interface. The method provides a direct coupling strategy and utilises two OpenFOAM based solvers, mdFoam+ and dsmcFoam+, enabling scenarios where both solvers assume one discrete particle is equal to one molecule or atom. The ultimate goal of this work is to enable complex multi-scale simulations involving micro, meso and macroscopic elements, as found with problems like evaporation.</p>
+
+<p>Results are presented to show the fundamental capabilities of the method in terms of mass and kinetic energy conservation between simulation regions handled by the different solvers. We demonstrate the capability of the method by deploying onto a large supercomputing resource, with attention paid to the scalability for a canonical NVT ensemble (a constant number of atoms N, constant volume V and constant temperature T) of Argon atoms. The results show that the method performs as expected in terms of mass conservation and the solution is also shown to scale reasonably on a supercomputing resource, within the known performance limits of the coupled codes. The wider future of this work is also considered, with focus placed on the next steps to expand the capabilities of the methodology to allow for indirect coupling (where the coarse-graining capability of the DSMC method is used), as well as how this will then fit into a larger coupled framework to allow a complete micro-meso-macro approach to be tackled.</p>
+
+		</div>	
+	</div>
+
+	<div class="col-md-1"></div>
+</div>
+
+<div class="spacer"></div>
+
+	
+	</div>
+	
+	  <!-- code for bottom navbar -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+    	<div class="container">
+      		<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bottom-collapse"> 
+          		<span class="icon-bar"></span>
+          		<span class="icon-bar"></span>
+          		<span class="icon-bar"></span>
+        		</button>
+      		</div>
+      
+      		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
+        		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
+          		<li><a href=https://www.ed.ac.uk/>University of Edinburgh</a></li>
+          		<li><a href=https://www.eng.ed.ac.uk/research/institutes/imt>Institute of Multiscale Thermofluids</a></li>
+        		</ul>
+        		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
+          		<li><a href='/about/index.html'>About </a></li>
+          		<li><a href='/acknowledgements/index.html'>Acknowledgements </a></li>
+        		</ul>
+      		</div>
+    	</div>
+  	</nav>
+		
+
+</body>
+</html>
+

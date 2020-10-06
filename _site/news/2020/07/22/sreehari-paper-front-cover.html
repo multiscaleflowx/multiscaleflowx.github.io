@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="layout of website">
 
-	<title>{{ page.title }}</title>
+	<title>Sreehari's paper makes front cover!</title>
 
 	<!-- Enable responsive viewport -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,47 +53,37 @@
         				<span class="icon-bar"></span>
       				</button>
 
-      				{% if page.categories.first != 'home' %}
+      				
        				<a href="/" class="navbar-left"><img src="/images/logo/logo.png" width="138" height="60" style="vertical-align:middle"></a>
-       				{% endif %}
+       				
      			</div>
 
    				<div class="collapse navbar-collapse" id="navbar-collapse-element" >
 					<ul class="nav navbar-nav navbar-right navbar-small">
 
-						{% if page.categories.first == 'Team' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/team/">Team</a></li>	  
 
-						{% if page.categories.first == 'Research' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/research/">Research</a></li>	
 
-						{% if page.categories.first == 'Papers' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/papers/">Papers</a></li>	  
 
-						{% if page.categories.first == 'Code' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/code/">Code</a></li>		
 
-						{% if page.categories.first == 'Join mfX!' %}
-						<li class="active">
-						{% else %}
+						
 						<li>
-						{% endif %}
+						
 						<a href="/join-mfX/">Join mfX!</a></li>	  
 					</ul>
 				</div>
@@ -105,7 +95,9 @@
 	<div class="container">	
 
 		
-		{{ content }}
+		<p>Sreehari’s <a href="https://doi.org/10.1039/D0NR03766D">paper</a> on the molecular physics of jumping nanodroplets amade the front cover of <em> Nanoscale</em>. Congratulations to [Sreehari] and [Matthew]!</p>
+
+
 	
 	</div>
 	
@@ -122,8 +114,8 @@
       
       		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
         		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
-          		<li><a href={{ site.university.url }}>{{ site.university.name }}</a></li>
-          		<li><a href={{ site.institute.url }}>{{ site.institute.name }}</a></li>
+          		<li><a href=https://www.ed.ac.uk/>University of Edinburgh</a></li>
+          		<li><a href=https://www.eng.ed.ac.uk/research/institutes/imt>Institute of Multiscale Thermofluids</a></li>
         		</ul>
         		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
           		<li><a href='/about/index.html'>About </a></li>

@@ -1,8 +1,141 @@
 ---
 layout: default
-title: Multiscale FlowX
+title: multiscale flow X 
+categories:
+ - home
 ---
-<div class="blurb">
-	<h1>Multiscale FlowX research group</h1>
-	<p>We study flows of many kinds, at many scales</p>
-</div><!-- /.blurb -->
+<div class="container">	
+
+	<div class="row">  
+  <div>
+    <img src="/images/carousel-home/1.jpg" class="center" width='100%' height='10%' alt="">
+  </div>
+		<div class="col-md-12 smallspace">
+		<object class="pull-left logobox" data="/images/logo/logo-long.png" type="image/png"></object>
+<!-- 			<div class="logotitle">
+			&nbsp; {{ page.title }}
+			</div>
+		</div> -->
+
+	</div>
+
+
+<!-- ***CAROUSEL CODE NOT WORKING - NEED TO FIX***-->
+<!-- 
+<div class="container-fluid smallspace">	
+
+	<div id="carousel" class="carousel slide" data-ride="carousel">
+  		<ol class="carousel-indicators">
+   			<li data-target="#carousel" data-slide-to="0" class="active"></li>
+    		<li data-target="#carousel" data-slide-to="1"></li>
+    		<li data-target="#carousel" data-slide-to="2"></li>
+  		</ol>
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      			<img src="/images/carousel-home/1.jpg" width='100%' height='600 px' alt="">
+    		</div>
+
+    		<div class="carousel-item">
+      			<img src="/images/carousel-home/2.jpg" width=100%  height='600 px' alt="">
+   			</div>
+
+   			<div class="carousel-item">
+      			<img src="/images/carousel-home/3.jpg" width=100%  height='600 px' alt="">
+   			</div>
+  		</div>
+
+  			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+   			</a>
+ 			
+ 			<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+   				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+   			</a>
+	</div>
+
+</div> -->
+
+<!--homepage text-->
+
+  <div class="row mt-3">
+    <div class="col-md-12">
+		  <div class="smallhead smallspace">
+        <p>
+          We study <strong>multiscale flow</strong> phenomena using computer simulations. This encompasses topics such as:
+          <ul>
+            <li>Non equilibrium fluid dynamics; kinetic theory; rarefied gas flows through channels/MEMS/porous media</li>
+				    <li> Interfacial flows (nano droplets, nano bubbles, ice nucleation, vibrating surfaces, stability of liquid jets/films)</li>
+				    <li> Granular flows (fundamental research on two-fluid models)</li>
+				    <li> Non-continuum liquid flows: water flow through nanotubes; particle separation at nano pores; water flow through 2D materials (stacked graphene oxide/boron nitride etc)</li>
+				    <li> Pedestrian and traffic modelling (a form of granular flow)</li>
+				  </ul>
+               
+        </p>
+
+        <p>
+          We work with computational fluid dynamics, molecular dynamics, direct simulation Monte Carlo, agent-based modelling, and hybrid multiscale methods. We both develop computational software including commercially-available solvers in OpenFOAM, as well as explore fundamental phenomena to uncover physical insight.
+        </p>
+		  </div>
+	 </div>
+  </div>
+
+  <div class="spacer"></div>   
+
+<!-- Code for setting up the news tab on homepage-->
+  <div class="row">
+    <div class="col-md-6">
+      <div class="head">
+        <a class="note-title" href="/news/"> News </a>
+      </div>
+      <div class="feedbox pad-left">
+        
+        {% for news in site.categories.news limit:3 %}   
+        <div>
+          <i class="fa fa-bullhorn fa-fw"></i>
+          <a class="smallhead" href="{{ news.url }}">
+          {{ news.title }}
+          </a>
+        </div>
+        <div class="note">
+          {{ news.content }}
+        </div>
+        <div class="smallnote">
+          Posted {{ news.date | date_to_string }}          
+        </div>
+        <div class="spacer"></div>        
+        {% endfor %}
+
+      </div>
+      <div class="hugespacer"></div>   
+    </div>
+
+<!-- Code for setting up the papers tab on homepage-->
+    <div class="col-md-6">
+      <div class="head">
+        <a class="note-title" href="/papers/"> Papers </a>
+      </div>
+      <div class="feedbox pad-left">
+      
+        {% for paper in site.categories.papers limit:4 %}   
+        <div>
+          <i class="fa fa-file-text-o fa-fw"></i>
+          <a class="verysmallhead" href="{{ paper.url }}">
+          {{ paper.title }}
+          </a>
+        </div>
+        <div class="note">
+          {{ paper.shortref }}
+        </div>
+        <div class="smallnote">
+          Posted {{ paper.date | date_to_string }}          
+        </div>
+        <div class="spacer"></div>        
+        {% endfor %}
+
+      </div>
+      <div class="hugespacer"></div>   
+    </div>
+  </div>
+</div>
+
+
