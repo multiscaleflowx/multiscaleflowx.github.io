@@ -122,6 +122,16 @@ layout: default
 			</div>
 			<div class="mediumspacer"></div>			
 			{% endif %}
+			{% if page.funder %}
+			<div class="smallhead subtle">
+				Funded by
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-university fa-fw"></i> {{ page.funder }}
+			</div>
+			<div class="mediumspacer"></div>
+			{% endif %}
 
 		</div>
 	</div>
