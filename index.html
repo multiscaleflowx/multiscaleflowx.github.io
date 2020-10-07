@@ -57,79 +57,81 @@ categories:
 
 <!--homepage text-->
 
-  <div class="row mt-3">
-    <div class="col-md-12">
-		  <div class="smallhead smallspace">
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div class="smallhead smallspace">
         
-        <p><strong>Welcome to our website!</strong></p>
+                <p><strong>Welcome to our website!</strong></p>
 
-        <p>We are a large computational research group at the University of Edinburgh investigating a range of multiscale flow problems that target important engineering challenges of the 21st century in health, transport, water and energy. Our research spans fundamental engineering science at the nano/micro/meso/macro scales, multiscale method development, highly parallel software development that run on supercomputers, and industry-focused engineering applications.</p>
+                <p>We are a large computational research group at the University of Edinburgh investigating a range of multiscale flow problems that target important engineering challenges of the 21st century in health, transport, water and energy. Our research spans fundamental engineering science at the nano/micro/meso/macro scales, multiscale method development, highly parallel software development that run on supercomputers, and industry-focused engineering applications.</p>
 
-        <p>Examples of our recent work include: non-equilibrium gas transport through porous media for safer oil/gas reservoir management; nano/micro bubble cavitation dynamics for disease targeting; nano/micro-engineered surfaces with improved performance (e.g. anti-icing, marine drag reduction, nanotube water filtration membranes, evaporating cooling nanopipes); liquid-surface damage analysis; granular and pedestrian flow predictions.</p>
+                <p>Examples of our recent work include: non-equilibrium gas transport through porous media for safer oil/gas reservoir management; nano/micro bubble cavitation dynamics for disease targeting; nano/micro-engineered surfaces with improved performance (e.g. anti-icing, marine drag reduction, nanotube water filtration membranes, evaporating cooling nanopipes); liquid-surface damage analysis; granular and pedestrian flow predictions.</p>
 
-        <p>We actively collaborate with researchers from the UK and around the world, and engage with various industrial companies to adapt our techniques for their problems.</p> 
+                <p>We actively collaborate with researchers from the UK and around the world, and engage with various industrial companies to adapt our techniques for their problems.</p> 
 
-		  </div>
-	 </div>
-  </div>
+            </div>
+	    </div>
+    </div>
 
-  <div class="spacer"></div>   
+    <div class="spacer"></div>   
 
 <!-- Code for setting up the news tab on homepage-->
-  <div class="row">
-    <div class="col-md-6">
-      <div class="head">
-        <h2 <a href="/news/"> News </a> </h1>
-      </div>
-      <div class="feedbox pad-left">
+    <div class="row">
+        <div class="col-md-6">
+        <div class="head">
+                <h2 <a href="/news/"> News </a> </h1>
+        </div>
+        
+        <div class="feedbox pad-left">
         
         {% for news in site.categories.news limit:3 %}   
-        <div>
-          <i class="fa fa-bullhorn fa-fw"></i>
-          <a class="smallhead" href="{{ news.url }}">
-          {{ news.title }}
-          </a>
-        </div>
-        <div class="note">
-          {{ news.content }}
-        </div>
-        <div class="smallnote">
-          Posted {{ news.date | date_to_string }}          
-        </div>
-        <div class="spacer"></div>        
+            <div>
+            <i class="fa fa-bullhorn fa-fw"></i>
+            <a class="smallhead" href="{{ news.url }}">
+                {{ news.title }}
+             </a>
+            </div>
+            <div class="note">
+                {{ news.content }}
+            </div>
+            <div class="smallnote">
+                Posted {{ news.date | date_to_string }}          
+            </div>
+            <div class="spacer"></div>        
         {% endfor %}
 
-      </div>
-      <div class="hugespacer"></div>   
+        </div>
+        <div class="hugespacer"></div>   
     </div>
 
 <!-- Code for setting up the papers tab on homepage-->
     <div class="col-md-6">
-      <div class="head">
-        <h2 <a href="/papers/"> Recent Papers </a></h1>
-      </div>
-      <div class="feedbox pad-left">
+        <div class="head">
+            <h2 <a href="/papers/"> Recent Papers </a></h1>
+        </div>
+        
+        <div class="feedbox pad-left">
       
         {% for paper in site.categories.papers limit:5 %}   
-        <div>
-          <i class="fa fa-file-text-o fa-fw"></i>
-          <a class="note" href="{{ paper.url }}">
-          {{ paper.title }}
-          </a>
-        </div>
-        <div class="verysmallhead">
-          {{ paper.shortref }}
-        </div>
-        <div class="smallnote">
-          Posted {{ paper.date | date_to_string }}          
-        </div>
-        <div class="spacer"></div>        
+            <div>
+                <i class="fa fa-file-text-o fa-fw"></i>
+                <a class="note" href="{{ paper.url }}">
+                {{ paper.title }}
+                </a>
+            </div>
+            <div class="verysmallhead">
+                {{ paper.shortref }}
+            </div>
+            <div class="smallnote">
+                Posted {{ paper.date | date_to_string }}          
+            </div>
+            <div class="spacer"></div>        
         {% endfor %}
 
-      </div>
-      <div class="hugespacer"></div>   
+        </div>
+
+        </div>
     </div>
-  </div>
 </div>
 
 
