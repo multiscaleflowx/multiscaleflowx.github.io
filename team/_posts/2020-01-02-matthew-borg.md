@@ -7,7 +7,7 @@ twitter:
 degrees: "PhD, University of Strathclyde, 2010"
 github: 
 scholar: zs60VQcAAAAJ
-image: /images/team/matthew_borg.jpg
+image: /images/team/matthew_borg.png
 alumni: false
 ---
 I obtained a first class BEng (Hons) degree in Mechanical Engineering at the University of Malta (2002-2006), followed by a PhD in Mechanical Engineering at the University of Strathclyde (2006-2010) with a scholarship from the James Weir Foundation. My PhD investigated fluid flows at the nanoscale. In 2009 I developed a Molecular Dynamics (MD) software called mdFOAM within the third-party open-source software OpenFOAM, which I currently still lead. In my PhD I developed MD flow controller tools in arbitrary complex geometries for applying continuum-molecular boundary conditions, and which were then integrated within concurrent CFD-MD hybrid simulations that offer computational cheaper solutions with molecular-level accuracy. From 2009-2011 I worked as a postdoctoral Research Associate at Strathclyde investigating water flow through carbon-nanotube membranes for seawater purification. 
