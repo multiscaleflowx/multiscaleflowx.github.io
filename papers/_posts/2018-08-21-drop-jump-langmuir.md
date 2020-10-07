@@ -18,6 +18,7 @@ github:
 datashare: "10283/3176"
 altmetric_id: 
 category: paper
+funder: EPSRC, RAEng
 tags: [md, droplets, vibrations]
 ---
 
