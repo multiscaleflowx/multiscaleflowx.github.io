@@ -97,8 +97,8 @@ categories:
 
 		{% if papersq == true %}
 			<div class="spacer"></div>
-			<div class="head">Papers</div>
-			<div class="spacer"></div>
+			<div class="bighead">Papers</div>
+			<div class="title"></div>
 			{% for paper in site.categories.papers %}
 				{% if paper.authors contains lastname %}
 					<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
