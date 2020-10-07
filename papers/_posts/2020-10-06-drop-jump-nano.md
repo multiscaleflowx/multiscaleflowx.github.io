@@ -11,7 +11,7 @@ pages:
 authors: "Perumanath S, Borg MK,  Sprittles JE, Enright R"
 image: /images/papers/2020-10-13-drop-jump-nano.png
 fulltext: https://pubs.rsc.org/en/content/articlelanding/2020/NR/D0NR03766D#!divAbstract
-doi: "doi.org/10.1039/D0NR03766D" 
+doi: "10.1039/D0NR03766D" 
 supplement: http://www.rsc.org/suppdata/d0/nr/d0nr03766d/d0nr03766d1.pdf
 pdflink: 
 github:
