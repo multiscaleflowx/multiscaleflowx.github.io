@@ -9,7 +9,7 @@ volume: 122
 issue:
 pages: 104501
 authors: "Perumanath S, Borg MK, Chubynsky MV, Sprittles JE, Reese JM"
-image: /images/papers/2019-03-13-drop-coalescence-prl.png
+image: /images/papers/coal-drop-prl-sreehari.png
 fulltext: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.104501
 doi: "10.1103/PhysRevLett.122.104501" 
 supplement: https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.122.104501
@@ -18,6 +18,7 @@ github:
 datashare: "10283/3248"
 altmetric_id: 56970896
 category: paper
+funder: EPSRC
 tags: [multiscale, mui, dsmc, md]
 ---
 
