@@ -112,11 +112,11 @@ categories:
 <!-- Code for setting up the papers tab on homepage-->
     <div class="col-md-6">
       <div class="head">
-        <a class="note-title" href="/papers/"> Papers </a>
+        <a class="note-title" href="/papers/"> Recent Papers </a>
       </div>
       <div class="feedbox pad-left">
       
-        {% for paper in site.categories.papers limit:4 %}   
+        {% for paper in site.categories.papers limit:5 %}   
         <div>
           <i class="fa fa-file-text-o fa-fw"></i>
           <a class="note" href="{{ paper.url }}">
