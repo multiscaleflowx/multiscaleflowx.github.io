@@ -7,7 +7,7 @@ twitter:
 degrees: "PhD (Strathclyde), CEng, FIMechE, FInstP"
 github: 
 scholar: IfC0MUkAAAAJ
-image: /images/team/yonghao_zhang.jpg
+image: /images/team/yonghao_zhang.png
 alumni: false
 ---
 

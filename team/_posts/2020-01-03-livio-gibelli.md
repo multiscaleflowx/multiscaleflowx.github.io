@@ -7,6 +7,6 @@ twitter:
 degrees: "PhD in Applied Mathematics, Politecnico di Milano, 2004"
 github: 
 scholar: 
-image: /images/team/livio_gibelli.jpg
+image: /images/team/livio_gibelli.png
 alumni: false
 ---

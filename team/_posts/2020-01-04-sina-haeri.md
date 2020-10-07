@@ -7,7 +7,7 @@ twitter:
 degrees: 
 github: 
 scholar: 
-image: /images/team/sina_haeri.jpg
+image: /images/team/sina_haeri.png
 alumni: false
 ---
 
