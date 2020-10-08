@@ -8,7 +8,7 @@ journal: "Physics of Fluids"
 volume: 32
 issue:
 pages: 092003
-authors: "Sheng Q, Li J, Borg MK, Zhang Y"
+authors: "Sheng Q, Gibelli L, Li J, Borg MK, Zhang Y"
 image: /images/papers/2020-09-01-dense-gas-pof.png
 fulltext: https://aip.scitation.org/doi/10.1063/5.0019559?af=R&feed=most-recent
 doi: "10.1063/5.0019559" 
