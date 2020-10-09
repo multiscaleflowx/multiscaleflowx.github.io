@@ -4,7 +4,7 @@ title: "Prof. Yonghao Zhang"
 position: Jason Reese Chair in Multiscale Fluid Mechanics
 email: yonghao.zhang@ed.ac.uk
 twitter: 
-degrees: "PhD (Strathclyde), CEng, FIMechE, FInstP"
+degrees: "PhD (Aberdeen), CEng, FIMechE, FInstP"
 github: 
 scholar: IfC0MUkAAAAJ
 image: /images/team/yonghao_zhang.png
