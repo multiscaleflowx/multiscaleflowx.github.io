@@ -8,7 +8,7 @@ journal: "Powder Technology"
 volume: 368
 issue:
 pages: 125-129
-authors: "Haeri S, Haeri s, Hanson J, Lotfian S"
+authors: "Haeri S, Haeri S, Hanson J, Lotfian S"
 image: /images/papers/2020-04-17-add-man-powder.png
 fulltext: https://www.sciencedirect.com/science/article/pii/S003259102030317X
 doi: "10.1016/j.powtec.2020.04.031" 

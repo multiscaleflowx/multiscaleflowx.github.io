@@ -9,7 +9,7 @@ volume: 213
 issue:
 pages: 104726
 authors: "Longshaw SL, Emerson DR, Pillai R, Gibelli L, Lockerby DA"
-image: /images/papers/comp-fluid.png
+image: /images/papers/2020-10-05-mui-coupling-comp-fluid.png
 fulltext: https://www.sciencedirect.com/science/article/pii/S0045793020302966
 doi: "10.1016/j.compfluid.2020.104726" 
 supplement:
