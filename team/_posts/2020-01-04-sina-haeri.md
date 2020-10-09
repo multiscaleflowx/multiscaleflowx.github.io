@@ -6,7 +6,7 @@ email: sina.haeri@ed.ac.uk
 twitter: 
 degrees: 
 github: 
-scholar: 
+scholar: vD041VoAAAAJ
 image: /images/team/sina_haeri.png
 alumni: false
 ---
