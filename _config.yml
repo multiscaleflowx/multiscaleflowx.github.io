@@ -43,6 +43,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  project-rarefied:
+      output: true
+      permalink: /research/project-rarefied/
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
