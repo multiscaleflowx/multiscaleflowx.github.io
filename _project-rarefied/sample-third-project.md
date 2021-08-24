@@ -2,7 +2,7 @@
 layout: project
 title: "Effective mean path and viscosity of confined gases"
 image: /images/projects/effective-viscosity-confined-gases.png
-active: true
+active: false
 startyear: 2017
 endyear: 2019
 ---

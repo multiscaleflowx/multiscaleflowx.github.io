@@ -2,27 +2,24 @@
 layout: default
 title: mfX
 ---
-<h1 class="gallery-header dark-blue">List of Projects</h1>
+<div class="text-center"><h1> Active Projects</h1> </div>
 
-    {% for project in site.project-rarefied %}
-        <div class="media-body titlebox">
-            <div class="title media-heading">
-                    {{ project.title }}
-            </div>
-        </div>
-
+{% for project in site.project-rarefied %}
+{% if project.active == true %} 
+    <div class="bigspacer"></div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="media">
                 {% if project.image %}
-                <img class="pull-left pad-right media-object paper-image" src="{{ project.image }}">
+                <img class="pull-left pad-right media-object project-image" src="{{ project.image }}">
                 {% endif %}
                 </div>
             </div>
 
-
-
-            <div class="col-md-8">  
+            <div class="col-md-7">  
+                <div class="bighead">
+                    {{ project.title }} ({{project.startyear}}-{{project.endyear}}) 
+                </div> 
                 <div class="post">
                     {{ project.content }}
                 </div>  
@@ -30,5 +27,35 @@ title: mfX
         </div>
         <div class="bigspacer"></div>
         <br>
-    {% endfor %}
-    
+{% endif %}
+
+{% endfor %}
+
+<div class="text-center"><h1> Inactive Projects</h1> </div>
+
+{% for project in site.project-rarefied %}
+{% if project.active == false %} 
+    <div class="bigspacer"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="media">
+                {% if project.image %}
+                <img class="pull-left pad-right media-object project-image" src="{{ project.image }}">
+                {% endif %}
+                </div>
+            </div>
+
+            <div class="col-md-7">  
+                <div class="bighead">
+                    {{ project.title }} ({{project.startyear}}-{{project.endyear}}) 
+                </div> 
+                <div class="post">
+                    {{ project.content }}
+                </div>  
+            </div>
+        </div>
+        <div class="bigspacer"></div>
+        <br>
+{% endif %}
+
+{% endfor %}    

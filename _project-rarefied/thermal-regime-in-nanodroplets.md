@@ -3,7 +3,7 @@ layout: project
 title: "Thermal regime in nanodroplets"
 image: /images/projects/thermal-regime-nanodroplets.png
 active: true
-startyear: 2017
+startyear: 2018
 endyear: 
 ---
 
