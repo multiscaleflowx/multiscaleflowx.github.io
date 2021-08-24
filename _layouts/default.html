@@ -70,35 +70,35 @@
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/team/">Team</a></li>	  
+						<a href="/team/" target="_blank" rel="noopener noreferrer">Team</a></li>	  
 
 						{% if page.categories.first == 'Research' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/research/">Research</a></li>	
+						<a href="/research/" target="_blank" rel="noopener noreferrer">Research</a></li>	
 
 						{% if page.categories.first == 'Papers' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/papers/">Papers</a></li>	  
+						<a href="/papers/" target="_blank" rel="noopener noreferrer">Papers</a></li>	  
 
 						{% if page.categories.first == 'Code' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/code/">Code</a></li>		
+						<a href="/code/" target="_blank" rel="noopener noreferrer">Code</a></li>		
 
 						{% if page.categories.first == 'Join mfX!' %}
 						<li class="active">
 						{% else %}
 						<li>
 						{% endif %}
-						<a href="/join-mfX/">Join mfX!</a></li>	  
+						<a href="/join-mfX/" target="_blank" rel="noopener noreferrer">Join mfX!</a></li>	  
 					</ul>
 				</div>
   			</div>
@@ -119,7 +119,7 @@
     <nav class="navbar navbar-default navbar-fixed-bottom">
     	<div class="container">
       		<div class="navbar-header">
-        		<button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#nav-bottom-collapse"> 
+        		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bottom-collapse"> 
           		<span class="icon-bar"></span>
           		<span class="icon-bar"></span>
           		<span class="icon-bar"></span>
@@ -128,12 +128,12 @@
       
       		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
         		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
-          		<li><a href={{ site.university.url }}>{{ site.university.name }}</a></li>
-          		<li><a href={{ site.institute.url }}>{{ site.institute.name }}</a></li>
+          		<li><a href={{ site.university.url }} target="_blank" rel="noopener noreferrer">{{ site.university.name }}</a></li>
+          		<li><a href={{ site.institute.url }} target="_blank" rel="noopener noreferrer">{{ site.institute.name }}</a></li>
         		</ul>
         		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
-          		<li><a href='/about/index.html'>About</a></li>
-          		<li><a href='/acknowledgements/index.html'>Acknowledgements </a></li>
+          		<li><a href='/about/index.html' target="_blank" rel="noopener noreferrer">About</a></li>
+          		<li><a href='/acknowledgements/index.html' target="_blank" rel="noopener noreferrer">Acknowledgements </a></li>
         		</ul>
       		</div>
     	</div>
