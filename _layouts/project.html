@@ -1,0 +1,34 @@
+---
+layout: default
+title: mfX
+---
+<h1 class="gallery-header dark-blue">List of Projects</h1>
+
+    {% for project in site.project-rarefied %}
+        <div class="media-body titlebox">
+            <div class="title media-heading">
+                    {{ project.title }}
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="media">
+                {% if project.image %}
+                <img class="pull-left pad-right media-object paper-image" src="{{ project.image }}">
+                {% endif %}
+                </div>
+            </div>
+
+
+
+            <div class="col-md-8">  
+                <div class="post">
+                    {{ project.content }}
+                </div>  
+            </div>
+        </div>
+        <div class="bigspacer"></div>
+        <br>
+    {% endfor %}
+    
