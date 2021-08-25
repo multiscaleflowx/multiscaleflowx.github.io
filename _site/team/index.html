@@ -197,10 +197,31 @@
 <div class="spacer"></div>
 <hr/>
 
-<!-- Need to replace this static image with carousel at some point -->
-  <div class=" smallspace">
-    <img src="/images/carousel-team/MFX-China_red.jpg" class="center" width='100%' height='10%' alt="">
-  </div>
+<!-- Code for carousel on member page-->
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+                <img src="/images/carousel-team/2.jpg" alt="Slide 1">
+        </div>
+        <div class="item">
+            <img src="/images/carousel-team/3.jpg" alt="Slide 2">
+        </div>
+<!--         <div class="item">
+            <img src="/images/carousel-team/3.jpg" alt="Slide 3">
+        </div> -->
+    </div>
+    <a href="#carousel" class="left carousel-control" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#carousel" class="right carousel-control" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
 
 <div class="spacer"></div>
 <hr/>
