@@ -108,6 +108,11 @@ strong {
   font-weight: 700
 }
 
+.hugehead {
+  color: black;
+  font-size: 2em !important;
+}
+
 .bighead {
   color: black;
   font-size: 1.6em !important;
@@ -242,4 +247,18 @@ strong {
 
 .paper-image {
   width: 250px;
+}
+
+.cover-image {
+  width: 150px;
+  height: 210px;
+}
+
+hr.thick
+{
+    border: 2px solid #000;
+}
+
+.top-buffer{
+  margin-top: 220px;
 }

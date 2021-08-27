@@ -80,8 +80,9 @@ categories:
         <img class="media-object member-photo" src="{{ member.image }}">
         </a> -->
         <div class="media-body">
-        <div class="head media-heading smallhead"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-        <p class="note">{{ member.position }}</p>
+        <div class="head media-heading smallhead"><a href="{{ member.url }}" class="off"> {{ member.title }}</a></div>
+        <p class="note">{{ member.mfXposition }} ({{ member.startyear }} - {{ member.endyear }})</p>
+        <p class="note">Current: {{ member.position }}</p>
         </div>
     </div>
     </div>    
