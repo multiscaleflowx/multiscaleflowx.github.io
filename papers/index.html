@@ -52,11 +52,12 @@ categories:
 
     <br><div class="bigspacer"></div>
 
-    <div class="top-buffer hugehead"> Landmark Papers </div>
+    <div class="top-buffer hugehead"> Recent Highlights </div>
     <hr class="thick">
     
+    {% assign papers = site.categories.papers | where: "landmark","true"%}
     {% assign memberindex = 0 %}
-        {% for paper in site.categories.papers %}
+        {% for paper in papers %}
             {% assign memberindex = memberindex | plus: 1 %}
             {% assign colindex = memberindex | modulo: 3 %}
             {% if colindex == 1 %} <!-- opening of a new row -->
@@ -86,6 +87,15 @@ categories:
 
 <div class="spacer"></div>
 
-    <div class="hugehead"> Complete Publication List </div>
-    <hr class="thick">
+<div class="hugehead"> All Publications </div>
+<hr class="thick">
+<div class="spacer"></div>
+
+{% for paper in site.categories.papers %}
+    <div class="smallhead media-heading">
+        <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+        <p class="note">{{ paper.authors }}, <i>{{ paper.journal }}</i>, {{ paper.year }}</p>
+    </div>
+{% endfor %}
+
 
