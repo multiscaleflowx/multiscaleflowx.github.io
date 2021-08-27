@@ -55,7 +55,7 @@ categories:
     <div class="top-buffer hugehead"> Recent Highlights </div>
     <hr class="thick">
     
-    {% assign papers = site.categories.papers | where: "landmark","true"%}
+    {% assign papers = site.categories.papers | where: "highlight","true"%}
     {% assign memberindex = 0 %}
         {% for paper in papers %}
             {% assign memberindex = memberindex | plus: 1 %}
@@ -94,7 +94,7 @@ categories:
 {% for paper in site.categories.papers %}
     <div class="smallhead media-heading">
         <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
-        <p class="note">{{ paper.authors }}, <i>{{ paper.journal }}</i>, {{ paper.year }}</p>
+        <p class="note">{{ paper.authors }}, <i>{{ paper.journal }}</i>, {{ paper.year }}, {% if paper.volume %} <b>{{ paper.volume }}</b>{% endif %}, {% if paper.issue %} {{ paper.issue }}, {% endif %}{{ paper.pages }}.</p>
     </div>
 {% endfor %}
 
