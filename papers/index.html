@@ -4,13 +4,63 @@ title: mfX
 categories:
  - papers
 ---
+<div class="hugehead"> Front Covers </div>
+<hr class="thick">
 <div class="spacer"></div> 
+    <div class="col-md-2 paperbox">
+        <div class="media">
+            <a class="pull-left">
+                    <img class="cover-image" src="/images/covers/1.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="col-md-2 paperbox">
+        <div class="media">
+            <a class="pull-left">
+                    <img class="cover-image" src="/images/covers/2.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="col-md-2 paperbox">
+        <div class="media">
+            <a class="pull-left">
+                    <img class="cover-image" src="/images/covers/3.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="col-md-2 paperbox">
+        <div class="media">
+            <a class="pull-left">
+                    <img class="cover-image" src="/images/covers/4.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="col-md-2 paperbox">
+        <div class="media">
+            <a class="pull-left">
+                    <img class="cover-image" src="/images/covers/5.jpg">
+            </a>
+        </div>
+    </div>
+    <div class="col-md-2 paperbox">
+        <div class="media">
+            <a class="pull-left">
+<!--                     <img class="cover-image" src="/images/covers/1.jpg">
+ -->            </a>
+        </div>
+    </div>
+
+    <br><div class="bigspacer"></div>
+
+    <div class="top-buffer hugehead"> Landmark Papers </div>
+    <hr class="thick">
+    
     {% assign memberindex = 0 %}
         {% for paper in site.categories.papers %}
             {% assign memberindex = memberindex | plus: 1 %}
             {% assign colindex = memberindex | modulo: 3 %}
             {% if colindex == 1 %} <!-- opening of a new row -->
-                <div class="row">
+            <div class="bigspacer"></div> <div class="row">
             {% endif %}
 
             <div class="col-md-4 paperbox">
@@ -36,5 +86,6 @@ categories:
 
 <div class="spacer"></div>
 
-
+    <div class="hugehead"> Complete Publication List </div>
+    <hr class="thick">
 

@@ -39,7 +39,6 @@ author :
 
 # Build settings
 markdown: kramdown
-url: http://multiscaleflowx.io
 permalink: /:categories/:title/
 theme: minima
 plugins:
