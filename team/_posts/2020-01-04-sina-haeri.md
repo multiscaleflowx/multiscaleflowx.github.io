@@ -7,7 +7,7 @@ twitter:
 degrees: 
 github: 
 scholar: vD041VoAAAAJ
-image: /images/team/sina_haeri.png
+image: /images/team/sina-haeri.png
 alumni: false
 ---
 

@@ -7,6 +7,6 @@ twitter:
 degrees: "PhD University of Melbourne, 2017"
 github: 
 scholar: 
-image: /images/team/rohit_pillai.jpg
+image: /images/team/rohit-pillai.jpg
 alumni: false
 ---
