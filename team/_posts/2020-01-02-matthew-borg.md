@@ -7,7 +7,7 @@ twitter:
 degrees: "PhD, University of Strathclyde, 2010"
 github: 
 scholar: zs60VQcAAAAJ
-image: /images/team/matthew_borg.png
+image: /images/team/matthew-borg.png
 website: 
 cv: 	
 alumni: false

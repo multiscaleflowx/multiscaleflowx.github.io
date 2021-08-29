@@ -7,7 +7,7 @@ twitter:
 degrees: 
 github: 
 scholar: 
-image: /images/team/jianfei_xie.jpeg
+image: /images/team/jianfei-xie.jpg
 website: www.derby.ac.uk/staff/jianfei-xie/
 cv: 
 alumni: true
