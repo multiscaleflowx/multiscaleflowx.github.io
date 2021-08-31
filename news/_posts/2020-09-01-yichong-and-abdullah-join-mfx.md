@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Welcome to new PhD students"
-image: /assets/images/news/default-news.png
+image: /images/news/default.jpeg
 category: news
 tags: [group]
 ---

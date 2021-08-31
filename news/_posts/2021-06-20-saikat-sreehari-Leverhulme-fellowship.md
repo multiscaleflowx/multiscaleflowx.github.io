@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Saikat and Sreehari win prestigious fellowships!"
-image: /assets/images/news/default-news.png
+image: /images/news/default.jpeg
 category: news
 tags: [publication]
 ---

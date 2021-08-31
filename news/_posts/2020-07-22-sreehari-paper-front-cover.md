@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sreehari's paper makes front cover!"
-image: /assets/images/news/default-news.png
+image: /images/news/default.jpeg
 category: news
 tags: [publication]
 ---
