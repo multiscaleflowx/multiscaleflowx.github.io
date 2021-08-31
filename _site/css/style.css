@@ -268,8 +268,8 @@ hr.thick
   margin-top: 50px;
 }
 .project-box{
-  background: ghostwhite; 
-  padding: 10px; 
+/*  background: ghostwhite; 
+*/  padding: 10px; 
   border: 2px solid lightgray; 
   margin: 10px;
 }

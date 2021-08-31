@@ -1,13 +1,13 @@
 ---
 layout: member
-title: "Ya Zhang"
+title: "Sarah Davidson"
 position: PhD student
-email: ya.zhang@ed.ac.uk
+email: sarah.davidson@ed.ac.uk
 twitter: 
 degrees: 
 github: 
 scholar: 
-image: /images/team/ya-zhang.png
+image: /images/team/davidson-sarah.jpg
 alumni: false
 ---
 
