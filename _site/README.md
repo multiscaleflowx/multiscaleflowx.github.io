@@ -51,7 +51,6 @@ The process works exactly the same if you are editing your own member page or if
 
 ```
 	---
-	---
 	layout: paper
 	title: "Enhanced nanoparticle rejection in aligned boron nitride nanotube membranes"
 	year: "2020"
