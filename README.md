@@ -11,6 +11,22 @@ To really be able to customise any part of the website, you'll need a working Un
 ```
 git clone https://github.com/multiscaleflowx/multiscaleflowx.github.io.git
 ```
+You can edit the files bu the recommended way of contributing your changes is to make a new branch with a reasonably descriptive name:
+```
+git checkout -b README_edits_authorname
+```
+Then, you can commit and push your changes to origin; for eaxample:
+```
+git push origin README_edits_authorname
+```
+To have your changes in the master branch, you should open a PR (pull request) on Github. It is also recommended to tag a reivewer to review your contribution. Read more about that by Googling.
+
+## For reviewers 
+To review someone's changes, you should `cd` into your local copy of this repository pull all branches so you have a local copy of all remote branches. This is done by:
+```
+git pull --all
+```
+Then, you can checkout the relevant branch and rebuild to see how their changes look/work. You can also push changes back to that branch as a reviewer or leave a comment on Github for the main author to make changes.
 
 Then install any additional Ruby dependencies by running `bundle install` from within the downloaded directory.  After this, the site can be be built with:
 
