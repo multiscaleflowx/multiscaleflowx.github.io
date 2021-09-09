@@ -7,6 +7,6 @@ tags: [publication]
 ---
 [Saikat] and [Sreehari] have both won Early Career Fellowships from the [Leverhulme Trust]!
 
-[Saikat]: /team/saikat-datta
-[Sreehari]: /team/sreeharipd
+[Saikat]: /team/datta-saikat
+[Sreehari]: /team/pd-sreehari
 [Leverhulme Trust]: https://www.leverhulme.ac.uk/early-career-fellowships
