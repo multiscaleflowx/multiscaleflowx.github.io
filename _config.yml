@@ -45,18 +45,18 @@ plugins:
   - jekyll-feed
 
 collections:
-  project-nucleation-phase-change:
+  theme-nucleation-phase-change:
       output: true
-      permalink: /research/project-nucleation-phase-change/
-  project-interfacial-phenomena:
+      permalink: /research/theme-nucleation-phase-change/
+  theme-interfacial-phenomena:
     output: true
-    permalink: /research/project-interfacial-phenomena/
-  project-porous-media:
+    permalink: /research/theme-interfacial-phenomena/
+  theme-porous-media:
     output: true
-    permalink: /research/project-porous-media/
-  project-particulate-systems:
+    permalink: /research/theme-porous-media/
+  theme-particulate-systems:
     output: true
-    permalink: /research/project-particulate-systems/
+    permalink: /research/theme-particulate-systems/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
