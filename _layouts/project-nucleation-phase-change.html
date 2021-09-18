@@ -1,0 +1,59 @@
+---
+layout: default
+title: mfX
+---
+
+{% for project in site.project-nucleation-phase-change %}
+{% if project.active == true %} 
+    <div class="bigspacer"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="media">
+                {% if project.image %}
+                <img class="pull-left pad-right media-object project-image" src="{{ project.image }}">
+                {% endif %}
+                </div>
+            </div>
+
+            <div class="col-md-7">  
+                <div class="bighead">
+                    {{ project.title }} ({{project.startyear}}-{{project.endyear}}) 
+                </div> 
+                <div class="post">
+                    {{ project.content }}
+                </div>  
+            </div>
+        </div>
+        <div class="bigspacer"></div>
+        <br>
+{% endif %}
+
+{% endfor %}
+
+
+{% for project in site.project-nucleation-phase-change %}
+{% if project.active == false %} 
+    <div class="bigspacer"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="media">
+                {% if project.image %}
+                <img class="pull-left pad-right media-object project-image" src="{{ project.image }}">
+                {% endif %}
+                </div>
+            </div>
+
+            <div class="col-md-7">  
+                <div class="bighead">
+                    {{ project.title }} ({{project.startyear}}-{{project.endyear}}) 
+                </div> 
+                <div class="post">
+                    {{ project.content }}
+                </div>  
+            </div>
+        </div>
+        <div class="bigspacer"></div>
+        <br>
+{% endif %}
+
+{% endfor %}    
