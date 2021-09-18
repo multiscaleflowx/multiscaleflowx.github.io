@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: project-interfacial-phenomena
 title: "Thermal regime in nanodroplets"
 image: /images/projects/thermal-regime-nanodroplets.png
 active: true

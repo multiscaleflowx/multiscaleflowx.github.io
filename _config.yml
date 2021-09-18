@@ -45,9 +45,18 @@ plugins:
   - jekyll-feed
 
 collections:
-  project-rarefied:
+  project-nucleation-phase-change:
       output: true
-      permalink: /research/project-rarefied/
+      permalink: /research/project-nucleation-phase-change/
+  project-interfacial-phenomena:
+    output: true
+    permalink: /research/project-interfacial-phenomena/
+  project-porous-media:
+    output: true
+    permalink: /research/project-porous-media/
+  project-particulate-systems:
+    output: true
+    permalink: /research/project-particulate-systems/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
