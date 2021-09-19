@@ -18,7 +18,7 @@ Then install any additional Ruby dependencies by running `bundle install` from w
 bundle exec jekyll build
 ```
 
-To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`. You should see a local version of this website in your browser that is identical to the [live version](https://multiscaleflowx.github.io/). 
+To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`. You should see a local version of this website in your browser that is identical to the [live version](https://multiscaleflowx.ac.uk/). 
 
 
 ## Code Structure
