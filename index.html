@@ -45,11 +45,11 @@ categories:
         
                 <p><strong>Welcome to the mfX research group!</strong></p>
 
-                <p>We are a large computational group at the University of Edinburgh investigating a range of multiscale flow problems that target important engineering challenges of the 21st century in health, transport, water and energy. Our research spans fundamental engineering science at the nano/micro/meso/macro scales, multiscale method development, highly parallel software development that run on supercomputers, and industry-focused engineering applications.</p>
+                <p align="justify">We are a large computational group at the University of Edinburgh investigating a range of multiscale flow problems that target important engineering challenges of the 21st century in health, transport, water and energy. Our research spans fundamental engineering science at the nano/micro/meso/macro scales, multiscale method development, highly parallel software development that run on supercomputers, and industry-focused engineering applications.</p>
 
-                <p>Examples of our recent work include: non-equilibrium gas transport through porous media for safer oil/gas reservoir management; nano/micro bubble cavitation dynamics for disease targeting; nano/micro-engineered surfaces with improved performance (e.g. anti-icing, marine drag reduction, nanotube water filtration membranes, evaporating cooling nanopipes); liquid-surface damage analysis; granular and pedestrian flow predictions.</p>
+                <p align="justify">Examples of our recent work include: non-equilibrium gas transport through porous media for safer oil/gas reservoir management; nano/micro bubble cavitation dynamics for disease targeting; nano/micro-engineered surfaces with improved performance (e.g. anti-icing, marine drag reduction, nanotube water filtration membranes, evaporating cooling nanopipes); liquid-surface damage analysis; granular and pedestrian flow predictions.</p>
 
-                <p>We actively collaborate with researchers from the UK and around the world, and engage with various industrial companies to adapt our techniques for their problems.</p> 
+                <p align="justify">We actively collaborate with researchers from the UK and around the world, and engage with various industrial companies to adapt our techniques for their problems.</p> 
 
             </div>
 	    </div>
@@ -65,7 +65,7 @@ categories:
         
         <div class="feedbox pad-left">
         
-        {% for news in site.categories.news limit:3 %}   
+        {% for news in site.categories.news limit:5 %}   
             <div>
             <i class="fa fa-bullhorn fa-fw"></i>
             <a class="smallhead" href="/news">
@@ -92,7 +92,7 @@ categories:
         
         <div class="feedbox pad-left">
       
-        {% for paper in site.categories.papers limit:5 %}   
+        {% for paper in site.categories.papers limit:6 %}   
             <div>
                 <i class="fa fa-file-text-o fa-fw"></i>
                 <a class="note" href="{{ paper.url }}">
