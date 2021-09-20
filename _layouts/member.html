@@ -95,10 +95,13 @@ categories:
 		{% endif %}						
 	</div>
 	<div class="col-md-8">	
-		<div class="verysmallhead">
+		<div class="spacer"></div>
+		<div class="bighead">Biography</div>
+		<hr class="thick">
+		<div class="smallhead">
 			{{ content }}
 		</div>
-		
+
 		{% assign lastname = member.title | split: ' ' | last %}
 		{% for paper in site.categories.papers %}
 			{% if paper.authors contains lastname %}
@@ -109,6 +112,7 @@ categories:
 		{% if papersq == true %}
 			<div class="spacer"></div>
 			<div class="bighead">Papers</div>
+			<hr class="thick">
 			<div class="title"></div>
 			{% for paper in site.categories.papers %}
 				{% if paper.authors contains lastname %}

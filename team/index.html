@@ -4,7 +4,8 @@ title: mfX
 categories:
  - team
 ---
-<div class="spacer"></div>
+<div class="hugehead"> Current Members </div>
+<hr class="thick">
 {% assign current_team = site.categories.team | where: "alumni","false"%}
 {% assign memberindex = 0 %}
 {% for member in current_team reversed %}
@@ -33,7 +34,6 @@ categories:
 {% endif %}
 
 <div class="spacer"></div>
-<hr/>
 
 <!-- Code for carousel on member page-->
 <div id="carousel" class="carousel slide" data-ride="carousel">
