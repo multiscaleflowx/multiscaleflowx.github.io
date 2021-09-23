@@ -8,39 +8,40 @@ categories:
 <hr class="thick">
 <div class="spacer"></div> 
 
-    {% assign newslist = site.categories.news %}
-<!--     {% assign memberindex = 0 %}
- -->        {% for news in newslist %}
-            <div class="bigspacer"></div> 
-              <div class="hugehead">
-                    <p class="off">{{ news.title }}</p>
-              </div>
-                <div class="smallhead">
-                    <p class="off">{{ news.date | date_to_string }}</p>
-              </div>
-            <div class="row">
-                <div class="col-md-4">
-                  <div class="media">
-                  <a class="pull-right">
-                    <img width=350 class="media-object" 
-                    {% if news.image %} 
-                    src="{{ news.image }}"
-                    {% else %}
-                    src="/images/news/default.jpeg"
-                    {% endif %}>
-                  </a>
-                </div>
-              </div>
+    
+{% assign newslist = site.categories.news %}
+{% for news in newslist %}
+    <div class="bigspacer"></div> 
+    <div class="hugehead">
+        <p class="off">{{ news.title }}</p>
+    </div>
 
-                <div class="col-md-8">
-                <div class="mediumhead media-heading">
-                    <a class="off">{{ news.content }}</a>
-                </div>
-                </div>
+    <div class="smallhead">
+        <p class="off">{{ news.date | date_to_string }}</p>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <div class="media">
+                <a class="pull-right">
+                <img width=350 class="media-object" 
+                {% if news.image %} 
+                src="{{ news.image }}"
+                {% else %}
+                src="/images/news/default.jpeg"
+                {% endif %}>
+                </a>
             </div>
-            <div class="bigspace"></div> 
-            <hr class="thick">
+        </div>
 
-            {% endfor %}
+        <div class="col-md-8">
+            <div class="mediumhead media-heading">
+                <a class="off">{{ news.content }}</a>
+            </div>
+        </div>
+    </div>
+    <div class="bigspace"></div> 
+    <hr class="thick">
+{% endfor %}
 
 
