@@ -6,8 +6,10 @@ categories:
 ---
 <div class="hugehead"> Current Members </div>
 <hr class="thick">
+
 {% assign current_team = site.categories.team | where: "alumni","false"%}
 {% assign memberindex = 0 %}
+
 {% for member in current_team reversed %}
     {% assign memberindex = memberindex | plus: 1 %}
     {% assign colindex = memberindex | modulo: 3 %}
@@ -25,10 +27,14 @@ categories:
             </div>
         </div>
     </div>    
-  {% if colindex == 0 %} <!-- closing a row -->
-  </div><div class="spacer"></div>
-  {% endif %}
+
+    {% if colindex == 0 %} <!-- closing a row -->
+    </div>
+    <div class="spacer"></div>
+    {% endif %}
+
 {% endfor %}
+
 {% if colindex != 0 %} <!-- close last open row -->
 </div><div class="spacer"></div>
 {% endif %}
@@ -66,29 +72,37 @@ categories:
 <hr class="thick">
 <div class="spacer"></div>
 
+
 {% assign alumni = site.categories.team | where: "alumni","true"%}
 {% assign memberindex = 0 %}
+
 {% for member in alumni %}
-  {% assign memberindex = memberindex | plus: 1 %}
-  {% assign colindex = memberindex | modulo: 6 %}
-  {% if colindex == 1 %} <!-- opening of a new row -->
-  <div class="row">
-  {% endif %}
-  <div class="col-md-2 memberbox">
-    <div class="media">
-        <div class="media-body">
-        <div class="head media-heading smallhead"><p> {{ member.title }}</p></div>
-        <p class="note">{{ member.mfXposition }} ({{ member.startyear }} - {{ member.endyear }})</p>
-        <p class="note">Left mfX for: {{ member.position }}</p>
+    {% assign memberindex = memberindex | plus: 1 %}
+    {% assign colindex = memberindex | modulo: 6 %}
+    {% if colindex == 1 %} <!-- opening of a new row -->
+    <div class="row">
+    {% endif %}
+    
+    <div class="col-md-2 memberbox">
+        <div class="media">
+            <div class="media-body">
+            <div class="head media-heading smallhead"><p> {{ member.title }}</p></div>
+            <p class="note">{{ member.mfXposition }} ({{ member.startyear }} - {{ member.endyear }})</p>
+            <p class="note">Left mfX for: {{ member.position }}</p>
+            </div>
         </div>
     </div>
-    </div>    
-  {% if colindex == 0 %} <!-- closing a row -->
-  </div><div class="spacer"></div>
-  {% endif %}
+
+    {% if colindex == 0 %} <!-- closing a row -->
+    </div>
+    <div class="spacer"></div>
+    {% endif %}
+
 {% endfor %}
+
+
 {% if colindex != 0 %} <!-- close last open row -->
-</div><div class="spacer"></div>
+    </div><div class="spacer"></div>
 {% endif %}
 
 <div class="spacer"></div>
