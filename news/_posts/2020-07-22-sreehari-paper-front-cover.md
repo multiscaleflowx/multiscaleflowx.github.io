@@ -3,7 +3,6 @@ layout: default
 title: "Sreehari's paper makes front cover!"
 image: /images/news/default.jpeg
 category: news
-tags: [publication]
 ---
 Sreehari's [paper][1] on the molecular physics of jumping nanodroplets amade the front [cover] of <em> Nanoscale</em>. Congratulations to [Sreehari] and [Matthew]!
 

@@ -13,7 +13,7 @@ image: /images/papers/2019-03-13-drop-coalescence-prl.png
 fulltext: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.104501
 doi: "10.1103/PhysRevLett.122.104501" 
 supplement: https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.122.104501
-pdflink: https://www.researchgate.net/publication/344427994_Coupling_Molecular_Dynamics_and_Direct_Simulation_Monte_Carlo_using_a_general_and_high-performance_code_coupling_library 
+pdflink:
 github:
 datashare: "10283/3248"
 altmetric_id: 56970896

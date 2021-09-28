@@ -3,7 +3,6 @@ layout: default
 title: "Carlos's recent paper highlighted by Physics of Fluids!"
 image: /images/news/default.jpeg
 category: news
-tags: [publication]
 ---
 [Carlos]'s recent paper in _Physics of Fluids_ has been higlighted as Editor's pick! Congratulations to [Carlos], and you can read his paper [here].
 
