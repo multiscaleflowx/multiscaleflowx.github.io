@@ -17,10 +17,8 @@ title: mfX
 	<div class="col-md-8">
 		<div class="media-body titlebox">
 			<div class="title media-heading">
-				{{ page.title }}
-				
+				{{ page.title }}				
 			</div>
-			<p>
 			<div class="smallhead">
 				{{ page.authors }}, 
 				<span class="journal">
@@ -52,17 +50,20 @@ title: mfX
 			</div>	
 				<div class="pad-left note">
 				<div class="smallspacer"></div>
+			
 			{% if page.pdflink %}
 				<i class="fa fa-file-pdf-o fa-fw"></i>
 				<a class="off" href="{{ page.pdflink }}">Journal PDF</a>
 				<br>
 			{% endif %}
+			
 			{% if page.fulltext %}
 				<i class="fa fa-external-link fa-fw"></i>
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
 			{% endif %}
 			</div>
 			<div class="mediumspacer"></div>			
+			
 			{% if page.supplement %}
 			<div class="smallhead subtle">
 				Supplementary Info
@@ -121,6 +122,7 @@ title: mfX
 			</div>
 			<div class="mediumspacer"></div>			
 			{% endif %}
+			
 			{% if page.funder %}
 			<div class="smallhead subtle">
 				Funded by
