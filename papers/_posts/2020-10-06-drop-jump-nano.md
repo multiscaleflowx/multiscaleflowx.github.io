@@ -5,9 +5,9 @@ year: "2020"
 shortref: "Perumanath <i>et al.</i> <i>Nanoscale</i> 2020"
 nickname: drop-jump-nano-sreehari
 journal: "Nanoscale"
-volume: 
-issue:
-pages: 
+volume: 12
+issue: 40
+pages: 20631-20637
 authors: "Perumanath S, Borg MK,  Sprittles JE, Enright R"
 image: /images/papers/2020-10-13-drop-jump-nano.png
 fulltext: https://pubs.rsc.org/en/content/articlelanding/2020/NR/D0NR03766D#!divAbstract
