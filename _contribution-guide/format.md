@@ -10,7 +10,7 @@ This is intended to be a quick resource when you want to add your content to the
 * **Do not** edit any of the HTML/CSS code either, as the website is designed in such a way so as to not require you to engage with any of that.  
 * **Do not** use any format other than `.png` or `.jpg`/`.jpeg` for any of the images for the website.  
 
-If anything below is confusing, DM me on slack for clarification.
+If anything below is confusing, DM me (Rohit) on slack for clarification.
 
 ## News item
 
