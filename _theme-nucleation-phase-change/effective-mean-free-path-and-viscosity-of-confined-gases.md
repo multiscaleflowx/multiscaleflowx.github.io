@@ -1,5 +1,5 @@
 ---
-layout: theme-interfacial-phenomena
+layout: theme-nucleation-phase-change
 title: "Effective MFP and viscosity of confined gases"
 image: /images/projects/effective-viscosity-confined-gases.png
 active: false

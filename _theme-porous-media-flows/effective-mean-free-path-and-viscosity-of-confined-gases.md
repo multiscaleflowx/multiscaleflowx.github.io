@@ -1,6 +1,6 @@
 ---
-layout: theme-interfacial-phenomena
-title: "Effective mean path and viscosity of confined gases"
+layout: theme-porous-media-flows
+title: "Effective MFP and viscosity of confined gases"
 image: /images/projects/effective-viscosity-confined-gases.png
 active: false
 startyear: 2017

@@ -1,5 +1,5 @@
 ---
-layout: theme-interfacial-phenomena
+layout: theme-porous-media-flows
 title: "Thermal regime in nanodroplets"
 image: /images/projects/thermal-regime-nanodroplets.png
 active: true
