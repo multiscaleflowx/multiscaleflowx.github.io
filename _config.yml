@@ -27,9 +27,9 @@ collections:
   theme-interfacial-phenomena:
     output: true
     permalink: /research/theme-interfacial-phenomena/
-  theme-porous-media:
+  theme-porous-media-flows:
     output: true
-    permalink: /research/theme-porous-media/
+    permalink: /research/theme-porous-media-flows/
   theme-particulate-systems:
     output: true
     permalink: /research/theme-particulate-systems/
