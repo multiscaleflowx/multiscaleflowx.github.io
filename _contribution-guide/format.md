@@ -73,7 +73,7 @@ As with news items, paper images are placed in [`images/papers/`](https://github
 
 ## Team
 
-Each team member should have a markdown file in [`team/_posts/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/team/_posts).  File names are a fixed date followed by last and first name, like [`2020-01-01-datta-saikat.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/team/_posts/2020-01-01-datta-saikat.md). For the time being, we're using the convention that all PDRAs have the date `2020-01-01`, while PhDs have the date `2020-06-01`, respectively. To generate this [team member's webpage](/team/datta-saikat), for example, the relevant markdown file looks like this:
+Each team member should have a markdown file in [`team/_posts/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/team/_posts).  File names are a fixed date followed by last and first name, like [`2020-01-01-datta-saikat.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/team/_posts/2020-01-01-datta-saikat.md). For the time being, we're using the convention that all PDRAs have the date `2020-01-01`, while PhDs have the date `2020-06-01`, respectively. To generate this [team member's webpage](/team/datta-saikat), for example, the relevant markdown file required is:
 
 ```
 ---
@@ -105,7 +105,7 @@ The fields `title`, `position`, `email`, `degrees` (which just refers to your **
 
 ## Projects
 
-Each PhD/PDRA should have a dedicated project they are working on. Consult your supervisor if you are unsure as to which of the [four main themes](https://multiscaleflowx.ac.uk/research/) your project fits into. Once you've sorted that out, you need to repeat the process above, namely copy a markdown file and start editing. To generate [this project webpage](/research/theme-porous-media-flows/), for example, the relevant markdown file looks like this:
+Each PhD/PDRA should have a dedicated project they are working on. Consult your supervisor if you are unsure as to which of the [four main themes](https://multiscaleflowx.ac.uk/research/) your project fits into. Once you've sorted that out, you need to repeat the process above, namely copy a markdown file and start editing. To generate this [project webpage](/research/theme-porous-media-flows/), for example, the relevant markdown file required is:
 ```
 ---
 layout: theme-porous-media-flows
@@ -120,7 +120,7 @@ Owing to the heterogeneous geological conditions of unconventional reservoirs an
 
 This work is funded by partners from King Fahd University of Petroleum and Minerals (KFUPM), and involves the following researchers ([Carlos](/team/corral-carlos), Qiang, Runxi, [Saikat](/team/datta-saikat), and [Yichong](/team/chen-yichong)).
 ```
-The fields `title`, `image`, and `startyear` are required, along with a brief summary of the project itself in text (replacing the paragraph above). Use a descriptive title for your file; the above project, for example, is titled [`thermal-regime-in-nanodroplets.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/_theme-interfacial-phenomena/thermal-regime-in-nanodroplets.md).  You can see how I used `[]` to surround the text to be displayed and `()` to generate a link to the team member's bio page. Please limit your project description to **150 words** or less. As above, the images are placed in [`images/projects/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/projects), so only edit the name of the image when sending it for the website (here called `thermal-regime-nanodroplets.png`). The image should be **exactly 500x300 pixels** and not too large (<500 kb).
+The fields `title`, `image`, and `startyear` are required, along with a brief summary of the project itself in text (replacing the paragraph above). Use a descriptive title for your file; the above project, for example, is titled [`kerogen-shale.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/_theme-porous-media-flows/kerogen-shale.md).  You can see how I used `[]` to surround the text to be displayed and `()` to generate a link to the team member's bio page. Please limit your project description to **150 words** or less. As above, the images are placed in [`images/projects/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/projects), so only edit the name of the image when sending it for the website (here called `kerogen-shale.png`). The image should be **exactly 500x300 pixels** and not too large (<500 kb).
 
 ## Producing/compressing images
 
