@@ -1,6 +1,6 @@
 ---
 layout: theme-porous-media-flows
-title: "Adsorption and transport inside organic shale kerogen"
+title: "Adsorption and transport in organic shale kerogen"
 image: /images/projects/kerogen-shale.png
 active: true
 startyear: 2018
