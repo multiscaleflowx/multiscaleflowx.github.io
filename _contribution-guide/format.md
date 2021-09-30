@@ -73,7 +73,7 @@ As with news items, paper images are placed in [`images/papers/`](https://github
 
 ## Team
 
-Each team member should have a markdown file in [`team/_posts/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/team/_posts).  File names are a fixed date followed by last and first name, like [`2020-01-01-datta-saikat.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/team/_posts/2020-01-01-datta-saikat.md). For the time being, we're using the convention that all PDRAs have the date `2020-01-01`, while PhDs have the date `2020-06-01`, respectively. The relevant markdown file looks like this:
+Each team member should have a markdown file in [`team/_posts/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/team/_posts).  File names are a fixed date followed by last and first name, like [`2020-01-01-datta-saikat.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/team/_posts/2020-01-01-datta-saikat.md). For the time being, we're using the convention that all PDRAs have the date `2020-01-01`, while PhDs have the date `2020-06-01`, respectively. To generate this [team member's webpage](/team/datta-saikat), for example, the relevant markdown file looks like this:
 
 ```
 ---
@@ -101,24 +101,26 @@ My doctoral research analysed the dynamics of drops and its manipulation during 
 My recent work includes investigation of bubble nucleation due to surface vibration. I am currently working on analysing gas flow in nano-scale porous media, which occurs during the exploration from shale gas reservoirs. I am also looking at developing a multiscale simulation-for-design framework to investigate de-icing using nanoscale vibration-driven (acoustothermal) heating.
 ```
 
-The fields `title`, `position`, `email`, `degrees` (which just refers to your **latest** degree) and `image` are required, while all the others are optional. You also need to include some bio text as above (the amount of detail you put in is completely up to you). Note that you can include links here after the colon to your GitHub/Linkedin/etc. Saikat's page, for example, looks like [this](/team/datta-saikat). As above, the images are placed in [`images/team/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/team), so only edit the name of the image when sending it for the website (here called `saikat-datta.jpg`). The image should be **exactly 340x454 pixels** and not too large (<500 kb).
+The fields `title`, `position`, `email`, `degrees` (which just refers to your **latest** degree) and `image` are required, while all the others are optional. You also need to include some bio text as above (the amount of detail you put in is completely up to you). Note that you can include links here after the colon to your GitHub/Linkedin/etc. As above, the images are placed in [`images/team/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/team), so only edit the name of the image when sending it for the website (here called `saikat-datta.jpg`). The image should be **exactly 340x454 pixels** and not too large (<500 kb).
 
 ## Projects
 
-Each PhD/PDRA should have a dedicated project they are working on. Consult your supervisor if you are unsure as to which of the [four main themes](https://multiscaleflowx.ac.uk/research/) your project fits into. Once you've sorted that out, you need to repeat the process above, namely copy a markdown file and start editing. In this case, the file looks like this:
+Each PhD/PDRA should have a dedicated project they are working on. Consult your supervisor if you are unsure as to which of the [four main themes](https://multiscaleflowx.ac.uk/research/) your project fits into. Once you've sorted that out, you need to repeat the process above, namely copy a markdown file and start editing. To generate [this project webpage](/research/theme-porous-media-flows/), for example, the relevant markdown file looks like this:
 ```
 ---
-layout: theme-interfacial-phenomena
-title: "Thermal regime in nanodroplets"
-image: /images/projects/thermal-regime-nanodroplets.png
+layout: theme-porous-media-flows
+title: "Adsorption and transport inside organic shale kerogen"
+image: /images/projects/kerogen-shale.png
 active: true
 startyear: 2018
 endyear: 
 ---
 
-The classical notion of the coalescence of two droplets of the same radius R is that surface tension drives an initially singular flow. In this project we show, using molecular dynamics simulations of coalescing water nanodroplets, that after single or multiple bridges form due to the presence of thermal capillary waves, the bridge growth commences in a thermal regime. Here, the bridges expand linearly in time much faster than the viscous-capillary speed due to collective molecular jumps near the bridge fronts. Transition to the classical hydrodynamic regime only occurs once the bridge radius exceeds a thermal length scale.
+Owing to the heterogeneous geological conditions of unconventional reservoirs and the complexity of adsorption and transport at multiple-scales, the production of shale gas is far from that being accurately forecast. Micropores (< 2 nm) and macropores (< 50 nm) are responsible for the majority of methane adsorption inside reservoirs. Due to the nanoscale confinement and the high underground pressures and temperature, it is also challenging to predict the fluid transport. In this work we have developed new models for adsorption and transport in and through realistic kerogen samples, using molecular simulations.
+
+This work is funded by partners from King Fahd University of Petroleum and Minerals (KFUPM), and involves the following researchers ([Carlos](/team/corral-carlos), Qiang, Runxi, [Saikat](/team/datta-saikat), and [Yichong](/team/chen-yichong)).
 ```
-The fields `title`, `image`, and `startyear` are required, along with a brief summary of the project itself in text (replacing the paragraph above). Use a descriptive title for your file; the above project, for example, is titled [`thermal-regime-in-nanodroplets.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/_theme-interfacial-phenomena/thermal-regime-in-nanodroplets.md).  As above, the images are placed in [`images/projects/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/projects), so only edit the name of the image when sending it for the website (here called `thermal-regime-nanodroplets.png`). The image should be **exactly 500x300 pixels** and not too large (<500 kb).
+The fields `title`, `image`, and `startyear` are required, along with a brief summary of the project itself in text (replacing the paragraph above). Use a descriptive title for your file; the above project, for example, is titled [`thermal-regime-in-nanodroplets.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/_theme-interfacial-phenomena/thermal-regime-in-nanodroplets.md).  You can see how I used `[]` to surround the text to be displayed and `()` to generate a link to the team member's bio page. Please limit your project description to **150 words** or less. As above, the images are placed in [`images/projects/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/projects), so only edit the name of the image when sending it for the website (here called `thermal-regime-nanodroplets.png`). The image should be **exactly 500x300 pixels** and not too large (<500 kb).
 
 ## Producing/compressing images
 
