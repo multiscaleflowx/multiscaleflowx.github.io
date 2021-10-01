@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- header stuff -->
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Multiscale modelling of flows, from the nano- to macro-scale">
+
+<title>Accurate and efficient computation of the Boltzmann equation for Couette flow: Influence of intermolecular potentials on Knudsen layer function and viscous slip coefficient</title>
+
+<!-- Enable responsive viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- jQuery -->
+<script src="/js/jquery-3.5.1.js"></script>
+
+<!-- Bootstrap styles-->
+<link href="/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<!--    Fixes navbar toggle bug (https://www.codeproject.com/questions/1034523/bootstrap-navbar-toggle-is-not-working)-->	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Custom style.css file to override bootstrap defaults whenever necessary-->
+<link href="/css/style.css" rel="stylesheet"/>
+
+<!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
+<link href="/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<!-- Website logo (designed by Matthew Borg) -->
+<link rel="shortcut icon" href="/images/logo/logo-square.png"/>
+
+<!-- Math via MathJax -->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/"></script>  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<!-- code for top navbar -->
+<div id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+				
+				<a href="/" class="navbar-left"><img src="/images/logo/logo.png" width="138" height="60" style="vertical-align:middle"></a>
+				
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse-element" >
+				<ul class="nav navbar-nav navbar-right navbar-small">
+
+					
+					<li>
+					
+					<a href="/team/">Team</a></li>	  
+
+					
+					<li>
+					
+					<a href="/research/">Research</a></li>	
+
+					
+					<li>
+					
+					<a href="/papers/">Papers</a></li>	  
+
+					
+					<li>
+					
+					<a href="/code/">Code</a></li>		
+
+					
+					<li>
+					
+					<a href="/join-mfX/">Join mfX!</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+	<div class="bigspace"></div>
+	<div class="container">	
+	
+		<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object paper-image" src="/images/papers/2019-02-01-viscous-slip-jcp.png">
+			
+		</div>
+	</div>
+
+	<div class="col-md-8">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				Accurate and efficient computation of the Boltzmann equation for Couette flow: Influence of intermolecular potentials on Knudsen layer function and viscous slip coefficient				
+			</div>
+			<div class="smallhead">
+				Su W, Wang P, Liu H, Wu L, 
+				<span class="journal">
+				Journal of Conputational Physics
+				</span>
+				
+				 378
+				
+				
+				
+				:573-590 
+				
+				(2019).
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-4">
+		<div class="mediumspacer"></div>
+		<div class="glyphbox note"> 
+			<div class="smallhead subtle">
+			Full text
+			</div>	
+				<div class="pad-left note">
+				<div class="smallspacer"></div>
+			
+			
+			
+			
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="https://www.sciencedirect.com/science/article/pii/S0021999118307332">Journal HTML</a>
+			
+			</div>
+			<div class="mediumspacer"></div>			
+			
+			
+						
+			
+			<div class="smallhead subtle">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1016/j.jcp.2018.11.015">10.1016/j.jcp.2018.11.015</a>
+			</div>
+			<div class="mediumspacer"></div>			
+			
+			
+			
+
+			
+
+			
+			
+			
+			<div class="smallhead subtle">
+				Funded by
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-university fa-fw"></i> EPSRC
+			</div>
+			<div class="mediumspacer"></div>
+			
+
+		</div>
+	</div>
+
+	<div class="col-md-8">	
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
+
+<p>The Couette flow is one of the fundamental problems of rarefied gas dynamics, which has been investigated extensively based on the linearized Boltzmann equation (LBE) of hard-sphere molecules and simplified kinetic model equations. However, how the different intermolecular potentials affect the viscous slip coefficient and the structure of Knudsen layer remains unclear. Here, anovel synthetic iteration scheme (SIS) is developed for the LBE to find solutions of Couette flow accurately and efficiently: the velocity distribution function is first solved by the conventional iterative scheme, then it is modified such that in each iteration i) the flow velocity is guided by an ordinary differential equation that is asymptotic-preserving at the Navier–Stokes limit and ii) the shear stress is equal to the average shear stress. Based on the Bhatnagar–Gross–Krook model, the SIS is assessed to be efficient and accurate. Then we investigate the Knudsen layer function for gases interacting through the inverse power-law, shielded Coulomb, and Lennard-Jones potentials, subject to diffuse-specular and Cercignani–Lampis gas-surface boundary conditions. When the tangential momentum accommodation coefficient (TMAC) is not larger than one, the Knudsen layer function is strongly affected by the potential, where its value and width increase with the effective viscosity index of gas molecules. Moreover, the Knudsen layer function exhibits similarities among different values of TMAC when the intermolecular potential is fixed. For Cercignani–Lampis boundary condition with TMAC larger than one, both the viscous slip coefficient and Knudsen layer function are affected by the intermolecular potential, especially when the “backward” scattering limit is approached. With the asymptotic theory by Jiang and Luo (2016) [14]for the singular behavior of the velocity gradient in the vicinity of solid surfaces, we find that the whole Knudsen layer function can be well fitted by the power series ∑2n=0∑2m=0cn,mxn(x lnx)m, where xis the distance to the solid surface. Finally, the experimental data of the Knudsen layer profile are explained by the LBE solution with proper values of the viscosity index and TMAC.</p>
+
+		</div>	
+	</div>
+
+	<div class="col-md-1"></div>
+</div>
+
+<div class="spacer"></div>
+
+	
+	</div>
+	<div class="bigspace"></div>
+	<!-- code for bottom navbar -->
+<nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+  		<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bottom-collapse"> 
+      		<span class="icon-bar"></span>
+      		<span class="icon-bar"></span>
+      		<span class="icon-bar"></span>
+    		</button>
+  		</div>
+  
+  		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
+    		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
+      		<li><a href=https://www.ed.ac.uk/ target="_blank" rel="noopener noreferrer">University of Edinburgh</a></li>
+      		<li><a href=https://www.eng.ed.ac.uk/research/institutes/imt target="_blank" rel="noopener noreferrer">Institute of Multiscale Thermofluids</a></li>
+    		</ul>
+    		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
+      		<li><a href='/about/index.html'>About</a></li>
+      		<li><a href='/acknowledgements/index.html'>Acknowledgements </a></li>
+    		</ul>
+  		</div>
+	</div>
+</nav>
+</body>
+</html>
+

@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Multiscale modelling of flows, from the nano- to macro-scale">
 
-<title>Dr. Sreehari Perumanath</title>
+<title>Implicit Discontinuous Galerkin Method for the Boltzmann Equation</title>
 
 <!-- Enable responsive viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -92,130 +92,108 @@
 	<div class="bigspace"></div>
 	<div class="container">	
 	
-		
-
-<div class="spacer"></div>
+		<div class="spacer"></div>
 
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-4">
 		<div class="media">
 			
-			<img class="pull-left pad-right big-member-photo" src="/images/team/sreehari-pd.jpg">
+			<img class="pull-left pad-right media-object paper-image" src="/images/papers/2020-02-01-implicit-dg-jsc.png">
 			
 		</div>
 	</div>
-	<div class="col-md-9">
-		<div class="pull-left pad-right media-body titlebox">
-			<div class="title">
-				Dr. Sreehari Perumanath
-			</div>
-			<div class="bigspace"></div>				
-			<div class="bighead">
-				PDRA
+
+	<div class="col-md-8">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				Implicit Discontinuous Galerkin Method for the Boltzmann Equation				
 			</div>
 			<div class="smallhead">
+				Su W, Wang P, Zhang Y, Wu L, 
+				<span class="journal">
+				Journal of Scientific Computing
+				</span>
 				
+				 82
+				
+				
+				
+				:39 
+				
+				(2020).
 			</div>
 		</div>
-	</div>				
+	</div>
 </div>
 
 <div class="spacer"></div>
 
 <div class="row">
-	<div class="col-md-3">  
-						  		
+	<div class="col-md-4">
+		<div class="mediumspacer"></div>
+		<div class="glyphbox note"> 
+			<div class="smallhead subtle">
+			Full text
+			</div>	
+				<div class="pad-left note">
+				<div class="smallspacer"></div>
 			
-				
-						   	
-		
-		
-		<div class="smallhead">
-			Email
-		</div>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
-			s.perumanath<span style="display:none">obfuscate</span>@ed.ac.uk
-		</div>		
-		<div class="spacer"></div>			
-								
-	</div>
-	<div class="col-md-8">	
-		<div class="spacer"></div>
-		<div class="bighead">Biography</div>
-		<hr class="thick">
-		<div class="smallhead">
+			
+			
+			
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="https://link.springer.com/article/10.1007/s10915-020-01139-7">Journal HTML</a>
+			
+			</div>
+			<div class="mediumspacer"></div>			
+			
+			
+						
+			
+			<div class="smallhead subtle">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1007/s10915-020-01139-7">10.1007/s10915-020-01139-7</a>
+			</div>
+			<div class="mediumspacer"></div>			
+			
+			
+			
+
+			
+
+			
+			
+			
+			<div class="smallhead subtle">
+				Funded by
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-university fa-fw"></i> EPSRC
+			</div>
+			<div class="mediumspacer"></div>
 			
 
 		</div>
+	</div>
 
-		
-		
+	<div class="col-md-8">	
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
 
-		
-			<div class="spacer"></div>
-			<div class="bighead">Papers</div>
-			<hr class="thick">
-			<div class="title"></div>
-			
-				
-			
-				
-			
-				
-					<p><a href="/papers/paper/drop-jump-nano/" class="off">Molecular physics of jumping nanodroplets</a>
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-					<p><a href="/papers/paper/drop-coalescence-prl/" class="off">Droplet Coalescence is Initiated by Thermal Motion</a>
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-		
-		
-	</div>			
+<p>An implicit high-order discontinuous Galerkin (DG) method is developed to find the steady-state solution of rarefied gas flow described by the Boltzmann equation with full collision operator. In the physical space, the velocity distribution function is approximated by the piecewise polynomial of degree up to 4, while in the velocity space the fast spectral method is incorporated into the DG discretization to evaluate the collision operator. A specific polynomial approximation for the collision operator is proposed to reduce the computational cost of the fast spectral method by K times, where for two-dimensional problem K is 15 when the DG with 4th-order polynomial is used on triangular mesh. Based on the first-order upwind scheme, a sweeping technique is employed to solve the local linear equations resulting from the DG discretization sequentially over spatial elements. This technique can preserve stability of the scheme and requires no nonlinear limiter in solving hypersonic rarefied gas flows when the shock wave structure is fully resolved by fine spatial grid. Moreover, without assembling large sparse linear system, the computational cost in terms of memory consumption and CPU time is significantly reduced. Five different one/two-dimensional tests including low-speed microscale flows and hypersonic rarefied gas flows are used to assess the accuracy and efficiency of proposed approach. Our results show that, DG scheme of different order of approximating polynomial requires the same number of iterative steps to obtain the steady-state solution with the same order of accuracy; and the higher order the scheme is, the fewer spatial elements are needed, thus leading to less CPU time. Besides, our method can be faster than the finite difference solver by about one order of magnitude. The produced solutions can be used as benchmark data for assessing the accuracy of other gas kinetic solvers for the Boltzmann equation and gas kinetic models that simplify the Boltzmann collision operator.</p>
+
+		</div>	
+	</div>
+
 	<div class="col-md-1"></div>
+</div>
 
-	</div>	
-<div class="spacer"></div>			
-
+<div class="spacer"></div>
 
 	
 	</div>
