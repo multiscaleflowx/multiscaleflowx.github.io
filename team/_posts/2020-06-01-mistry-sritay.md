@@ -8,7 +8,6 @@ degrees: M.Tech, IIT Kanpur (2018)
 github: 
 scholar: 
 image: /images/team/sritay-mistry.jpg
-
 website: 
 cv: 
 alumni: false

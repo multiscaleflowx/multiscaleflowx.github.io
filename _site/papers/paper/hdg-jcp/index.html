@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Multiscale modelling of flows, from the nano- to macro-scale">
 
-<title>Dr. Sreehari Perumanath</title>
+<title>A high-order hybridizable discontinuous Galerkin method with fast convergence to steady-state solutions of the gas kinetic equation</title>
 
 <!-- Enable responsive viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -92,130 +92,108 @@
 	<div class="bigspace"></div>
 	<div class="container">	
 	
-		
-
-<div class="spacer"></div>
+		<div class="spacer"></div>
 
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-4">
 		<div class="media">
 			
-			<img class="pull-left pad-right big-member-photo" src="/images/team/sreehari-pd.jpg">
+			<img class="pull-left pad-right media-object paper-image" src="/images/papers/2019-01-01-hdg-jcp.png">
 			
 		</div>
 	</div>
-	<div class="col-md-9">
-		<div class="pull-left pad-right media-body titlebox">
-			<div class="title">
-				Dr. Sreehari Perumanath
-			</div>
-			<div class="bigspace"></div>				
-			<div class="bighead">
-				PDRA
+
+	<div class="col-md-8">
+		<div class="media-body titlebox">
+			<div class="title media-heading">
+				A high-order hybridizable discontinuous Galerkin method with fast convergence to steady-state solutions of the gas kinetic equation				
 			</div>
 			<div class="smallhead">
+				Su W, Wang P,Zhang Y, Wu L, 
+				<span class="journal">
+				Journal of Computational Physics
+				</span>
 				
+				 376
+				
+				
+				
+				:973-991 
+				
+				(2019).
 			</div>
 		</div>
-	</div>				
+	</div>
 </div>
 
 <div class="spacer"></div>
 
 <div class="row">
-	<div class="col-md-3">  
-						  		
+	<div class="col-md-4">
+		<div class="mediumspacer"></div>
+		<div class="glyphbox note"> 
+			<div class="smallhead subtle">
+			Full text
+			</div>	
+				<div class="pad-left note">
+				<div class="smallspacer"></div>
 			
-				
-						   	
-		
-		
-		<div class="smallhead">
-			Email
-		</div>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
-			s.perumanath<span style="display:none">obfuscate</span>@ed.ac.uk
-		</div>		
-		<div class="spacer"></div>			
-								
-	</div>
-	<div class="col-md-8">	
-		<div class="spacer"></div>
-		<div class="bighead">Biography</div>
-		<hr class="thick">
-		<div class="smallhead">
+			
+			
+			
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="https://www.sciencedirect.com/science/article/pii/S0021999118305825">Journal HTML</a>
+			
+			</div>
+			<div class="mediumspacer"></div>			
+			
+			
+						
+			
+			<div class="smallhead subtle">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1016/j.jcp.2018.08.050">10.1016/j.jcp.2018.08.050</a>
+			</div>
+			<div class="mediumspacer"></div>			
+			
+			
+			
+
+			
+
+			
+			
+			
+			<div class="smallhead subtle">
+				Funded by
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-university fa-fw"></i> EPSRC
+			</div>
+			<div class="mediumspacer"></div>
 			
 
 		</div>
+	</div>
 
-		
-		
+	<div class="col-md-8">	
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
 
-		
-			<div class="spacer"></div>
-			<div class="bighead">Papers</div>
-			<hr class="thick">
-			<div class="title"></div>
-			
-				
-			
-				
-			
-				
-					<p><a href="/papers/paper/drop-jump-nano/" class="off">Molecular physics of jumping nanodroplets</a>
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-					<p><a href="/papers/paper/drop-coalescence-prl/" class="off">Droplet Coalescence is Initiated by Thermal Motion</a>
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-			
-				
-		
-		
-	</div>			
+<p>The mass flow rate of Poiseuille flow of rarefied gas through long ducts of two-dimensional cross-sections with arbitrary shape is critical in the pore-network modeling of gas transport in porous media. Here, for the first time, the high-order hybridizable discontinuous Galerkin (HDG) method is used to find the steady-state solution of the linearized Bhatnagar–Gross–Krook equation on two-dimensional triangular meshes. The velocity distribution function and its traces are approximated in piecewise polynomial spaces (of degree up to 4) on the triangular meshes and mesh skeletons, respectively. By employing a numerical flux that is derived from the first-order upwind scheme and imposing its continuity weakly on the mesh skeletons, global systems for unknown traces are obtained with fewer coupled degrees of freedom when compared to the original discontinuous Galerkin formulation. To achieve fast convergence to the steady-state solution, a diffusion-like equation for flow velocity, which is asymptotic-preserving into the fluid dynamic limit, is solved by the HDG simultaneously on the same meshes. The proposed HDG-synthetic iterative scheme is proved to be accurate and efficient. Specifically, for flows in the near-continuum regime, numerical simulations have shown that, to achieve the same level of accuracy, our scheme could be faster than the conventional iterative scheme by two orders of magnitude, also it is faster than the synthetic iterative scheme based on the finite difference discretization in the spatial space by one order of magnitude. In addition, the implicit HDG method is more efficient than an explicit discontinuous Galerkin gas kinetic solver, as well as the implicit discontinuous Galerkin scheme when the degree of approximating polynomial is larger than 2. The HDG-synthetic iterative scheme is ready to be extended to simulate rarefied gas mixtures and the Boltzmann collision operator.</p>
+
+		</div>	
+	</div>
+
 	<div class="col-md-1"></div>
+</div>
 
-	</div>	
-<div class="spacer"></div>			
-
+<div class="spacer"></div>
 
 	
 	</div>
