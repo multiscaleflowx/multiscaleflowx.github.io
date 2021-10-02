@@ -14,7 +14,7 @@ If anything below is confusing, DM me (Rohit) on slack for clarification.
 
 ## News item
 
-Let's start simple; suppose you want to add a news item (which will appear on the [homepage](https://www.multiscaleflowx.ac.uk)) announcing that you have published a paper in _Nature_ (go you!). The way you would do this is that you would first go into the `news/_posts` folder on the [Github repo](https://github.com/multiscaleflowx/multiscaleflowx.github.io), which contains the markdown files for all the news items added to the website. Download one of the existing items and copy it's contents into a new file named with **the correct date** and a descriptive, hyphenated title:
+Let's start simple; suppose you want to add a news item (which will appear on the [homepage](https://www.multiscaleflowx.ac.uk)) announcing that you have published a paper in _Nature_ (go you!). The way you would do this is that you would first go into the [`news/_posts`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/news/_posts) folder on the [Github repo](https://github.com/multiscaleflowx/multiscaleflowx.github.io), which contains the markdown files for all the news items added to the website. Download one of the existing items and copy it's contents into a new file named with **the correct date** and a descriptive, hyphenated title:
 
 ```
 cp 2020-07-01-yonghao-sina-join-mfx.md 2021-09-14-nature-paper-hooray.md
@@ -84,7 +84,7 @@ email: saikat.datta@ed.ac.uk
 twitter: 
 degrees: PhD, IIT Kharagpur (2018)
 github: 
-scholar: 
+scholar: o4mXtIgAAAAJ
 image: /images/team/saikat-datta.jpg
 website: 
 cv: 
