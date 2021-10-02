@@ -96,8 +96,10 @@ categories:
 	</div>
 	<div class="col-md-8">	
 		<div class="spacer"></div>
-		<div class="bighead">Biography</div>
-		<hr class="thick">
+		{% if member.title != "You?" %}
+			<div class="bighead">Biography</div>
+			<hr class="thick">
+		{% endif %}
 		<div class="smallhead">
 			{{ content }}
 		</div>
@@ -116,7 +118,7 @@ categories:
 			<div class="title"></div>
 			{% for paper in site.categories.papers %}
 				{% if paper.authors contains lastname %}
-					<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+					<p><a href="{{ paper.url }}" class="verysmallhead">{{ paper.title }}</a>
 				{% endif %}
 			{% endfor %}
 		{% endif %}		
