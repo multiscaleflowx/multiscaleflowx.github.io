@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- header stuff -->
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Multiscale modelling of flows, from the nano- to macro-scale">
+
+<title>editing</title>
+
+<!-- Enable responsive viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- jQuery -->
+<script src="/js/jquery-3.5.1.js"></script>
+
+<!-- Bootstrap styles-->
+<link href="/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" rel="stylesheet"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<!--    Fixes navbar toggle bug (https://www.codeproject.com/questions/1034523/bootstrap-navbar-toggle-is-not-working)-->	
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Custom style.css file to override bootstrap defaults whenever necessary-->
+<link href="/css/style.css" rel="stylesheet"/>
+
+<!-- Custom fonts and icons via Font Awesome, http://fortawesome.github.io/Font-Awesome/ -->
+<link href="/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+<!-- Website logo (designed by Matthew Borg) -->
+<link rel="shortcut icon" href="/images/logo/logo-square.png"/>
+
+<!-- Math via MathJax -->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/"></script>  
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<!-- code for top navbar -->
+<div id="header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-element">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+				
+				<a href="/" class="navbar-left"><img src="/images/logo/logo.png" width="138" height="60" style="vertical-align:middle"></a>
+				
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse-element" >
+				<ul class="nav navbar-nav navbar-right navbar-small">
+
+					
+					<li>
+					
+					<a href="/team/">Team</a></li>	  
+
+					
+					<li>
+					
+					<a href="/research/">Research</a></li>	
+
+					
+					<li>
+					
+					<a href="/papers/">Papers</a></li>	  
+
+					
+					<li>
+					
+					<a href="/code/">Code</a></li>		
+
+					
+					<li>
+					
+					<a href="/join-mfX/">Join mfX!</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+	<div class="bigspace"></div>
+	<div class="container">	
+	
+		<h1 id="how-to-contribute-to-the-website-and-review-code">How to contribute to the website (and review code)</h1>
+<p>The principle of working collaboratively with a Git repository is similar to a review process for papers; you do your work; you share it (in this case, via Github), and then ask someone to review your work. There are various recommended approaches for this cycle which are described <a href="https://www.atlassian.com/git/tutorials/comparing-workflows">over here</a>. However, the contribution/review cycle described here is loosely based on the Git feature branch workflow; you can read more about this <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">here</a>. Our process is described below.</p>
+
+<h3 id="installation-instructions">Installation instructions</h3>
+<p>The first step would be to get the website up-and-running locally on your machine. I’ve included instructions below for installation on a Mac (as we all have Macs I think). You need to install the following bits of software first:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Ruby version 2.5.0</code> or higher, which you can do from <a href="https://www.ruby-lang.org/en/downloads/">here</a> (once completed, use <code class="language-plaintext highlighter-rouge">ruby -v</code> to confirm installation)</li>
+  <li><code class="language-plaintext highlighter-rouge">RubyGems</code>, which you can do from <a href="https://rubygems.org/pages/download">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">gem -v</code> to confirm installation)</li>
+  <li><code class="language-plaintext highlighter-rouge">GCC</code>, which you can do from <a href="https://gcc.gnu.org/install/">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">gcc -v</code> or <code class="language-plaintext highlighter-rouge">g++ -v</code> to confirm installation)</li>
+  <li><code class="language-plaintext highlighter-rouge">Make</code>, which you can do from <a href="https://www.gnu.org/software/make/">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">make -v</code> to confirm installation)</li>
+</ul>
+
+<h3 id="contributing">Contributing</h3>
+<p>After cloning the repository as described above, you may wish to make changes. In the git feature branch workflow procedure, you start off by creating a branch and then editing the files. It is recommended to make a new branch with a reasonably descriptive name, such as:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout -b README_edits_authorname
+</code></pre></div></div>
+<p>Then, you can add the file, make a commit with a commit message, and then push your changes to origin (please branch name is the current branch). For example, if you made changes to README.md file, then you do the following:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add README.md
+git commit
+git push origin README_edits_authorname
+</code></pre></div></div>
+<p>To have your changes merged to the master branch, you should open a PR (pull request) on Github and tag someone to review your contributions. Address their comments, if any, and then the reviewer will merge the PR if all is good.</p>
+
+<h3 id="review-process">Review process</h3>
+<p>To review someone’s changes, you should <code class="language-plaintext highlighter-rouge">cd</code> into your local copy of this repository pull all branches so you have a local copy of all remote branches. This is done by:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull --all
+</code></pre></div></div>
+<p>Then, you can checkout the relevant branch and rebuild to see how their changes look/work. You can also push changes back to that branch as a reviewer or leave a comment on Github for the main author to make changes.</p>
+
+	
+	</div>
+	<div class="bigspace"></div>
+	<!-- code for bottom navbar -->
+<nav class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+  		<div class="navbar-header">
+    		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bottom-collapse"> 
+      		<span class="icon-bar"></span>
+      		<span class="icon-bar"></span>
+      		<span class="icon-bar"></span>
+    		</button>
+  		</div>
+  
+  		<div class="collapse navbar-collapse" id="nav-bottom-collapse">
+    		<ul class="nav navbar-nav navbar-left navbar-small tinyhead">
+      		<li><a href=https://www.ed.ac.uk/ target="_blank" rel="noopener noreferrer">University of Edinburgh</a></li>
+      		<li><a href=https://www.eng.ed.ac.uk/research/institutes/imt target="_blank" rel="noopener noreferrer">Institute of Multiscale Thermofluids</a></li>
+    		</ul>
+    		<ul class="nav navbar-nav navbar-right navbar-small tinyhead">
+      		<li><a href='/about/index.html'>About</a></li>
+      		<li><a href='/acknowledgements/index.html'>Acknowledgements </a></li>
+    		</ul>
+  		</div>
+	</div>
+</nav>
+</body>
+</html>
+
