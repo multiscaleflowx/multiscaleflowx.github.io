@@ -92,19 +92,36 @@
 	<div class="bigspace"></div>
 	<div class="container">	
 	
-		<h1 id="how-to-contribute-to-the-website-and-review-code">How to contribute to the website (and review code)</h1>
+		<h1 id="how-to-edit-the-website-and-review-others-edits">How to edit the website (and review other’s edits)</h1>
 <p>The principle of working collaboratively with a Git repository is similar to a review process for papers; you do your work; you share it (in this case, via Github), and then ask someone to review your work. There are various recommended approaches for this cycle which are described <a href="https://www.atlassian.com/git/tutorials/comparing-workflows">over here</a>. However, the contribution/review cycle described here is loosely based on the Git feature branch workflow; you can read more about this <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">here</a>. Our process is described below.</p>
 
-<h3 id="installation-instructions">Installation instructions</h3>
+<h3 id="preliminary-instructions">Preliminary instructions</h3>
 <p>The first step would be to get the website up-and-running locally on your machine. I’ve included instructions below for installation on a Mac (as we all have Macs I think). You need to install the following bits of software first:</p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">Ruby version 2.5.0</code> or higher, which you can do from <a href="https://www.ruby-lang.org/en/downloads/">here</a> (once completed, use <code class="language-plaintext highlighter-rouge">ruby -v</code> to confirm installation)</li>
-  <li><code class="language-plaintext highlighter-rouge">RubyGems</code>, which you can do from <a href="https://rubygems.org/pages/download">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">gem -v</code> to confirm installation)</li>
-  <li><code class="language-plaintext highlighter-rouge">GCC</code>, which you can do from <a href="https://gcc.gnu.org/install/">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">gcc -v</code> or <code class="language-plaintext highlighter-rouge">g++ -v</code> to confirm installation)</li>
-  <li><code class="language-plaintext highlighter-rouge">Make</code>, which you can do from <a href="https://www.gnu.org/software/make/">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">make -v</code> to confirm installation)</li>
+  <li><code class="language-plaintext highlighter-rouge">Ruby version 2.5.0</code> or higher, which you can do from <a href="https://www.ruby-lang.org/en/downloads/">here</a> (once completed, use <code class="language-plaintext highlighter-rouge">ruby -v</code> to confirm installation).</li>
+  <li><code class="language-plaintext highlighter-rouge">RubyGems</code>, which you can do from <a href="https://rubygems.org/pages/download">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">gem -v</code> to confirm installation).</li>
+  <li><code class="language-plaintext highlighter-rouge">GCC</code>, which you can do from <a href="https://gcc.gnu.org/install/">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">gcc -v</code> or <code class="language-plaintext highlighter-rouge">g++ -v</code> to confirm installation).</li>
+  <li><code class="language-plaintext highlighter-rouge">Make</code>, which you can do from <a href="https://www.gnu.org/software/make/">here</a> (once completed, run <code class="language-plaintext highlighter-rouge">make -v</code> to confirm installation).</li>
 </ul>
 
+<p>Note that you can also install the first two using <a href="https://brew.sh/">homebrew</a>,</p>
+
+<h3 id="cloning-the-repository">Cloning the repository</h3>
+
+<p>Once you’ve sorted all that out, you can build the website locally. This process starts by cloning the repository using:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/multiscaleflowx/multiscaleflowx.github.io.git
+</code></pre></div></div>
+
+<p>Then install any additional Ruby dependencies by running <code class="language-plaintext highlighter-rouge">bundle install</code> from within the downloaded directory.  After this, the site can be be built with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll build
+</code></pre></div></div>
+
+<p>To view the site, run <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> and point a browser to <code class="language-plaintext highlighter-rouge">http://localhost:4000/</code>. You should see a local version of this website in your browser that is identical to the <a href="https://multiscaleflowx.ac.uk/">live version</a>.</p>
+
 <h3 id="contributing">Contributing</h3>
+
 <p>After cloning the repository as described above, you may wish to make changes. In the git feature branch workflow procedure, you start off by creating a branch and then editing the files. It is recommended to make a new branch with a reasonably descriptive name, such as:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout -b README_edits_authorname
 </code></pre></div></div>
