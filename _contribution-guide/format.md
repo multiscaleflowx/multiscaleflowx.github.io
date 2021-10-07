@@ -73,7 +73,7 @@ As with news items, paper images are placed in [`images/papers/`](https://github
 
 ## Team
 
-Each team member should have a markdown file in [`team/_posts/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/team/_posts).  File names are a fixed date followed by last and first name, like [`2020-01-01-datta-saikat.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/team/_posts/2020-01-01-datta-saikat.md). For the time being, we're using the convention that all PDRAs have the date `2020-01-01`, while PhDs have the date `2020-06-01`, respectively. To generate this [team member's webpage](/team/datta-saikat), for example, the relevant markdown file required is:
+Each team member should have a markdown file in [`team/_posts/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/team/_posts).  File names are a fixed date followed by last and first name, like [`2020-01-01-datta-saikat.md`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/blob/master/team/_posts/2020-01-01-datta-saikat.md). For the time being, we're using the convention that all PDRAs have the date `2020-01-01`, while PhDs have the date `2020-06-01`, respectively (Note that this is in the ``YYYY-MM-DD`` format). To generate this [team member's webpage](/team/datta-saikat), for example, the relevant markdown file required is:
 
 ```
 ---
