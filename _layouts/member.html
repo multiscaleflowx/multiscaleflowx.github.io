@@ -47,7 +47,18 @@ categories:
 			<a class="off" href="https://{{ member.website }}">External Link</a>
 		</div>		
 		<div class="spacer"></div>	
-		{% endif %}				  		
+		{% endif %}
+		{% if member.orcid %}		
+		<div class="smallhead">
+			ORCID
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fab fa-orcid"></i>
+			<a class="off" href="https://orcid.org/{{ member.orcid }}">{{member.orcid}}</a>
+		</div>		
+		<div class="spacer"></div>	
+		{% endif %}					  		
 		{% if member.twitter %}		
 		<div class="smallhead">
 			Twitter

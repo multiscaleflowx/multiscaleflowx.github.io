@@ -8,7 +8,8 @@ degrees: PhD, Aix-Marseille University (2015)
 github: 
 scholar: 
 image: /images/team/minhtuan-ho.jpg
-website: https://orcid.org/0000-0002-9411-6447 
+website: 
+orcid: 0000-0002-9411-6447 
 cv: 
 alumni: false
 mfXposition: PDRA
