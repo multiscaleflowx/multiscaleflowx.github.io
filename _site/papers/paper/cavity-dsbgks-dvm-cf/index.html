@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Multiscale modelling of flows, from the nano- to macro-scale">
 
-<title>Shock-induced collapse of surface nanobubbles</title>
+<title>A comparative study of the DSBGK and DVM methods for low-speed rarefied gas flows</title>
 
 <!-- Enable responsive viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -98,7 +98,7 @@
 	<div class="col-md-4">
 		<div class="media">
 			
-			<img class="pull-left pad-right media-object paper-image" src="/images/papers/2021-07-02-bubble-collapse-sm.png">
+			<img class="pull-left pad-right media-object paper-image" src="/images/papers/2019-03-15-cavity-dsbgks-dvm-cf.jpg">
 			
 		</div>
 	</div>
@@ -106,23 +106,21 @@
 	<div class="col-md-8">
 		<div class="media-body titlebox">
 			<div class="title media-heading">
-				Shock-induced collapse of surface nanobubbles				
+				A comparative study of the DSBGK and DVM methods for low-speed rarefied gas flows				
 			</div>
 			<div class="smallhead">
-				Dockar D, Gibelli L, Borg MK, 
+				Ho MT, Li J, Wu L, Reese J, Zhang Y, 
 				<span class="journal">
-				Soft Matter
+				Computers and Fluids
 				</span>
 				
-				 17
+				 181
 				
 				
-				(28)
 				
+				:143-159 
 				
-				:6884–6898 
-				
-				(2021).
+				(2019).
 			</div>
 		</div>
 	</div>
@@ -144,21 +142,11 @@
 			
 			
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="https://pubs.rsc.org/en/Content/ArticleLanding/2021/SM/D1SM00498K#!divAbstract">Journal HTML</a>
+				<a class="off" href="https://www.sciencedirect.com/science/article/pii/S0045793019300155">Journal HTML</a>
 			
 			</div>
 			<div class="mediumspacer"></div>			
 			
-			
-			<div class="smallhead subtle">
-				Supplementary Info
-			</div>	
-			<div class="pad-left note">
-				<div class="smallspacer"></div>
-				<i class="fa fa-paperclip fa-fw"></i>
-				<a class="off" href="https://www.rsc.org/suppdata/d1/sm/d1sm00498k/d1sm00498k4.pdf?_ga=2.19742840.1526359391.1633692122-277918624.1620637957">d1sm00498k4.pdf?_ga=2.19742840.1526359391.1633692122-277918624.1620637957</a>
-			</div>
-			<div class="mediumspacer"></div>			
 			
 						
 			
@@ -168,7 +156,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/10.1039/D1SM00498K">10.1039/D1SM00498K</a>
+				<a class="off" href="http://dx.doi.org/10.1016/j.compfluid.2019.01.019">10.1016/j.compfluid.2019.01.019</a>
 			</div>
 			<div class="mediumspacer"></div>			
 			
@@ -182,20 +170,11 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-database fa-fw"></i>
-				<a class="off" href="https://datashare.is.ed.ac.uk/handle/10283/3969">10283/3969</a>
+				<a class="off" href="https://datashare.is.ed.ac.uk/handle/http://dx.doi.org/10.15129/30d994db-db16-4ee9-b02b-dacb2929f3ff">http://dx.doi.org/10.15129/30d994db-db16-4ee9-b02b-dacb2929f3ff</a>
 			</div>
 			<div class="mediumspacer"></div>			
 			
 
-			
-			<div class="smallhead subtle">
-				Altmetrics
-			</div>	
-			<div class="spacer"></div>
-			<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-			<div class="altmetric-embed" data-badge-popover="right" data-doi=10.1039/D1SM00498K data-badge-type="donut" data-altmetric-id=108573147 data-hide-no-mentions="true">
-			</div>
-			<div class="mediumspacer"></div>			
 			
 			
 			
@@ -204,7 +183,7 @@
 			</div>	
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-university fa-fw"></i> EPSRC
+				<i class="fa fa-university fa-fw"></i> KFUPM
 			</div>
 			<div class="mediumspacer"></div>
 			
@@ -216,7 +195,7 @@
 		<div class="post">
 			<h1 id="abstract">Abstract</h1>
 
-<p>The collapse of cavitation bubbles often releases high-speed liquid jets capable of surface damage, with applications in drug delivery, cancer treatment, and surface cleaning. Spherical cap-shaped surface nanobubbles have previously been found to exist on immersed substrates. Despite being known nucleation sites for cavitation, their collapsing dynamics are currently unexplored. Here, we use molecular dynamics simulations to model the shock-induced collapse of different surface nanobubble sizes and contact angles. Comparisons are made with additional collapsing spherical nanobubble simulations near a substrate, to investigate the differences in their jet formation and resulting substrate pitting damage. Our main finding is that the pitting damage in the surface nanobubble simulations is greatly reduced, when compared to the spherical nanobubbles, which is primarily caused by the weaker jets formed during their collapse. Furthermore, the pit depths for surface nanobubble collapse do not depend on bubble size, unlike in the spherical nanobubble cases, but instead depend only on their contact angle. We also find a linear scaling relationship for all bubble cases between the final substrate damage and the peak pressure impulse at the impact centre, which can now be exploited to assess the relative damage in other computational studies of collapsing bubbles. We anticipate the more controlled surface-damage features produced by surface nanobubble cavitation jets will open up new applications in advanced manufacturing, medicine, and precision cleaning.</p>
+<p>Low-speed rarefied gas flow in a lid-driven cavity is chosen as a test case in order to assess the accuracy and efficiency of both the Direct Simulation Bhatnagar-Gross- Krook (DSBGK) method and the Discrete Velocity Method (DVM) for solving the BGK kinetic equation. Various lid-speeds and a broad range of rarefaction levels, from slip to near free-molecular flows, are investigated. The DSBGK and DVM results are in satisfactory agreement for all the examined cases in 2D and 3D. As a statistical method, the stochastic noise of the DSBGK method is much smaller than that of the conventional Direct Simulation Monte Carlo (DSMC) method, and is independent of the Mach number. To achieve the required accuracy, the DSBGK simulations need more CPU time than the DVM simulations, i.e. for the 2D cases, a factor of 2 to 15 times more for convergence, and about 50 to 80 times more overall, including the time-averaging process. However, for 3D cases, the third direction in the DVM velocity grid is needed, so the computational cost of DSBGK is now only 0.16 to 0.51 times that of the DVM for the convergence process, and 1.6 to 5.8 times that of the DVM overall. The efficiency of the DSBGK method can also be expected to be enhanced in large-scale 3D simulations, where the computational cost for time-averaging becomes negligible in comparison with the convergence process. The DSBGK simulations require much less memory, even at low Mach numbers, than the DVM simulations; in the test cases with the required accuracy, about 10 simulated molecules per cell in the DSBGK simulations are sufficient for an arbitrary Kn, while the DVM requires at least 4×24 and 4×24×12 velocity grids for the 2D and 3D cases, respectively, even at Kn = 0.1. Finally, we discuss the ray effects in the DVM, which exist in flow problems with a discontinuous boundary and are caused by incompatibility of the velocity grid, the spatial grid, and the order of accuracy of the numerical scheme.</p>
 
 		</div>	
 	</div>

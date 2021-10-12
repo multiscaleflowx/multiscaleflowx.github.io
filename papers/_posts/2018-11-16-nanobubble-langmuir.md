@@ -3,7 +3,7 @@ layout: paper
 title: "Mechanical Stability of Surface Nanobubbles"
 year: "2019"
 shortref: "Dockar <i>et al.</i> <i>Langmuir</i> 2019"
-journal: Langmuir"
+journal: Langmuir
 volume: 35
 issue: 29
 pages: 9325–9333
