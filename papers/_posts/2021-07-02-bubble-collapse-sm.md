@@ -3,7 +3,7 @@ layout: paper
 title: "Shock-induced collapse of surface nanobubbles"
 year: "2021"
 shortref: "Dockar <i>et al.</i> <i>Soft Matter</i> 2021"
-journal: Soft Matter"
+journal: Soft Matter
 volume: 17
 issue: 28
 pages: 6884–6898

@@ -3,7 +3,7 @@ layout: paper
 title: "Forced oscillation dynamics of surface nanobubbles"
 year: "2020"
 shortref: "Dockar <i>et al.</i> <i>J. Chem. Phys.</i> 2020"
-journal: Journal of Chemical Physics"
+journal: Journal of Chemical Physics
 volume: 153
 issue: 
 pages: 184705
