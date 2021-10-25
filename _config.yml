@@ -33,6 +33,9 @@ collections:
   theme-particulate-systems:
     output: true
     permalink: /research/theme-particulate-systems/
+  theme-rarefied-gas-dynamics:
+    output: true
+    permalink: /research/theme-rarefied-gas-dynamics/
   contribution-guide:
     output: true
     permalink: /guide/:title
