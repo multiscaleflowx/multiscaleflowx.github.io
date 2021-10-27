@@ -9,7 +9,8 @@ github:
 scholar: o4mXtIgAAAAJ
 image: /images/team/saikat-datta.jpg
 website: 
-orcid:	
+orcid:
+researchgate: 	
 cv: 
 alumni: false
 mfXposition: PDRA
