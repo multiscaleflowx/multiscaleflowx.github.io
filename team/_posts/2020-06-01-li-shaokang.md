@@ -9,6 +9,8 @@ github:
 scholar: https://scholar.google.com/citations?user=KPLF1H8AAAAJ&hl=en
 image: /images/team/shaokang-li.jpg
 website: 
+orcid:
+researchgate: 	
 cv: 
 alumni: false
 mfXposition: 

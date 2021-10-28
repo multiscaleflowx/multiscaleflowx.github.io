@@ -19,7 +19,7 @@ altmetric_id:
 category: paper
 funder: EPSRC
 tags: [solver, parallel, porescale, dvm]
-highlight: true
+highlight: false
 ---
 
 # Abstract 

@@ -20,7 +20,7 @@ Let's start simple; suppose you want to add a news item (which will appear on th
 cp 2020-07-01-yonghao-sina-join-mfx.md 2021-09-14-nature-paper-hooray.md
 ```
 
-Now edit the new file to add the content what you want using a text editor of your choice. By the time you're done, hopefully you have something like this:
+Now edit the new file to add the content that you want using a text editor of your choice. By the time you're done, hopefully you have something like this:
 
 ```
 ---

@@ -8,6 +8,10 @@ degrees: "PhD (Aberdeen), CEng, FIMechE, FInstP"
 github: 
 scholar: IfC0MUkAAAAJ
 image: /images/team/yonghao-zhang.png
+website: 
+orcid:
+researchgate: 	
+cv: 
 alumni: false
 ---
 

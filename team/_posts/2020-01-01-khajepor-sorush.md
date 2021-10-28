@@ -9,6 +9,8 @@ github: sorush-khajepor
 scholar: 16Y7-NsAAAAJ
 image: /images/team/sorush-khajepor.jpg 
 website: 
+orcid:
+researchgate: 	
 cv: 
 alumni: false
 mfXposition: Research Associate

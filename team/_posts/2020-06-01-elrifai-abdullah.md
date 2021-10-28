@@ -8,6 +8,10 @@ degrees:
 github: 
 scholar: 
 image: /images/team/abdullah-elrifai.jpg
+website: 
+orcid:
+researchgate: 	
+cv: 
 alumni: false
 ---
 

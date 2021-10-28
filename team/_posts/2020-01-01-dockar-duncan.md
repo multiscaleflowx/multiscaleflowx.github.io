@@ -9,6 +9,8 @@ github:
 scholar: 
 image: /images/team/duncan-dockar.png
 website: 
+orcid:
+researchgate: 	
 cv: 
 alumni: false
 ---

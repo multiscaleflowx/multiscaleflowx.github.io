@@ -9,7 +9,8 @@ github:
 scholar: 
 image: /images/team/minhtuan-ho.jpg
 website: 
-orcid: 0000-0002-9411-6447 
+orcid: 0000-0002-9411-6447
+researchgate: 
 cv: 
 alumni: false
 mfXposition: PDRA
