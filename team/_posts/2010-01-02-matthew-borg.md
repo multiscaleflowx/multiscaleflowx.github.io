@@ -4,11 +4,13 @@ title: "Dr. Matthew Borg"
 position: Reader
 email: matthew.borg@ed.ac.uk
 twitter: 
-degrees: "PhD, University of Strathclyde, 2010"
+degrees: "PhD, University of Strathclyde (2010)"
 github: 
 scholar: zs60VQcAAAAJ
 image: /images/team/matthew-borg.png
 website: 
+orcid:
+researchgate: Matthew-Borg-4 	
 cv: 	
 alumni: false
 ---

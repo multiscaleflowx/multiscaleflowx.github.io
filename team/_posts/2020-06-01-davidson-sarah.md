@@ -9,8 +9,9 @@ github:
 scholar:
 image: /images/team/sarah-davidson.jpg
 website: 
-orcid:	
-cv: 
+orcid:
+researchgate: 	
+cv:  
 alumni: false
 mfXposition: PhD Student
 startyear: 2020

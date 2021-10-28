@@ -9,6 +9,8 @@ github:
 scholar: 
 image: /images/team/sritay-mistry.jpg
 website: 
+orcid:
+researchgate: 	
 cv: 
 alumni: false
 mfXposition: PhD Student

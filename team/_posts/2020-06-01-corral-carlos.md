@@ -8,6 +8,10 @@ degrees:
 github: 
 scholar: 
 image: /images/team/carlos-corral.jpeg
+website: 
+orcid:
+researchgate: 	
+cv: 
 alumni: false
 ---
 

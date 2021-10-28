@@ -8,6 +8,10 @@ degrees: MAI, Trinity College Dublin (2019)
 github: 
 scholar: 
 image: /images/team/patrick-sullivan.jpg
+website: 
+orcid:
+researchgate: 	
+cv: 
 alumni: false
 ---
 

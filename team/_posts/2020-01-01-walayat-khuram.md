@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Khuram Walayat"
-position: Marie Curie Individual Fellow Researcher
+position: Marie Curie Individual Fellow
 email: k.walayat@ed.ac.uk
 twitter: 
 degrees: PhD, Peking University (2019)
@@ -9,7 +9,9 @@ github:
 scholar: 
 image: /images/team/khuram-walayat.jpg 
 website: 
-cv: 
+orcid:
+researchgate: 	
+cv:  
 alumni: false
 mfXposition: Marie Curie Fellow
 startyear: 2021

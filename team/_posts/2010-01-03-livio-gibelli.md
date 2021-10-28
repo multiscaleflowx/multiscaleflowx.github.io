@@ -9,6 +9,8 @@ github:
 scholar: O-JYnKwAAAAJ
 image: /images/team/livio-gibelli.png
 website: 
+orcid:
+researchgate: Livio-Gibelli	
 cv: 
 alumni: false
 mfXposition: Lecturer

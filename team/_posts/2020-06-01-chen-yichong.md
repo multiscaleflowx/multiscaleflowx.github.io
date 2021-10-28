@@ -9,6 +9,8 @@ github:
 scholar:
 image: /images/team/yichong-chen.jpg
 website: 
+orcid:
+researchgate: 	
 cv: 
 alumni: false
 mfXposition: 
