@@ -6,7 +6,7 @@ email: s2216252@ed.ac.uk
 twitter: 
 degrees: MSc, Beihang University (2021)
 github: 
-scholar: https://scholar.google.com/citations?user=KPLF1H8AAAAJ&hl=en
+scholar: KPLF1H8AAAAJ
 image: /images/team/shaokang-li.jpg
 website: 
 orcid:
