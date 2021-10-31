@@ -8,14 +8,17 @@ degrees: "PhD, University of Strathclyde (2010)"
 github: 
 scholar: zs60VQcAAAAJ
 image: /images/team/matthew-borg.png
-website: 
-orcid:
+website: www.research.ed.ac.uk/en/persons/matthew-borg
+orcid: 0000-0002-7740-1932
 researchgate: Matthew-Borg-4 	
 cv: 	
 alumni: false
 ---
-I obtained a first class BEng (Hons) degree in Mechanical Engineering at the University of Malta (2002-2006), followed by a PhD in Mechanical Engineering at the University of Strathclyde (2006-2010) with a scholarship from the James Weir Foundation. My PhD investigated fluid flows at the nanoscale. In 2009 I developed a Molecular Dynamics (MD) software called mdFOAM within the third-party open-source software OpenFOAM, which I currently still lead. In my PhD I developed MD flow controller tools in arbitrary complex geometries for applying continuum-molecular boundary conditions, and which were then integrated within concurrent CFD-MD hybrid simulations that offer computational cheaper solutions with molecular-level accuracy. From 2009-2011 I worked as a postdoctoral Research Associate at Strathclyde investigating water flow through carbon-nanotube membranes for seawater purification. 
 
-In 2011 I became a Research Fellow and Lead Senior Researcher on an EPSRC Programme Grant (£2.4M; EP/I011927/1) entitled “Non-equilibrium Fluid Dynamics for Micro/Nano Engineering Systems”. This was a collaborative 5-year programme between Edinburgh/Strathclyde University (PI: Prof Jason Reese), Warwick University (Prof Duncan Lockerby), Daresbury Laboratory (Prof Dave Emerson) and a number of industrial partners. During this period I developed an arsenal of hybrid continuum-molecular methods for solving various engineering problems computationally-efficiently in both nano liquid and micro rarefied gas flows. 
+I am Reader in Mechanical Engineering at the University of Edinburgh since 2020, and Lecturer before this from 2015.  My research focuses on molecular fluid flows characteristic of micro- and nano-scale devices, granular flows and crowd modelling. In these types of multiscale flow problems, conventional fluid equations are generally inaccurate, so the research challenge has been to develop the new engineering science needed to understand and technologically exploit these complex flows. 
 
-In 2015 I became Lecturer in Mechanical Engineering at the University of Edinburgh and I currently lead the development of the hybrid multiscale fluid modelling and engineering applications.
+Key example areas I work on include: water filtration in nanostructured membranes to deal with the global water crisis; low pressure gas flows to deal with the demands of the silicon chip photolithography industry and the growing aerospace industry; and cavitation surface nanobubbles that could clean precision surfaces or reduce marine drag.
+
+I have developed computational particle simulation tools (e.g. dsmcFoam, mdFoam) and hybrid methodologies in the third-party open-source software OpenFOAM since 2006 to deal with these problems, which run on UK supercomputing facilities, such as ARCHER2, Cirrus and ARCHIE-WeSt.   Since 2009 several of these models have been chosen by OpenCFD Ltd, the founders of the OpenFOAM project to be incorporated into releases of the code for distribution worldwide.
+
+I work closely with other academics from the Institute of Multiscale Thermofluids at the University of Edinburgh and other UK/international colleagues on various overlapping challenges. This has attracted a number of joint grant funding, including from the UK’s Engineering and Physical Sciences Research Council, multinational companies, international research institutions and computational resource to run our simulations on various HPC facilities in the UK (e.g. ARCHER2, Cirrus).
