@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Sreehari Perumanath"
-position: PDRA
+position: Leverhulme Trust Fellowship, University of Warwick
 email: s.perumanath@ed.ac.uk
 twitter: 
 degrees: 
@@ -10,5 +10,8 @@ scholar:
 image: /images/team/sreehari-pd.jpg
 website: 
 cv: 
-alumni: false
+alumni: true
+mfXposition: PDRA
+startyear: 2020
+endyear: 2021
 ---
