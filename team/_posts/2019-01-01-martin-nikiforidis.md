@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Martin Nikiforidis"
-position: 
+position: PDRA, University of Cyprus
 email: m.nikiforidis@ed.ac.uk
 twitter: 
 degrees: 
