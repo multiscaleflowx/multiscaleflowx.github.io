@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Multiscale modelling of flows, from the nano- to macro-scale">
 
-<title>Thermal regime in nanodroplets</title>
+<title>Modelling Additive Manufacturing Processes</title>
 
 <!-- Enable responsive viewport -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -99,7 +99,7 @@
         <div class="col-md-5">
             <div class="media">
             
-            <img class="pull-left pad-right media-object project-image" src="/images/projects/sheared-granular-system.jpg">
+            <img class="img-responsive" src="/images/projects/sheared-granular-system.jpg">
             Shear flow DEM simulations of the elongated particles to investigate the characteristics of our newly developed kinetic energy-based constitutive models.
             
             </div>
@@ -111,9 +111,8 @@
             </div> 
             <hr class="thick">
             <div class="post">
-                <p>The critical importance of understanding the rheology of granular materials for seemingly countless natural and industrial processes, has resulted in significant interdisciplinary research efforts for several decades. Of such efforts, one of the most significant contributions to the understanding of dry granular flows was the discovery of a relationship referred to as the <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" />
-rheology. This phenomenological model relates the shear stress to confining pressure ratio <img src="https://render.githubusercontent.com/render/math?math=\mu\equiv  \tau/P" />, with shear stress <img src="https://render.githubusercontent.com/render/math?math=\tau" /> and pressure <img src="https://render.githubusercontent.com/render/math?math=P" />, to the dimensionless inertial number <img src="https://render.githubusercontent.com/render/math?math=I" /> which describing the relative importance of inertia and confining stresses. Despite the many successful applications of the <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" /> rheology, it loses accuracy for several key aspects of dry granular flows including application to dilute cases, accounting for particles with a finite stiffness, also known as soft particles, and nonlocal effects which have been highlighted as causing significant deviations from classical <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" /> models. Elucidated from this model, is the roll of the particle velocity fluctuations often described as granular temperature, <img src="https://render.githubusercontent.com/render/math?math=T" />. Acknowledgement of the granular temperature for constitutive modelling efforts has now led to several recent remarkable proposals, mitigating many of the weaknesses
-encountered by traditional <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" /> models.
+                <p>The critical importance of understanding the flow of granular materials in countless natural and industrial processes, has resulted in significant interdisciplinary research efforts for several decades. Of such efforts, one of the most significant contributions to the understanding of dry granular flows was the discovery of a relationship referred to as the <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" />
+rheology. This phenomenological model relates the internal friction coefficient (i.e. the shear stress to confining pressure ratio <img src="https://render.githubusercontent.com/render/math?math=\mu\equiv  \tau/P" />), to the dimensionless inertial number <img src="https://render.githubusercontent.com/render/math?math=I" /> which quantifies how rapid the material is flowing locally. Despite the many successful applications of the <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" /> rheology, it loses accuracy for several key aspects of dry granular flows including application to dilute cases, accounting for particles with a finite stiffness (or soft particles), nonlocal and grain shape effects which have been highlighted as causing significant deviations from classical <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" /> models. Elucidated from this model, is the roll of the particle velocity fluctuations often described as granular temperature, <img src="https://render.githubusercontent.com/render/math?math=T" />. Acknowledgement of the granular temperature for constitutive modelling efforts has now led to several recent remarkable proposals, mitigating many of the weaknesses of the traditional <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" /> models.
 In this work through Discrete Element Method (DEM) simulations we are working on the development of new constitutive models based on the kinetic energy to address the shortcomings of the classical <img src="https://render.githubusercontent.com/render/math?math=\mu(I)" /> rheology.</p>
 
             </div>  
@@ -128,21 +127,24 @@ In this work through Discrete Element Method (DEM) simulations we are working on
         <div class="col-md-5">
             <div class="media">
             
-            <img class="pull-left pad-right media-object project-image" src="/images/projects/thermal-regime-nanodroplets.png">
-            
+            <img class="img-responsive" src="/images/projects/PowderAM-ProcessModeling.png">
+            A strategy for modelling a full cycle of a typical powder-based AM process.
             
             </div>
         </div>
 
         <div class="col-md-7">  
             <div class="bighead">
-                Thermal regime in nanodroplets (2018-) 
+                Modelling Additive Manufacturing Processes (2016-) 
             </div> 
             <hr class="thick">
             <div class="post">
-                <p>The classical notion of the coalescence of two droplets of the same radius R is that surface tension drives an initially singular flow. In this project we show, using molecular dynamics simulations of coalescing water nanodroplets, that after single or multiple bridges form due to the presence of thermal capillary waves, the bridge growth commences in a thermal regime. Here, the bridges expand linearly in time much faster than the viscous-capillary speed due to collective molecular jumps near the bridge fronts. Transition to the classical hydrodynamic regime only occurs once the bridge radius exceeds a thermal length scale.</p>
+                <p>The powder-based additive manufacturing processes are promising manufacturing techniques that enable the rapid production of prototypes and lately for weight-sensitive/multi-functional parts at small volumes, with almost arbitrary complexity. The process builds the final parts layer-upon-layer by going through three main stages during each cycle: (1) deposition of a layer of fine powder (D_p≈30 µm) on a fabrication surface through powder spreading – e.g. in selective laser melting (SLM) – or spraying – e.g. in laser metal deposition (LMD); (2) laser heating at specific locations; (3) fusion of the powder grains through melting and solidification.</p>
 
-<p>This work was performed by <a href="/team/pd-sreehari">Sreehari</a> and produced the following papers: <a href="/papers/paper/drop-jump-nano/">1</a> and <a href="/papers/paper/drop-coalescence-prl/">2</a>.</p>
+<p>A lack of understanding of the impact of powder grain shape on this process, has forced the industry to place stringent requirements on powder characteristics (such as high grain sphericity and narrow size distribution) to increase process repeatability and improve the powders’ processability. These requirements also result in high cost of virgin powders and a high wastage of raw material due to lack of recyclability, and hence causing the technology readiness level (TRL) to remain low despite substantial advantages, such as the production of complex parts, mass customisation, and on-demand manufacturing. 
+To overcome these difficulties, the Oak Ridge National Lab’s report  identifies an urgent technological need for particle-scale (microscale) simulations of the process and integration of the simulation software with the powder characterisation data. Despite some progress in the past few years, the available models are of low-fidelity and various phenomena including vaporisation and het transfer within the bed are not properly considered. This project addresses this urgent need by (1) developing a novel procedure to integrate the powder characterisation data with the simulation software at temperatures exceeding 500°C equivalent to those experienced in the preheated build chamber, and (2) providing a validated computational framework for particle-scale modelling of a full cycle of the process.</p>
+
+<p>This work was performed by <a href="/team/khajepor-sorush">Sorush</a>.</p>
 
             </div>  
         </div>
