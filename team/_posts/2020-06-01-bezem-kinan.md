@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Kinan Bezem"
-position: PhD candidate 
+position: PhD Student 
 email: Kinan.Bezem@ed.ac.uk
 twitter: 
 degrees: MSc, BEng(Hons)
