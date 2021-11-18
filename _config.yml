@@ -36,6 +36,9 @@ collections:
   theme-rarefied-gas-dynamics:
     output: true
     permalink: /research/theme-rarefied-gas-dynamics/
+  theme-fluid-structure-interaction:
+    output: true
+    permalink: /research/theme-fluid-structure-interaction/
   contribution-guide:
     output: true
     permalink: /guide/:title
