@@ -1,0 +1,67 @@
+---
+layout: default
+title: mfX
+---
+
+{% for project in site.theme-fluid-structure-interaction %}
+{% if project.active == true %} 
+    <div class="row project-box">
+        <div class="col-md-5">
+            <div class="media">
+                {% if project.image %}
+                <figure class="figure">
+                    <img class="img-responsive" src="{{ project.image }}">
+                    {% if project.imageText %}
+                    <figcaption class="figure-caption text-center">{{ project.imageText }}</figcaption>
+                    {% endif %}
+                </figure>            
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="col-md-7">  
+            <div class="bighead">
+                {{ project.title }} ({{project.startyear}}-{{project.endyear}}) 
+            </div> 
+            <hr class="thick">
+            <div class="post">
+                {{ project.content }}
+            </div>  
+        </div>
+    </div>
+    <div class="smallspace"></div>                
+{% endif %}
+
+{% endfor %}
+
+
+{% for project in site.theme-fluid-structure-interaction %}
+{% if project.active == false %} 
+    <div class="row project-box">
+        <div class="col-md-5">
+            <div class="media">
+            {% if project.image %}
+            <figure class="figure">
+                <img class="img-responsive" src="{{ project.image }}">
+                {% if project.imageText %}
+                <figcaption class="figure-caption text-center">{{ project.imageText }}</figcaption>
+                {% endif %}
+            </figure>  
+            {% endif %}
+            </div>
+        </div>
+
+        <div class="col-md-7">  
+            <div class="bighead">
+                {{ project.title }} ({{project.startyear}}-{{project.endyear}}) 
+            </div> 
+            <hr class="thick">
+            <div class="post">
+                {{ project.content }}
+            </div>  
+        </div>
+    </div>
+    <div class="smallspace"></div>                
+{% endif %}
+
+{% endfor %}    
