@@ -2,7 +2,7 @@
 layout: paper
 title: "Untangling the physics of water transport in boron nitride nanotubes"
 year: "2021"
-shortref: "Mistry <i>et al.</i> <i>Nanoscale</i> 2020"
+shortref: "Mistry <i>et al.</i> <i>Nanoscale</i> 2021"
 nickname: bnnt-nano-cnt
 journal: "Nanoscale"
 volume: 13
