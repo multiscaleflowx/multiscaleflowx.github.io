@@ -14,3 +14,5 @@ A major issue during the design stage is the lack of predictive models to optimi
 
 
 This work is being conducted by [Kinan](/team/bezem-kinan/) and [Khuram](/team/walayat-khuram/).
+
+Academic(s) involved: [Sina](/team/sina-haeri) and [Yonghao](/team/yonghao-zhang)
