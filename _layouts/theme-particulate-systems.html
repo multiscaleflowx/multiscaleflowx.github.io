@@ -11,7 +11,9 @@ title: mfX
                 {% if project.image %}
                 <figure class="figure">
                     <img class="img-responsive" src="{{ project.image }}">
+                    {% if project.imageText %}
                     <figcaption class="figure-caption text-center">{{ project.imageText }}</figcaption>
+                    {% endif %}
                 </figure>            
                 {% endif %}
             </div>

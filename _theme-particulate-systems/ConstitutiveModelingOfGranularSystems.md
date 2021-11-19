@@ -14,3 +14,5 @@ rheology. This phenomenological model relates the internal friction coefficient 
 In this work through Discrete Element Method (DEM) simulations we are working on the development of new constitutive models based on the kinetic energy to address the shortcomings of the classical <img src="https://render.githubusercontent.com/render/math?math=\mu(I)"> rheology. 
 
 This work is being conducted by [Nathan](/team/nathan-berry/).
+
+Academic(s) involved: [Sina](/team/sina-haeri) and [Yonghao](/team/yonghao-zhang)
