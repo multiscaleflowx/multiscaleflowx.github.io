@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Mr. Sritay Mistry"
+title: "Sritay Mistry"
 position: PhD Student
 email: s.mistry@ed.ac.uk
 twitter: 
