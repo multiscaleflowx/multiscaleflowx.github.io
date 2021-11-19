@@ -1,7 +1,7 @@
 ---
 layout: theme-fluid-structure-interaction
 title: "Compressible Boundary Layer Interaction with Obstacles"
-image: /images/projects/BL-Cyl-Interaction.jpg
+image: /images/projects/BL-Cyl-Interaction.png
 imageText: Vortical structures near a cylinder close to a boundary layer visualised using the Q-criterion method.
 active: true
 startyear: 2017
