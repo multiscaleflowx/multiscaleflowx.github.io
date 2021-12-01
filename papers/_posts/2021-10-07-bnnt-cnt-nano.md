@@ -8,14 +8,14 @@ journal: "Nanoscale"
 volume: 13
 issue: 
 pages: 18096-18102
-authors: "Mistry S, Pillai R, Borg MK, Mattia D"
+authors: "Mistry S, Pillai R, Mattia D, Borg MK"
 image: /images/papers/2021-10-07-bnnt-cnt-nano.png
 fulltext: https://pubs.rsc.org/en/content/articlehtml/2021/nr/d1nr04794a
 doi: "10.1039/D1NR04794A" 
 supplement: https://www.rsc.org/suppdata/d1/nr/d1nr04794a/d1nr04794a1.pdf
 pdflink: 
 github:
-datashare: 
+datashare: 10283/4042
 altmetric_id: 
 category: paper
 funder: EPSRC
