@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Sina Haeri"
-position: Lecturer
+position: Senior Lecturer
 email: sina.haeri@ed.ac.uk
 twitter: 
 degrees: 
