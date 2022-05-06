@@ -19,7 +19,7 @@ altmetric_id:
 category: paper
 funder: EPSRC
 tags: [shale, upscaling, Brinkman]
-highlight: true
+highlight: false
 ---
 
 # Abstract 
