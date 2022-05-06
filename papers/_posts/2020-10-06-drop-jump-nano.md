@@ -20,7 +20,7 @@ altmetric_id:
 category: paper
 funder: EPSRC
 tags: [md, rarefied, fluctuations, droplets]
-highlight: true
+highlight: false
 ---
 
 # Abstract 
