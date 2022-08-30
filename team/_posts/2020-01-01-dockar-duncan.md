@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Duncan Dockar"
-position: PDRA
+position: RAEng Research Fellow 
 email: duncan.dockar@ed.ac.uk
 twitter: 
 degrees: 
