@@ -9,7 +9,12 @@ title: mfX
         <div class="col-md-5">
             <div class="media">
             {% if project.image %}
-            <img class="pull-left pad-right media-object project-image" src="{{ project.image }}">
+                <figure class="figure">
+                    <img class="img-responsive" src="{{ project.image }}">
+                    {% if project.imageText %}
+                    <figcaption class="figure-caption text-center">{{ project.imageText }}</figcaption>
+                    {% endif %}
+                </figure> 
             {% endif %}
             </div>
         </div>
@@ -36,7 +41,12 @@ title: mfX
         <div class="col-md-5">
             <div class="media">
             {% if project.image %}
-            <img class="pull-left pad-right media-object project-image" src="{{ project.image }}">
+                <figure class="figure">
+                    <img class="img-responsive" src="{{ project.image }}">
+                    {% if project.imageText %}
+                    <figcaption class="figure-caption text-center">{{ project.imageText }}</figcaption>
+                    {% endif %}
+                </figure> 
             {% endif %}
             </div>
         </div>
