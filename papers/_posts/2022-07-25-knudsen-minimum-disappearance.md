@@ -2,7 +2,7 @@
 layout: paper
 title: "Knudsen minimum disappearance in molecular-confined flows"
 year: "2022"
-shortref: "Corral-Casas <i>et al.</i> <i>Journal of Fluid Mechanics</i> 2022"
+shortref: "Corral-Casas <i>et al.</i> <i>JFM</i> 2022"
 nickname: knudsen-minimum-disappearance
 journal: "Journal of Fluid Mechanics"
 volume: 945 
@@ -15,7 +15,7 @@ doi: "https://doi.org/10.1017/jfm.2022.563"
 supplement:
 pdflink: 
 github:
-datashare: https://doi.org/10.7488/ds/3480
+datashare: https://datashare.ed.ac.uk/handle/10283/4458
 altmetric_id: 
 category: paper
 funder: KFUPM

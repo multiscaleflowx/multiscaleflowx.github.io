@@ -12,4 +12,4 @@ Our understanding of vapour bubble growth is currently restricted to asymptotic 
 
 This work is being conducted by [Patrick](/team/sullivan-patrick). 
 
-Academic(s) involved: [Rohit](/team/pillai-rohit) and [Matthew](/team/borg-matthew)
+Academic(s) involved: [Rohit](/team/rohit-pillai) and [Matthew](/team/matthew-borg)
