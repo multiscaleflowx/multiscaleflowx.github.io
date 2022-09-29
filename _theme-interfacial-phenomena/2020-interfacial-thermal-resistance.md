@@ -2,7 +2,7 @@
 layout: theme-interfacial-phenomena
 title: "Interfacial Thermal Resistance at Solid/Liquid Interfaces"
 image: /images/projects/interfacial-thermal-resistance.png
-imageText: Comparison of Inertio-Thermal (IT) model predictions with the inertial Rayleigh-Plesset equation (RP), the MRG model, and MD results.
+imageText: Depicition of inelastic phonon transmission at gold/water interface with corresponding resistors (including ITR) shown above. 
 active: true
 startyear: 2020
 endyear:
@@ -12,6 +12,4 @@ Increasing transistor densities and on-chip clockspeeds have yielded increasing 
 
 The goal of this project is to gain a deeper understanding of the nanoscale physics involved and the role of surface characteristics in manipulating these physical phenomena to minimise ITR.
 
-This work is being conducted by [Abdullah](/team/elrifai-abdullah). 
-
-Academic(s) involved: [Rohit](/team/rohit-pillai) and [Matthew](/team/matthew-borg)
+Researcher(s) involved: [Abdullah](/team/elrifai-abdullah), [Rohit](/team/rohit-pillai) and [Matthew](/team/matthew-borg)
