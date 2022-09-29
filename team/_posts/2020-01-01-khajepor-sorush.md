@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Sorush Khajepor"
-position: Research Associate
+position: PDRA 
 email: sorush.khajepor@ed.ac.uk
 twitter: 
 degrees: PhD, Heriot-Watt University (2017)
