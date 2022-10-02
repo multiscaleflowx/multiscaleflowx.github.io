@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Sritay Mistry"
-position: PhD Student
+position: PDRA, Brunel University
 email: s.mistry@ed.ac.uk
 twitter: 
 degrees: M.Tech, IIT Kanpur (2018)
@@ -12,7 +12,7 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
+alumni: true
 mfXposition: PhD Student
 startyear: 2018
 endyear: 2022
