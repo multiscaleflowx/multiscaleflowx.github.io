@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Sergiu Busuioc"
-position:
+position: Tenure-track Fellowship, West University of Timisoara
 email: sergiu.busuioc@ed.ac.uk
 twitter: 
 degrees: 

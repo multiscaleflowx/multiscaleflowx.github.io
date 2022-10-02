@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Prof. Yonghao Zhang"
-position: Jason Reese Chair in Multiscale Fluid Mechanics
+position: Professor, Chinese Academy of Sciences
 email: yonghao.zhang@ed.ac.uk
 twitter: 
 degrees: "PhD (Aberdeen), CEng, FIMechE, FInstP"
@@ -12,7 +12,10 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
+alumni: true
+mfXposition: Jason Reese Chair in Multiscale Fluid Mechanics
+startyear: 2020
+endyear: 2022
 ---
 
 My ambition is to lead the multiscale flow X group to advance our understanding of fundamental flow physics and chemistry in micro/nano systems, with the aim of utilising these research advances to develop new technologies with capabilities beyond any currently conceived. 
