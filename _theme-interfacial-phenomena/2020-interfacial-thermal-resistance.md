@@ -2,7 +2,7 @@
 layout: theme-interfacial-phenomena
 title: "Interfacial Thermal Resistance at Solid/Liquid Interfaces"
 image: /images/projects/interfacial-thermal-resistance.png
-imageText: Depicition of inelastic phonon transmission at gold/water interface with corresponding resistors (including ITR) shown above. 
+imageText: Depiction of inelastic phonon transmission at gold/water interface with corresponding resistors (including ITR) shown above. 
 active: true
 startyear: 2020
 endyear:
