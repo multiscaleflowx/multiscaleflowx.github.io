@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Patrick's paper published in Fuel!"
+title: "Patrick's paper published in JFM!"
 image: /images/news/default.jpeg
 category: news
 ---
