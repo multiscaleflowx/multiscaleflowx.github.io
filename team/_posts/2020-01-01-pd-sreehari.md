@@ -11,7 +11,7 @@ image: /images/team/sreehari-pd.jpg
 website: 
 cv: 
 alumni: true
-mfXposition: PDRA
-startyear: 2020
+mfXposition: PhD, PDRA
+startyear: 2016
 endyear: 2021
 ---
