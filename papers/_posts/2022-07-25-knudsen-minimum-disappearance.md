@@ -11,11 +11,11 @@ pages: A28
 authors: "Corral-Casas C, Li J, Borg MK, Gibelli"
 image: /images/papers/2022-07-25-knudsen-minimum-disappearance.jpg
 fulltext: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/knudsen-minimum-disappearance-in-molecularconfined-flows/C8E5A09BE2D1075135DBD6C9B67B8BB0
-doi: "https://doi.org/10.1017/jfm.2022.563" 
+doi: "10.1017/jfm.2022.563" 
 supplement:
 pdflink: 
 github:
-datashare: https://datashare.ed.ac.uk/handle/10283/4458
+datashare: 10283/4458
 altmetric_id: 
 category: paper
 funder: KFUPM
