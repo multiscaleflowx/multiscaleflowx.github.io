@@ -20,4 +20,4 @@ During my PhD, I modelled a typical cavitation event of a surface nanobubble, a 
 
 In my post-doctoral roles, I worked in collaboration with [Dr Kokou Dadzie](http://home.eps.hw.ac.uk/~kd102/) and [Prof Raffaella Ocone](https://researchportal.hw.ac.uk/en/persons/raffaella-ocone) at Heriot-Watt University, modelling dilute granular flows using modified hydrodynamic equations for fine particle control, and investigating how non-equilibrium and non-ideal gas behaviour, can result in anomalous interpretations of nanoscale thermal oscillations.
 
-I have also helped develop a portable table-top demonstration to visualise high-speed jetting during cavitation bubble collapse, normally too rapid and small to witness with the naked-eye, using submerged balloons and a high-speed camera, which I present at science festivals and open-days.
+I have also led the construction of a portable table-top demonstration to visualise high-speed jetting during cavitation bubble collapse, normally too rapid and small to witness with the naked-eye, using submerged balloons and a high-speed camera, which I present at science festivals and open-days.
