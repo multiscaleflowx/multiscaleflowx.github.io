@@ -9,8 +9,8 @@ github:
 scholar: 5gcy_e8AAAAJ
 image: /images/team/duncan-dockar.png
 website: 
-orcid:
-researchgate: Duncan-Dockar-2149708329
+orcid: 0000-0002-5705-0581
+researchgate: 
 cv: 
 alumni: false
 ---
