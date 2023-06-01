@@ -7,7 +7,7 @@ twitter:
 degrees: 
 github: 
 scholar: 
-image: /images/team/duncan-dockar.png
+image: /images/team/duncan-dockar-bubble.jpg
 website: 
 orcid:
 researchgate: 	
