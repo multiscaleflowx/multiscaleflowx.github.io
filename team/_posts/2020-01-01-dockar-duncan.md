@@ -7,7 +7,7 @@ twitter:
 degrees: PhD
 github: 
 scholar: 5gcy_e8AAAAJ
-image: /images/team/duncan-dockar.png
+image: /images/team/duncan-dockar-bubble0.png
 website: 
 orcid: 0000-0002-5705-0581
 researchgate: 
