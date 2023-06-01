@@ -10,7 +10,7 @@ scholar: 5gcy_e8AAAAJ
 image: /images/team/duncan-dockar.png
 website: 
 orcid:
-researchgate: https://www.researchgate.net/scientific-contributions/Duncan-Dockar-2149708329
+researchgate: Duncan-Dockar-2149708329
 cv: 
 alumni: false
 ---
