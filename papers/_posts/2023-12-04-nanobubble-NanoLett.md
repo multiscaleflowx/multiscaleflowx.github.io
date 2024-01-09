@@ -7,7 +7,7 @@ journal: Nano Lett.
 volume: 23
 issue: 23
 pages: 10841-10847
-authors: "Dockar D, Gibell L, Borg MK"
+authors: "Dockar D, Gibelli L, Borg MK"
 image: /images/papers/2023-12-04-NanobubbleOscillations.png
 fulltext: https://pubs.acs.org/doi/10.1021/acs.nanolett.3c03052
 doi: "10.1021/acs.nanolett.3c03052" 
