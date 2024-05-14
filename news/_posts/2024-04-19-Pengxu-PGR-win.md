@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Pengxu awarded <q>Best Poster</q> School of Engineering PGR Conference!"
+title: "Pengxu awarded <q>Best Poster</q> at School of Engineering PGR Conference!"
 image: /images/news/PengxuPGRWin.jpeg
 category: news
 ---
