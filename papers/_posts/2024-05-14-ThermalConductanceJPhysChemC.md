@@ -8,7 +8,7 @@ volume: XXXX
 issue: XXX
 pages: XXX-XXX
 authors: "El-Rifai A, Perumanath S, Borg MK, Pillai R"
-image: /images/papers/2024-05-14-ThermalConductanceJPhysChemC.jpg
+image: /images/papers/2024-05-14-ThermalConductanceJPhysChemC.jpeg
 fulltext: https://doi.org/10.1021/acs.jpcc.4c00536
 doi: "10.1021/acs.jpcc.4c00536" 
 supplement: https://doi.org/10.1021/acs.jpcc.4c00536
