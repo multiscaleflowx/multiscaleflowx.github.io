@@ -18,7 +18,7 @@ datashare: "10283/8772"
 altmetric_id: 157175481
 category: paper
 funder: EPSRC
-tags: [multiscale, nanobubble, md]
+tags: [multiscale, md]
 highlight: true
 ---
 
