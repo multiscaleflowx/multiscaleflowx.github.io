@@ -4,9 +4,9 @@ title: "Unraveling the Regimes of Interfacial Thermal Conductance at a Solid/Liq
 year: "2024"
 shortref: "El-Rifai <i>et al.</i> <i>J. Phys. Chem. C</i> 2024"
 journal: J. Phys. Chem. C
-volume: XXXX
-issue: XXX
-pages: XXX-XXX
+volume: 128
+issue: 20
+pages: 8408–8417
 authors: "El-Rifai A, Perumanath S, Borg MK, Pillai R"
 image: /images/papers/2024-05-14-ThermalConductanceJPhysChemC.jpeg
 fulltext: https://doi.org/10.1021/acs.jpcc.4c00536
