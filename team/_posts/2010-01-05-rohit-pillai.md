@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Rohit Pillai"
-position: Lecturer
+position: Senior Lecturer
 email: R.Pillai@ed.ac.uk
 twitter: 
 degrees: "PhD, University of Melbourne (2017)"
