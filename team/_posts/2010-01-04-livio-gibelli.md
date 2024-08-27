@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Livio Gibelli"
-position: Lecturer
+position: Senior Lecturer
 email: livio.gibelli@ed.ac.uk
 twitter: 
 degrees: PhD, Politecnico di Milano (2004)
