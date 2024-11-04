@@ -12,7 +12,10 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
+alumni: true
+mfXposition: PhD Student
+startyear: 2019
+endyear: 2023
 ---
 
 I am a PhD student in the Institute for Multiscale Thermofluids in the University of Edinburgh. I received a Master's in Mechanical and Manufacturing Engineering from Trinity College Dublin in 2019. My research focuses on the effect of nano-scale modifications on the macro-scale characteristics of multi-phase systems. In particular, I am investigating how nano-scale surface roughness and wettabillity affect the nucleation and growth of vapour bubbles. I aim to link the insights gained from from molecular dynamics simulations of these phase-change systems to experimentally obtained data. Understanding these effects will help to improve the performance and efficiency of multi-phase thermal management systems. 
