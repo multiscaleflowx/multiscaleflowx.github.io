@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Sorush Khajepor"
-position: PDRA 
+position: PDRA, Institute for Materials and Processes
 email: sorush.khajepor@ed.ac.uk
 twitter: 
 degrees: PhD, Heriot-Watt University (2017)
@@ -12,10 +12,10 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
+alumni: true
 mfXposition: Research Associate
 startyear: 2020
-endyear: 
+endyear: 2023
 ---
 
 I have studied a wide variety of fluid mechanics and computer programming courses from *fundamentals of fluids*, and *numerical programming* during my undergraduate program to advanced courses such as *continuum mechanics*, *advanced engineering math*, *microflows and nanoflows*, *CFD programming*, *parallel processing* in my MSc program. My MSc dissertation is about the Dissipative Particle Dynamics (DPD) simulation of nanojets and centrifugal jets.
