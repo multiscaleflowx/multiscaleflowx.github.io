@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Sritay Mistry"
+title: "Dr. Sritay Mistry"
 position: PDRA, Brunel University
 email: s.mistry@ed.ac.uk
 twitter: 
