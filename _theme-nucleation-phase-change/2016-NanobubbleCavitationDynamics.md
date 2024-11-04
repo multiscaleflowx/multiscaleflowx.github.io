@@ -12,4 +12,4 @@ Nanobubbles are being applied in cancer treatment, surface cleaning, sonochemist
 
 This work is being conducted by [Duncan](/team/dockar-duncan). 
 
-Academic(s) involved: [Livio](/team/livio-gibelli) and [Matthew](/team/matthew-borg)
+Academic(s) involved: [Livio](/team/livio-gibelli).
