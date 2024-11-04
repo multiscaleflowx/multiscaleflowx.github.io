@@ -15,7 +15,7 @@ cv:
 alumni: true
 mfXposition: PDRA
 startyear: 2020
-endyear: 
+endyear: 2023
 ---
 
 I am a Research Associate at the University of Edinburgh. Previously, I worked as a postdoctoral researcher at University of Strathclyde (2015-2020) following my Ph.D. degree in Mechanical engineering at Aix-Marseille University. 
