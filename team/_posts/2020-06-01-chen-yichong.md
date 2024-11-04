@@ -1,7 +1,7 @@
 ---
 layout: member
-title: "Yichong Chen"
-position: PhD student
+title: "Dr. Yichong Chen"
+position: PDRA
 email: yichong.chen@ed.ac.uk
 twitter: 
 degrees: MSc, Imperial College London (2020)
@@ -15,7 +15,7 @@ cv:
 alumni: false
 mfXposition: 
 startyear: 2020
-endyear: 
+endyear: 2024
 ---
 
 I am a PhD student in the Institute for Multiscale Thermofluids at the University of Edinburgh. I received a BEng degree in Mechanical Engineering from the University of Edinburgh in 2019, and an MSc degree in Engineering Fluid Mechanics from Imperial College London in 2020.
