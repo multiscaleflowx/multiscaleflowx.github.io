@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Carlos Corral-Casas"
-position: PhD student
+position: PDRA, Imperial College London
 email: carlos.corral@ed.ac.uk
 twitter: 
 degrees: "MSc, The University of Manchester (2019)"
