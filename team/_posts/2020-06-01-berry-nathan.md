@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Nathan Berry"
+title: "Dr. Nathan Berry"
 position: PhD Student 
 email: n.r.berry@sms.ed.ac.uk
 twitter: 
@@ -11,10 +11,10 @@ image: /images/team/nathan-berry.jpg
 website: 
 orcid:	
 cv: 
-alumni: false
-mfXposition: 
+alumni: true
+mfXposition: PhD student 
 startyear: 2017
-endyear: 
+endyear: 2023
 ---
 
 I am a final year PhD student in the Institute for Materials and Processes at the University of Edinburgh, with a focus on developing rheological models of granular materials.  In 2017, I graduated from the University of Strathclyde with a Bachelor’s degree in Mechanical Engineering with Financial Management.   
