@@ -12,4 +12,4 @@ Increasing transistor densities and on-chip clockspeeds have yielded increasing 
 
 The goal of this project is to gain a deeper understanding of the nanoscale physics involved and the role of surface characteristics in manipulating these physical phenomena to minimise ITR.
 
-Researcher(s) involved: [Abdullah](/team/elrifai-abdullah), [Rohit](/team/rohit-pillai) and [Matthew](/team/matthew-borg)
+Researcher(s) involved: [Abdullah](/team/elrifai-abdullah) and [Rohit](/team/rohit-pillai).
