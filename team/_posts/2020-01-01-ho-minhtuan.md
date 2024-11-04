@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Minh Tuan Ho"
-position: PDRA
+position: Assistant Professor, Ho Chi Minh University of Technology
 email: minh-tuan.ho@ed.ac.uk
 twitter: 
 degrees: PhD, Aix-Marseille University (2015)
@@ -12,7 +12,7 @@ website:
 orcid: 0000-0002-9411-6447
 researchgate: 
 cv: 
-alumni: false
+alumni: true
 mfXposition: PDRA
 startyear: 2020
 endyear: 
