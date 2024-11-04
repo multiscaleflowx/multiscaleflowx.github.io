@@ -1,7 +1,7 @@
 ---
 layout: member
-title: "Abdullah El-Rifai"
-position: PhD student
+title: "Dr. Abdullah El-Rifai"
+position: Faculty AI Fellowship
 email: abdullah.el-rifai@ed.ac.uk
 twitter: 
 degrees: 
@@ -12,7 +12,10 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
+alumni: true
+mfXposition: PhD Student
+startyear: 2020
+endyear: 2024
 ---
 
 I am a second year PhD student at the University of Edinburgh. I obtained my MEng in mechanical engineering from the The University of Edinburgh in 2020, where I used molecular dynamics to study the effect of solid-liquid wettability and heat-flux magnitude on the evaporative cooling capabilities of nanoporous membranes.
