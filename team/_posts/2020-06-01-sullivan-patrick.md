@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Patrick Sullivan"
+title: "Dr. Patrick Sullivan"
 position: PhD student
 email: Patrick.Sullivan@ed.ac.uk
 twitter: 
