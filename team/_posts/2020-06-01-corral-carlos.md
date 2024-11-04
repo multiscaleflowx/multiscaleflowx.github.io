@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "Carlos Corral-Casas"
+title: "Dr. Carlos Corral-Casas"
 position: PhD student
 email: carlos.corral@ed.ac.uk
 twitter: 
