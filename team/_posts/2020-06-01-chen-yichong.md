@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Yichong Chen"
-position: PDRA
+position: Post-Doctoral Research Associate
 email: yichong.chen@ed.ac.uk
 twitter: 
 degrees: MSc, Imperial College London (2020)
