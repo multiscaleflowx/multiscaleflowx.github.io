@@ -6,7 +6,7 @@ email: t.hulikal@ed.ac.uk
 degrees: PhD
 scholar: BTpwy_AAAAAJ
 orcid: 0000-0002-8182-345X
-image: /images/team/thejas-chakrapani.jpg
+image: /images/team/thejas-chakrapani.png
 startyear: 2024
 alumni: false
 ---
