@@ -7,7 +7,7 @@ twitter:
 degrees: MSc, Bogazici University (2022)
 github: 
 scholar:
-image: /images/team/Taher_Meydando.JPG
+image: /images/team/Taher_Meydando0.png
 website: 
 orcid:
 researchgate: 
