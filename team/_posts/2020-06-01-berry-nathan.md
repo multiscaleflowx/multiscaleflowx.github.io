@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Nathan Berry"
-position: 
+position: PDRA, Glasgow University
 email: n.r.berry@sms.ed.ac.uk
 twitter: 
 degrees: MSc, BEng(Hons)
