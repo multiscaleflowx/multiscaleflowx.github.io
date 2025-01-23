@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Yichong Chen"
-position: Post-Doctoral Research Associate
+position: Post-Doctoral Research Associate, Chinese Academy of Sciences
 email: yichong.chen@ed.ac.uk
 twitter: 
 degrees: MSc, Imperial College London (2020)
@@ -12,7 +12,7 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
+alumni: true
 mfXposition: 
 startyear: 2020
 endyear: 2024
