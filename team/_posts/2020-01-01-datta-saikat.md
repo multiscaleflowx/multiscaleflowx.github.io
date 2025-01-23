@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Saikat Datta"
-position: Leverhulme Trust Early Career Fellow
+position: Senior Lecturer, Swansea University
 email: saikat.datta@ed.ac.uk
 twitter: 
 degrees: PhD, IIT Kharagpur (2018)
@@ -12,7 +12,7 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
+alumni: true
 mfXposition: PDRA
 startyear: 2018
 endyear: 
