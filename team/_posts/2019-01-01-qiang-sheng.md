@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Qiang Sheng"
-position:
+position: PDRA, University of London
 email: qiang.sheng@ed.ac.uk
 twitter: 
 degrees: 
