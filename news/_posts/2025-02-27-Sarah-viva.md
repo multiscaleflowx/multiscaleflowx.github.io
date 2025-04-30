@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sarah passes her viva!"
+title: "Sarah passes her PhD viva!"
 image: /images/news/SDviva.png
 category: news
 ---
