@@ -8,4 +8,4 @@ We are delighted to announce that [Sarah Davidson] passed her PhD viva with mino
 
 Congratulations again to Dr Sarah Davidson, and we wish her all the best for the future!
 
-[Sarah Davidson]: /team/sarah-davidson
+[Sarah Davidson]: /team/davidson-sarah
