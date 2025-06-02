@@ -2,7 +2,7 @@
 layout: paper
 title: "Contaminant Removal Using Vibrating Surfaces: Nanoscale Insights and a Universal Scaling Law"
 year: "2025"
-shortref: "Pillai <i>et al.</i> <i>Nano Lett.</i> 2024"
+shortref: "Pillai <i>et al.</i> <i>Nano Lett.</i> 2025"
 journal: Nano Lett.
 volume: 25
 issue: 11
