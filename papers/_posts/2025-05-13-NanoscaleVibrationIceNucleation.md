@@ -2,7 +2,7 @@
 layout: paper
 title: "Nanoscale insights into vibration-induced heterogeneous ice nucleation"
 year: "2025"
-shortref: "El-Rifai <i>et al.</i> <i>Nanoscale</i> 2025"
+shortref: "Chen <i>et al.</i> <i>Nanoscale</i> 2025"
 journal: Nanoscale
 volume: 
 issue: 
