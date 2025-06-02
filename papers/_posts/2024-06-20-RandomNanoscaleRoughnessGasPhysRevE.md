@@ -8,7 +8,7 @@ volume: 109
 issue: 
 pages: 065308
 authors: "Chen Y, Gibelli L, Borg MK"
-image: /images/papers/2024-06-20-PREGasScattering.jpeg
+image: /images/papers/2024-06-20-RandomNanoscaleRoughnessGasPhysRevE.jpg
 fulltext: https://doi.org/10.1103/PhysRevE.109.065308
 doi: "10.1103/PhysRevE.109.065308" 
 supplement: https://doi.org/10.1103/PhysRevE.109.065308
