@@ -1,10 +1,10 @@
 ---
 layout: member
-title: "Sarah Davidson"
-position: PhD Student
+title: "Dr. Sarah Davidson"
+position:
 email: sarah.davidson@ed.ac.uk
 twitter: 
-degrees: MEng, University of Strathclyde (2019)
+degrees: PhD, University of Edinburgh (2025)
 github: 
 scholar:
 image: /images/team/sarah-davidson.jpg
@@ -12,10 +12,10 @@ website:
 orcid:
 researchgate: 	
 cv:  
-alumni: false
+alumni: true
 mfXposition: PhD Student
 startyear: 2020
-endyear: 
+endyear: 2025
 ---
 
 I am a second year PhD student in the Institute of Multiscale Thermofluids, focussing on meso-scale modelling of the effects of cavitation. 
