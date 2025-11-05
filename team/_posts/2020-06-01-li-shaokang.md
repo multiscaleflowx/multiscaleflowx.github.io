@@ -1,10 +1,10 @@
 ---
 layout: member
 title: "Shaokang Li"
-position: PhD student
+position: PDRA at Chinese Academy of Sciences
 email: s2216252@ed.ac.uk
 twitter: 
-degrees: MSc, Beihang University (2021)
+degrees: PhD, University of Edinburgh (2025)
 github: 
 scholar: KPLF1H8AAAAJ
 image: /images/team/shaokang-li.jpg
@@ -12,10 +12,10 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
-mfXposition: 
+alumni: true
+mfXposition: PhD student
 startyear: 2021
-endyear: 
+endyear: 2025
 ---
 
 I am a PhD student at the University of Edinburgh. I come from China where I obtained my bachelor’s and master’s degree in School of Aerospace Science and Engineering at Beihang University. My research mainly focuses on droplet dynamics and computational nonequilibrium phase change dynamics.
