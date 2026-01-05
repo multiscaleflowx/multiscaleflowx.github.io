@@ -11,7 +11,7 @@ authors: "Sullivan P, Dockar D, Pillai R"
 image:
 fulltext: https://doi.org/10.1063/5.0259208
 doi: "10.1063/5.0259208"
-supplement: https://doi.org/10.1063/5.0259208
+supplement: https://collections.durham.ac.uk/files/r1mc87pq34z
 pdflink: 
 github:
 datashare:
