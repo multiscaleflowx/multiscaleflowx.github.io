@@ -54,4 +54,29 @@ title: mfX
     <div class="smallspace"></div>                
 {% endif %}
 
-{% endfor %}    
+{% endfor %}
+
+<div class="bigspacer"></div>
+<div class="hugehead">Related Papers</div>
+<hr class="thick">
+<div class="spacer"></div>
+
+{% assign defined_keywords = "porous,shale,nanotube,membrane,permeability,filtration,diffusion,confinement" | split: "," %}
+{% for paper in site.categories.papers %}
+    {% assign matched = false %}
+    {% assign paper_tags = paper.tags | join: " " | downcase %}
+    {% assign paper_title = paper.title | downcase %}
+    {% for keyword in defined_keywords %}
+        {% if paper_tags contains keyword or paper_title contains keyword %}
+            {% assign matched = true %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+    {% if matched %}
+    <div class="smallhead media-heading">
+        <a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+        <p class="note">{{ paper.shortref }}</p>
+    </div>
+    <div class="smallspacer"></div>
+    {% endif %}
+{% endfor %}
