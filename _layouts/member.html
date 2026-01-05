@@ -138,9 +138,18 @@ categories:
 		</div>
 
 		{% assign lastname = member.title | split: ' ' | last %}
+		{% assign firstname = member.title | split: ' ' | first %}
+		{% assign firstinitial = firstname | slice: 0 %}
+		{% assign authorid = lastname | append: ' ' | append: firstinitial | append: ',' %}
+		{% assign fullname = member.title | append: ',' %}
+		{% assign startyear = member.startyear %}
 		{% for paper in site.categories.papers %}
-			{% if paper.authors contains lastname %}
-				{% assign papersq = true %}
+			{% assign authors_search = paper.authors | append: ',' %}
+			{% assign paperyear = paper.date | date: "%Y" | plus: 0 %}
+			{% if authors_search contains authorid or authors_search contains fullname %}
+				{% if paperyear >= startyear %}
+					{% assign papersq = true %}
+				{% endif %}
 			{% endif %}
 		{% endfor %}
 
@@ -150,10 +159,14 @@ categories:
 			<hr class="thick">
 			<div class="title"></div>
 			{% for paper in site.categories.papers %}
-				{% if paper.authors contains lastname %}
-					<i class="fa fa-file-text-o fa-fw"></i>
-					<a href="{{ paper.url }}" class="verysmallhead">{{ paper.title }}</a>
-					<div class="smallspacer"></div>			
+				{% assign authors_search = paper.authors | append: ',' %}
+				{% assign paperyear = paper.date | date: "%Y" | plus: 0 %}
+				{% if authors_search contains authorid or authors_search contains fullname %}
+					{% if paperyear >= startyear %}
+						<i class="fa fa-file-text-o fa-fw"></i>
+						<a href="{{ paper.url }}" class="verysmallhead">{{ paper.title }}</a>
+						<div class="smallspacer"></div>
+					{% endif %}
 				{% endif %}
 			{% endfor %}
 		{% endif %}		
