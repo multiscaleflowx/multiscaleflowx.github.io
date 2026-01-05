@@ -56,8 +56,12 @@ categories:
     <hr class="thick">
     
     {% assign papers = site.categories.papers | where: "highlight","true"%}
+    {% assign currentyear = site.time | date: "%Y" | plus: 0 %}
+    {% assign cutoffyear = currentyear | minus: 3 %}
     {% assign memberindex = 0 %}
         {% for paper in papers %}
+            {% assign paperyear = paper.year | plus: 0 %}
+            {% if paperyear < cutoffyear %}{% continue %}{% endif %}
             {% assign memberindex = memberindex | plus: 1 %}
             {% assign colindex = memberindex | modulo: 3 %}
             {% if colindex == 1 %} <!-- opening of a new row -->
