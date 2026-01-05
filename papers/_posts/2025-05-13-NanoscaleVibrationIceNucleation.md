@@ -4,17 +4,17 @@ title: "Nanoscale insights into vibration-induced heterogeneous ice nucleation"
 year: "2025"
 shortref: "Chen <i>et al.</i> <i>Nanoscale</i> 2025"
 journal: Nanoscale
-volume: 
-issue: 
-pages: 
+volume: 17
+issue:
+pages: 14172
 authors: "Chen P, Pillai R, Datta S"
 image: /images/papers/2025-05-13-NanoscaleVibrationIceNucleation.jpg
 fulltext: https://doi.org/10.1039/D5NR00326A
 doi: "10.1039/D5NR00326A"
 supplement: https://doi.org/10.1039/D5NR00326A
-pdflink: 
+pdflink:
 github:
-datashare:
+datashare: "10283/9012"
 altmetric_id: 
 category: paper
 funder: Leverhulme Trust
