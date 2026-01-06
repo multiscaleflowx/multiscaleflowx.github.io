@@ -13,6 +13,7 @@ orcid:
 researchgate: 
 cv: 
 alumni: false
+startyear: 2024
 ---
 I am a PhD student at the Institute of Multiscale Thermofluids (IMT) at University of Edinburgh’s School of Engineering. I obtained my MSc degree from Bogazici University’s Mechanical Engineering Department. Moreover, I have two years of industry experience in the automotive sector with Standard Profil Group as a Design and Simulation Team Leader.
 

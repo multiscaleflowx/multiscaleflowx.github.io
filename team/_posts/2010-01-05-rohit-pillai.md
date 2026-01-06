@@ -13,6 +13,7 @@ orcid:
 researchgate: Rohit-Pillai-2 	
 cv: 	
 alumni: false
+startyear: 0
 ---
 I am Lecturer in Mechanical Engineering at the University of Edinburgh, with a background and publication record in continuum fluid dynamics, molecular dynamics, and multiphysics modelling. I was appointed to this current role in September 2018, less than a year after being awarded my PhD. 
 
