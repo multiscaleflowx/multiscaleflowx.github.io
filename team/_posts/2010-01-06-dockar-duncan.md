@@ -13,6 +13,7 @@ orcid: 0000-0002-5705-0581
 researchgate: 
 cv: 
 alumni: false
+startyear: 0
 ---
 I am a Royal Academy of Engineering Research Fellow, investigating the application of nanobubbles for enhanced water and waste-water treatment. I specialise in Molecular Dynamics (MD), Discrete Element Method (DEM) and Computational Fluid Dynamics (CFD) modelling of nanoscale multi-phase fluids, and for my fellowship, I will be developing novel computational tools for simulating nanobubble diffusive stability, growth, collapse, and transport.
 

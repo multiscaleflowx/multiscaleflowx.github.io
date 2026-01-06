@@ -2,7 +2,7 @@
 layout: paper
 title: "Departure Velocity of Rolling Droplet Jumping"
 year: "2020"
-shortref: "Shaokang <i>et al.</i> <i> Langmuir </i> 2019"
+shortref: "Shaokang <i>et al.</i> <i> Langmuir </i> 2020"
 nickname: jumping-drop-Langmuir-Shaokang
 journal: "Langmuir"
 volume: 36
