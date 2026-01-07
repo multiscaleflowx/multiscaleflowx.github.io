@@ -15,7 +15,7 @@ supplement:
 pdflink: 
 github:
 datashare: 
-altmetric_id: 
+altmetric_id: 111175268
 category: paper
 funder: EPSRC
 tags: [GSIS, porous media, Klinkenberg correlation]

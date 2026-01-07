@@ -15,7 +15,7 @@ supplement:
 pdflink: 
 github:
 datashare: 
-altmetric_id: 
+altmetric_id: 111942195
 category: paper
 funder: EPSRC
 tags: [multiscale, GSIS, polyatomic gas]

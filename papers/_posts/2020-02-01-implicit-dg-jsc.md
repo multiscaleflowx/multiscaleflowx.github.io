@@ -15,7 +15,7 @@ supplement:
 pdflink: 
 github:
 datashare: 
-altmetric_id: 
+altmetric_id: 166055730
 category: paper
 funder: EPSRC
 tags: [full Bolztmann collision, implicit discontinous galerkin, fast spectral method]

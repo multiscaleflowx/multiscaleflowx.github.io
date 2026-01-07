@@ -16,7 +16,7 @@ supplement: https://www.rsc.org/suppdata/d1/nr/d1nr04794a/d1nr04794a1.pdf
 pdflink: 
 github:
 datashare: 10283/4042
-altmetric_id: 
+altmetric_id: 124718626
 category: paper
 funder: EPSRC
 tags: [experiments, md, nanotubes]

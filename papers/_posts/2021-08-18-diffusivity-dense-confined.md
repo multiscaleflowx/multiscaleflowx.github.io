@@ -16,7 +16,7 @@ supplement:
 pdflink: 
 github:
 datashare: 10283/3990
-altmetric_id: 
+altmetric_id: 166058310
 category: paper
 funder: KFUPM
 tags: [kinetic theory, nanochannels, rarefied gas dynamics, diffusion coefficient]
