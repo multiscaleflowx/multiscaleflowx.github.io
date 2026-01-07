@@ -16,7 +16,7 @@ supplement:
 pdflink: 
 github:
 datashare: 10283/4229
-altmetric_id: 
+altmetric_id: 166059178
 category: paper
 funder: KFUPM
 tags: [scattering, kerogen]

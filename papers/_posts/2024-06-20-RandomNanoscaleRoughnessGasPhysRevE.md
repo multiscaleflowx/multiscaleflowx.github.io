@@ -15,7 +15,7 @@ supplement: https://doi.org/10.1103/PhysRevE.109.065308
 pdflink: 
 github:
 datashare: "10283/8796"
-altmetric_id: 
+altmetric_id: 166066815
 category: paper
 funder: EPSRC
 tags: [multiscale, md]

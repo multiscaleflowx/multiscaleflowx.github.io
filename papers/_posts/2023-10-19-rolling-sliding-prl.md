@@ -14,8 +14,8 @@ doi: "10.1103/PhysRevLett.131.164001"
 supplement:
 pdflink:
 github:
-datashare:
-altmetric_id:
+datashare: "10283/8535"
+altmetric_id: 166064357
 category: paper
 funder:
 tags: [md, droplets, wetting, spreading]

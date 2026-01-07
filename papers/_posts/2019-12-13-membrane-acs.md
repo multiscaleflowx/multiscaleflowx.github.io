@@ -16,7 +16,7 @@ supplement: https://pubs.acs.org/doi/suppl/10.1021/acsami.8b18532/suppl_file/am8
 pdflink: 
 github:
 datashare: 
-altmetric_id: 
+altmetric_id: 54297273
 category: paper
 funder: EPSRC
 tags: [multiscale, experiments, MD, nanotube]
