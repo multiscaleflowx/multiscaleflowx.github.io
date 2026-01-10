@@ -1,10 +1,36 @@
 /* Modifying navbar using directions from:
  https://bootstrapious.com/p/how-to-change-bootstrap-navbar-height
 */
+
+/* ===== CSS Variables for Light/Dark Mode ===== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --navbar-bg: #f8f8f8;
+  --navbar-border: #e7e7e7;
+  --card-bg: #ffffff;
+  --border-color: #8b8989;
+  --link-color: #337ab7;
+  --muted-text: #777;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a2e;
+  --text-color: #e0e0e0;
+  --navbar-bg: #16213e;
+  --navbar-border: #0f3460;
+  --card-bg: #16213e;
+  --border-color: #0f3460;
+  --link-color: #4fc3f7;
+  --muted-text: #a0a0a0;
+}
+
 body {
 font-family: 'Roboto', sans-serif !important;
 font-weight: 100;
-color: #000000;
+color: var(--text-color);
+background-color: var(--bg-color);
+transition: background-color 0.3s ease, color 0.3s ease;
 }
  
 .navbar {
@@ -276,8 +302,127 @@ hr.thick
   margin-top: 50px;
 }
 .project-box{
-/*  background: ghostwhite; 
-*/  padding: 10px; 
-  border: 2px solid #8b8989; 
+/*  background: ghostwhite;
+*/  padding: 10px;
+  border: 2px solid #8b8989;
   margin: 10px;
+}
+
+/* ===== Dark Mode Styles ===== */
+
+/* Navbar - smooth transition */
+.navbar-default {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Navbar text colors in dark mode (background handled by JS) */
+[data-theme="dark"] .navbar-default .navbar-nav > li > a {
+  color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .navbar-default .navbar-nav > li > a:hover,
+[data-theme="dark"] .navbar-default .navbar-nav > li > a:focus {
+  color: #4fc3f7 !important;
+  background-color: transparent !important;
+}
+
+[data-theme="dark"] .navbar-default .navbar-nav > .active > a,
+[data-theme="dark"] .navbar-default .navbar-nav > .active > a:hover,
+[data-theme="dark"] .navbar-default .navbar-nav > .active > a:focus {
+  color: #4fc3f7 !important;
+  background-color: transparent !important;
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  transition: color 0.2s ease;
+}
+
+/* Headings and text classes */
+.hugehead, .bighead, .mediumhead, .smallhead, .tinyhead,
+.logotitle, .note-title, .smallnote {
+  color: var(--text-color);
+}
+
+/* Borders */
+hr.thick {
+  border-color: var(--border-color);
+}
+
+.project-box {
+  border-color: var(--border-color);
+  background-color: var(--card-bg);
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  font-size: 1.1em;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.dark-mode-toggle:hover {
+  color: var(--link-color);
+  border-color: var(--link-color);
+  background-color: rgba(79, 195, 247, 0.1);
+}
+
+.dark-mode-toggle:focus {
+  outline: none;
+}
+
+/* Fix alignment in navbar */
+.navbar-nav > li > .dark-mode-toggle {
+  margin-top: 12px;
+}
+
+/* Mobile navbar in dark mode */
+[data-theme="dark"] .navbar-default .navbar-toggle .icon-bar {
+  background-color: var(--text-color);
+}
+
+[data-theme="dark"] .navbar-default .navbar-collapse {
+  border-color: var(--navbar-border);
+}
+
+/* Images - slightly reduce brightness in dark mode for comfort */
+[data-theme="dark"] img {
+  opacity: 0.9;
+}
+
+[data-theme="dark"] img:hover {
+  opacity: 1;
+}
+
+/* Homepage logo text - make readable in dark mode */
+[data-theme="dark"] .logotitle {
+  color: var(--text-color);
+}
+
+[data-theme="dark"] .logobox {
+  color: var(--text-color);
+}
+
+/* Invert the main logo image on homepage for dark mode */
+html[data-theme="dark"] img[src*="logo-long"] {
+  filter: invert(1) !important;
+  opacity: 1 !important;
+}
+
+/* Also handle navbar logo */
+html[data-theme="dark"] .navbar-header img[src*="logo"] {
+  filter: invert(1) !important;
 }
