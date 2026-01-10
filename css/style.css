@@ -426,3 +426,4 @@ html[data-theme="dark"] img[src*="logo-long"] {
 html[data-theme="dark"] .navbar-header img[src*="logo"] {
   filter: invert(1) !important;
 }
+
