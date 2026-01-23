@@ -8,7 +8,7 @@ degrees: "PhD, University of Melbourne (2017)"
 github: RohitWPillai
 scholar: eE9rDfkAAAAJ
 image: /images/team/rohit-pillai.jpg
-website: https://rohitpillai.github.io
+website: rohitpillai.github.io
 orcid:
 researchgate: Rohit-Pillai-2
 cv:
