@@ -6,8 +6,8 @@
     if (savedTheme) {
       return savedTheme;
     }
-    // Check system preference
-    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    // Default to dark mode for new visitors
+    return 'dark';
   }
 
   // Apply navbar styles directly (bypasses Bootstrap CSS specificity)
