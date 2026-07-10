@@ -6,7 +6,7 @@ shortref: "Chen <i>et al.</i> <i>J. Chem. Phys.</i> 2026"
 journal: J. Chem. Phys.
 volume: 165
 issue:
-pages: 024703
+pages: "024703"
 authors: "Chen P, Sullivan P, Pillai R, Datta S"
 image: /images/papers/2026-07-09-FreezingUnderMotion.jpg
 fulltext: https://doi.org/10.1063/5.0335640
