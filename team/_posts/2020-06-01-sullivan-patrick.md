@@ -1,8 +1,8 @@
 ---
 layout: member
 title: "Dr. Patrick Sullivan"
-position: PDRA, Durham University
-email: Patrick.Sullivan@ed.ac.uk
+position: Assistant Professor, Durham University
+email: patrick.j.sullivan@durham.ac.uk
 twitter: 
 degrees: MAI, Trinity College Dublin (2019)
 github: 
