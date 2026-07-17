@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Duncan Dockar"
-position: RAEng Research Fellow 
+position: Lecturer & RAEng Research Fellow
 email: d.dockar@ed.ac.uk
 twitter: 
 degrees: PhD

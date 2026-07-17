@@ -1,0 +1,149 @@
+---
+layout: default
+title: When Bubbles Bite
+permalink: /when-bubbles-bite/
+---
+<style>
+  .wbb-wrap { max-width: 900px; margin: 0 auto; }
+  .wbb-kicker { letter-spacing: 2px; font-weight: bold; font-size: 12px; color: var(--muted-text); }
+  .wbb-wrap h1 { font-size: 34px; font-weight: 500; margin: 4px 0 14px; color: var(--text-color); }
+  .wbb-wrap h2 { font-size: 22px; font-weight: 500; margin: 26px 0 8px; color: var(--text-color); }
+  .wbb-wrap p, .wbb-wrap li { font-size: 15.5px; line-height: 1.55; }
+  .wbb-caption { font-size: 12px; color: var(--muted-text); margin-top: 5px; }
+
+  .wbb-gallery { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; padding-bottom: 8px; }
+  .wbb-gallery figure { flex: 0 0 82%; max-width: 680px; margin: 0; scroll-snap-align: center; }
+  .wbb-gallery img { width: 100%; height: 420px; object-fit: cover; border-radius: 6px; display: block; }
+  .wbb-gallery-hint { font-size: 12px; color: var(--muted-text); text-align: right; margin-top: 2px; }
+  @media (max-width: 600px) { .wbb-gallery img { height: 260px; } .wbb-gallery figure { flex-basis: 88%; } }
+
+  .wbb-components { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 10px 0; }
+  @media (max-width: 600px) { .wbb-components { grid-template-columns: 1fr; } }
+  .wbb-components figure { margin: 0; }
+  .wbb-components img { width: 100%; height: 230px; object-fit: cover; border-radius: 6px; display: block; }
+
+  .wbb-video-wrap { display: flex; gap: 24px; align-items: center; flex-wrap: wrap; margin: 12px 0; }
+  .wbb-video-wrap video { flex: 0 0 auto; width: 320px; max-width: 100%; border-radius: 6px;
+    border: 1px solid var(--border-color); display: block; }
+  .wbb-video-side { flex: 1 1 300px; }
+
+  .wbb-statline { border: 1px solid var(--border-color); background-color: var(--card-bg);
+    border-radius: 6px; padding: 12px 16px; display: flex; gap: 24px; flex-wrap: wrap; margin: 18px 0; }
+  .wbb-stat b { display: block; font-size: 22px; }
+  .wbb-stat span { font-size: 12.5px; color: var(--muted-text); }
+  .wbb-btn-row { margin: 18px 0 6px; }
+  .wbb-btn { display: inline-block; margin: 0 8px 8px 0; padding: 9px 18px;
+    border: 1px solid var(--link-color); color: var(--link-color);
+    border-radius: 4px; text-decoration: none; font-size: 15px; }
+  .wbb-btn:hover { background: var(--link-color); color: var(--bg-color); text-decoration: none; }
+  .wbb-credits { font-size: 13.5px; color: var(--muted-text); border-top: 1px solid var(--border-color);
+    margin-top: 30px; padding-top: 14px; }
+</style>
+
+<div class="wbb-wrap">
+  <div class="wbb-kicker">PUBLIC ENGAGEMENT</div>
+  <h1>When Bubbles Bite</h1>
+
+  <div class="wbb-gallery">
+    <figure>
+      <img src="/images/news/esf-2026.jpg" alt="The When Bubbles Bite stand at Dynamic Earth">
+      <figcaption class="wbb-caption">The mfX stand at Dynamic Earth, Edinburgh Science Festival 2026.</figcaption>
+    </figure>
+    <figure>
+      <img src="/images/when-bubbles-bite/event-bubbles-wave.jpg" alt="Volunteers waving at the stand through floating soap bubbles">
+      <figcaption class="wbb-caption">Bubbles everywhere: the stand in full swing.</figcaption>
+    </figure>
+    <figure>
+      <img src="/images/when-bubbles-bite/event-app-demo.jpg" alt="A volunteer demonstrating the interactive app at the stand">
+      <figcaption class="wbb-caption">Demonstrating the interactive app between balloon bursts.</figcaption>
+    </figure>
+  </div>
+  <div class="wbb-gallery-hint">scroll / swipe for more photos &rarr;</div>
+
+  <p style="margin-top:16px">"When Bubbles Bite" is our interactive exhibit about cavitation: how collapsing bubbles grow teeth
+  sharp enough to chew through ship propellers. It debuted at the
+  <a href="https://www.sciencefestival.co.uk">Edinburgh Science Festival 2026</a> (Dynamic Earth, 10&ndash;13 April),
+  where it was competitively selected for the festival programme, and was presented at the Practical Engineering
+  Education Conference (PEE26) in July 2026.</p>
+
+  <div class="wbb-statline">
+    <div class="wbb-stat"><b>200+</b><span>balloons burst underwater</span></div>
+    <div class="wbb-stat"><b>4</b><span>days at Dynamic Earth</span></div>
+    <div class="wbb-stat"><b>1&ndash;16</b><span>ages of our visitors</span></div>
+  </div>
+
+  <h2>At the exhibit</h2>
+  <div class="wbb-components">
+    <figure>
+      <img src="/images/when-bubbles-bite/balloon-orange-tank.jpg" alt="An orange balloon submerged in the balloon-burst tank">
+      <figcaption class="wbb-caption"><strong>The balloon-burst tank.</strong> Press the big red button and a remotely actuated needle bursts a balloon underwater; every burst is replayed in slow motion.</figcaption>
+    </figure>
+    <figure>
+      <img src="/images/when-bubbles-bite/mini-propeller.jpg" alt="The remote-controlled mini propeller tank">
+      <figcaption class="wbb-caption"><strong>The mini propeller tank.</strong> Drive a remote-controlled propeller and create cavitation in real time.</figcaption>
+    </figure>
+    <figure>
+      <img src="/images/when-bubbles-bite/propeller-damage.jpg" alt="Cavitation erosion on a real ship propeller">
+      <figcaption class="wbb-caption"><strong>A real ship propeller.</strong> Inspect what collapsing bubbles do to solid bronze.</figcaption>
+    </figure>
+    <figure>
+      <a href="https://rohitwpillai.github.io/when-bubbles-bite"><img src="/images/when-bubbles-bite/app-screenshot.png" alt="Title screen of the When Bubbles Bite interactive quiz app"></a>
+      <figcaption class="wbb-caption"><strong>The quiz app.</strong> Test your bubble knowledge.</figcaption>
+    </figure>
+  </div>
+
+  <h2>See it in action</h2>
+  <div class="wbb-video-wrap">
+    <video src="/images/when-bubbles-bite/exhibit-video.mp4" autoplay muted loop playsinline controls></video>
+    <div class="wbb-video-side">
+      <p>A burst at the stand: the needle punctures the balloon and the inrushing water collapses
+      the cavity into a jet. Visitors watched each burst live, then again in slow motion. The same
+      jetting is what lets cavitation bubbles "bite" into ship propellers.</p>
+    </div>
+  </div>
+
+  <h2>The science</h2>
+  <p>Cavitation bubbles form wherever fast-moving liquid drops below its vapour pressure, on spinning
+  propeller blades, in pumps and turbines, even in your kitchen blender. The damage comes from their
+  collapse. If the pressure around a bubble were perfectly uniform, it would implode symmetrically,
+  radiating shock waves. In reality there is almost always an asymmetry: a nearby wall, a pressure
+  gradient, or simply gravity. Liquid on the high-pressure side accelerates inward faster, penetrates
+  the collapsing bubble, and emerges as a narrow high-speed jet directed at the low-pressure
+  side, which is usually the surface the bubble formed on.</p>
+  <p>These jets have been measured at hundreds of metres per second, approaching the speed of sound in
+  water. Each impact is strong enough to plastically deform metal, and repeated impacts hammer the same
+  spots thousands of times, eating away at pump blades and propellers through pitting, erosion and
+  fatigue. Engineers spend billions of pounds every year replacing cavitation-damaged parts. Yet a real
+  cavitation bubble is around a hundredth of a millimetre across and collapses in about ten millionths
+  of a second, far too small and too fast to see, which is why the phenomenon is so widely
+  misunderstood. The same physics can also be exploited, from ultrasonic cleaning of surfaces (and
+  teeth) to targeting disease with microbubbles, and understanding and controlling bubble nucleation,
+  growth and collapse is one of the mfX group's core research themes.</p>
+  <p>Our balloon is a scaled analogue of that invisible bubble. At this size the collapse is driven by
+  gravity: the water pressure at the bottom of the balloon is higher than at the top, and cavitation
+  theory shows that a gravity-driven pressure gradient produces the same jet structures as a nearby
+  solid surface. The bursts at our tank collapse in roughly a fifth of a second, four orders of magnitude
+  slower than a real cavitation bubble and resolvable with a high-speed camera, and every measured burst
+  sits in the strong-jet regime of the theory, forming the same directed jet and ring vortex as a
+  microscopic cavitation bubble.</p>
+
+  <h2>The mechanism</h2>
+  <p>The bursting rig was designed, built and tested by Clara Stirling as her BEng final-year project,
+  supervised by Rohit Pillai and Duncan Dockar. Visitors trigger each burst from a 3D-printed actuation
+  box with an engraved "Press Me" instruction; the button press is transmitted over Bluetooth to a
+  second circuit at the tank, where an Arduino controls a waterproof servo mounted on a
+  height-adjustable 3D-printed strut. On actuation, the servo rotates a needle-tipped arm through an
+  arc to burst the submerged balloon, then returns it to a protected neutral position. The two-circuit
+  wireless architecture keeps all electronics except the sealed servo above the waterline.</p>
+
+  <div class="wbb-btn-row">
+    <a class="wbb-btn" href="https://rohitwpillai.github.io/when-bubbles-bite">Try the interactive quiz app</a>
+  </div>
+
+  <div class="wbb-credits">
+    <p>Run by mfX volunteers: Jacqui, Brian, Tushar, Abhinav, Yuanye, Taher, Rachel, Janice, Clara,
+    and our mechanised assistant Chonky Walter.</p>
+    <p>Supported by the University of Edinburgh, Multiscale Flow X, and the Royal Academy of Engineering.</p>
+  </div>
+</div>

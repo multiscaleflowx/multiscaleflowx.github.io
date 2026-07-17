@@ -427,3 +427,16 @@ html[data-theme="dark"] .navbar-header img[src*="logo"] {
   filter: invert(1) !important;
 }
 
+
+/* Outreach highlight card (homepage) */
+.outreach-highlight { border: 1px solid var(--border-color); background-color: var(--card-bg);
+  border-radius: 6px; padding: 18px; display: flex; gap: 20px; flex-wrap: wrap; align-items: center; }
+.outreach-highlight .oh-img { flex: 2 1 260px; min-width: 220px; }
+.outreach-highlight .oh-img img { width: 100%; border-radius: 4px; display: block; }
+.outreach-highlight .oh-text { flex: 3 1 300px; }
+.oh-kicker { letter-spacing: 2px; font-weight: bold; font-size: 12px; color: var(--muted-text); margin-bottom: 4px; }
+.oh-title { font-size: 26px; font-weight: 500; color: var(--text-color); display: inline-block; margin-bottom: 8px; }
+.oh-title:hover, .oh-title:focus { color: var(--text-color); }
+.oh-btn { display: inline-block; margin: 8px 8px 0 0; padding: 6px 14px; border: 1px solid var(--link-color);
+  color: var(--link-color); border-radius: 4px; text-decoration: none; font-size: 14px; }
+.oh-btn:hover, .oh-btn:focus { background: var(--link-color); color: var(--bg-color); text-decoration: none; }
