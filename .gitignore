@@ -1,2 +1,6 @@
 _site/
 .DS_Store
+CLAUDE.md
+.claude*
+handoffs/
+*.agent-run-log*
