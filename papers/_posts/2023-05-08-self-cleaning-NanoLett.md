@@ -19,7 +19,7 @@ altmetric_id: 148014126
 category: paper
 funder:
 tags: [md, droplets, self-cleaning]
-highlight: true
+highlight: false
 ---
 
 # Abstract
