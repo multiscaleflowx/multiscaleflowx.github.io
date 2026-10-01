@@ -8,4 +8,4 @@ category: news
 
 [Patrick]: /team/sullivan-patrick
 [Duncan]: /team/dockar-duncan
-[here]: https://www.eng.ed.ac.uk/research/impacts/unlocking-power-nanobubbles-applications-diverse-fields
+[here]: https://eng.ed.ac.uk/research/impacts/unlocking-power-nanobubbles
