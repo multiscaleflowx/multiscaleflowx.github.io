@@ -9,7 +9,7 @@ issue:
 pages:
 authors: "Pillai R, Hermann A, Kirsz M, Hulikal Chakrapani T, He F"
 image: /images/papers/2026-11-23-ScoringEachDecision.jpg
-fulltext: https://doi.org/10.5281/zenodo.24458686
+fulltext:
 doi: "10.5281/zenodo.24458686"
 supplement:
 pdflink:

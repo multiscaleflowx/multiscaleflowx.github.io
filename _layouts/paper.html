@@ -45,6 +45,7 @@ title: mfX
 	<div class="col-md-4">
 		<div class="mediumspacer"></div>
 		<div class="glyphbox note"> 
+			{% if page.pdflink or page.fulltext %}
 			<div class="smallhead subtle">
 			Full text
 			</div>	
@@ -62,7 +63,8 @@ title: mfX
 				<a class="off" href="{{ page.fulltext }}">Journal HTML</a>
 			{% endif %}
 			</div>
-			<div class="mediumspacer"></div>			
+			<div class="mediumspacer"></div>
+			{% endif %}			
 			
 			{% if page.supplement %}
 			<div class="smallhead subtle">

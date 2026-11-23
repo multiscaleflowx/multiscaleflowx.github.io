@@ -9,7 +9,7 @@ issue:
 pages: 
 authors: "Dockar D, Reddy MHL, Borg MK, Dadzie SK"
 image: /images/papers/2024-03-20-GranularCouetteFlow.png
-fulltext: https://arxiv.org/abs/2403.01188
+fulltext:
 doi: "10.48550/arXiv.2403.01188" 
 supplement:
 pdflink: 
