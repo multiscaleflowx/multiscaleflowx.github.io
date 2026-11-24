@@ -10,7 +10,7 @@ image: /images/team/thejas-chakrapani2.png
 startyear: 2024
 alumni: false
 ---
-I am a Research Associate with Dr. Rohit Pillai investigating interfacial heat transfer at various solid-liquid interfaces, with a focus on efficient heat management for dense electronics. My interest lies in using Molecular Dynamics (MD) and Many-Body Dissipative Particle Dynamics (MDPD) to study thermodynamics and non-equilibrium flow phenomena in porous media and nanochannels.
+My postdoctoral work at the University of Edinburgh with Dr. Rohit Pillai investigates interfacial heat transfer at various solid-liquid interfaces, with a focus on efficient heat management for dense electronics. My interest lies in using Molecular Dynamics (MD) and Many-Body Dissipative Particle Dynamics (MDPD) to study thermodynamics and non-equilibrium flow phenomena in porous media and nanochannels.
 
 During my PhD at the University of Twente, I developed computational models to examine ink-paper interactions relevant to inkjet printing applications. My work involved using the coarse-grained particle-based simulation technique MDPD to explore how simple and complex fluids penetrate different porous structures. The PhD thesis resulting from my work was chosen as a highlight by the J. M. Burgers Centrum fluid mechanics school, The Netherlands. My supervisors were [Dr. Wouter K. den Otter](https://people.utwente.nl/w.k.denotter) and [Prof. Stefan Luding](https://www2.msm.ctw.utwente.nl/sluding/).
 

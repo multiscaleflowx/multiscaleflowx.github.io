@@ -10,7 +10,7 @@ image: /images/team/yuanye-zhou.jpg
 startyear: 2026
 alumni: false
 ---
-I am a Postdoctoral Research Associate at the University of Edinburgh working with Dr. Livio Gibelli on machine learning and crowd dynamics. My research focuses on AI for Science (AI4S), particularly white- and grey-box modelling, symbolic regression (SINDy), physics-informed learning (PINNs), and neural operators (DeepONet), with applications in fluid mechanics and multiphase flows.
+My postdoctoral work at the University of Edinburgh with Dr. Livio Gibelli is on machine learning and crowd dynamics. My research focuses on AI for Science (AI4S), particularly white- and grey-box modelling, symbolic regression (SINDy), physics-informed learning (PINNs), and neural operators (DeepONet), with applications in fluid mechanics and multiphase flows.
 
 Before joining Edinburgh, I was a postdoctoral researcher at The Hong Kong Polytechnic University (2025–2026), where I worked on machine learning for high-dimensional metamaterial design. Previously, I was at Mälardalen University (2019–2021), conducting experimental and numerical studies of SNCR systems, and at the University of Birmingham (2017–2018), focusing on PEPT measurements of solid–liquid mixing.
 
