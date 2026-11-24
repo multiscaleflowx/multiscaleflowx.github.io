@@ -1,7 +1,7 @@
 ---
 layout: member
-title: "Pengxu Chen"
-position: PhD student
+title: "Dr. Pengxu Chen"
+position:
 email: pengxu.chen@ed.ac.uk
 twitter: 
 degrees: MSc, Zhejiang University (2022)
@@ -12,10 +12,10 @@ website:
 orcid:
 researchgate: 	
 cv: 
-alumni: false
-mfXposition: 
+alumni: true
+mfXposition: PhD Student
 startyear: 2022
-endyear: 
+endyear: 2026
 ---
 
 I am a Ph.D. student at the Institute for Multiscale Thermofluids at the University of Edinburgh. I obtained my Master’s degree in Civil Engineering from Zhejiang University in 2022. My research primarily focuses on fundamentally understanding the icing behaviour on surfaces at the nanoscale and exploring ways of de/anti-icing surfaces for different engineering applications.

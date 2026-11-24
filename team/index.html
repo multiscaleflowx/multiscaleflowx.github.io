@@ -88,7 +88,7 @@ categories:
             <div class="media-body">
             <div class="head media-heading smallhead"><p> {{ member.title }}</p></div>
             <p class="note">{{ member.mfXposition }} ({{ member.startyear }} - {{ member.endyear }})</p>
-            <p class="note">Left mfX for: {{ member.position }}</p>
+            {% if member.position %}<p class="note">Left mfX for: {{ member.position }}</p>{% endif %}
             </div>
         </div>
     </div>
