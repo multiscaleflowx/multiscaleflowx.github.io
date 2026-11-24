@@ -24,8 +24,17 @@ categories:
 			</div>
 			<div class="bigspace"></div>				
 			<div class="bighead">
-				{{ member.position }}
+				{% if member.alumni %}
+					{{ member.mfXposition }}{% if member.startyear and member.startyear != 0 %} ({{ member.startyear }} - {{ member.endyear }}){% endif %}
+				{% else %}
+					{{ member.position }}
+				{% endif %}
 			</div>
+			{% if member.alumni and member.position %}
+			<div class="smallhead">
+				Left mfX for: {{ member.position }}
+			</div>
+			{% endif %}
 			<div class="smallhead">
 				{{ member.degrees }}
 			</div>

@@ -96,14 +96,21 @@ startyear: 2018
 endyear: 
 ---
 
-I am a Leverhulme Trust Early Career Fellow at the University of Edinburgh. I obtained my Ph.D. in Mechanical engineering from the Indian Institute of Technology Kharagpur, India. My research focuses on different aspects of multiphase flow ranging from micro- to nano-scales with a particular emphasis on fluid dynamics, heat transfer, and phase change. I have studied different aspects of droplet dynamics, condensation of steam bubbles, and molecular scale boiling, which includes: (i) influence of the external electric field, (ii) surface vibration, and (iii) influence of external heat flux. These types of multi-physics flow problems are becoming increasingly relevant for the innovation of energy-efficient engineering systems. It is also important for the development of next-generation equipment for biomedical and clinical applications.
+I held a Leverhulme Trust Early Career Fellowship at the University of Edinburgh. I obtained my Ph.D. in Mechanical engineering from the Indian Institute of Technology Kharagpur, India. My research focuses on different aspects of multiphase flow ranging from micro- to nano-scales with a particular emphasis on fluid dynamics, heat transfer, and phase change. I have studied different aspects of droplet dynamics, condensation of steam bubbles, and molecular scale boiling, which includes: (i) influence of the external electric field, (ii) surface vibration, and (iii) influence of external heat flux. These types of multi-physics flow problems are becoming increasingly relevant for the innovation of energy-efficient engineering systems. It is also important for the development of next-generation equipment for biomedical and clinical applications.
 
 My doctoral research analysed the dynamics of drops and its manipulation during electro-wetting and dielectrophoresis. In particular, I focused on including the nonlinear electro-hydrodynamic couplings such as interfacial charge transport, interface deformation, and resulting fluid motion.
 
-My recent work includes investigation of bubble nucleation due to surface vibration. I am currently working on analysing gas flow in nano-scale porous media, which occurs during the exploration from shale gas reservoirs. I am also looking at developing a multiscale simulation-for-design framework to investigate de-icing using nanoscale vibration-driven (acoustothermal) heating.
+My work at Edinburgh includes investigation of bubble nucleation due to surface vibration, analysis of gas flow in nano-scale porous media, which occurs during the exploration from shale gas reservoirs, and a multiscale simulation-for-design framework to investigate de-icing using nanoscale vibration-driven (acoustothermal) heating.
 ```
 
-The fields `title`, `position`, `email`, `degrees` (which just refers to your **latest** degree) and `image` are required, while all the others are optional. You also need to include some bio text as above (the amount of detail you put in is completely up to you). Note that you can include links here after the colon to your GitHub/Linkedin/etc. As above, the images are placed in [`/images/team/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/team), so only edit the name of the image when sending it for the website (here called `saikat-datta.jpg`). The image should be **exactly 340x454 pixels** and not too large (<500 kb).
+The fields `title`, `position`, `email`, `degrees` (which just refers to your **latest** degree) and `image` are required, while all the others are optional. You also need to include some bio text as above (the amount of detail you put in is completely up to you). Write the bio so that it stays true after you leave the group:
+
+1. A bio never states a present role ("I am a PhD student at", "I am a Research Associate at"). The role, the years and the next post are shown by the page from its fields.
+2. No time-stamp words: no year of study, "currently", "recent", "ongoing", "present", "will".
+3. The research is the subject of the sentence ("My PhD research at the University of Edinburgh focuses on"), which reads correctly while the person is here and after they leave.
+4. Earlier degrees and posts are given with their years.
+
+Note that you can include links here after the colon to your GitHub/Linkedin/etc. As above, the images are placed in [`/images/team/`](https://github.com/multiscaleflowx/multiscaleflowx.github.io/tree/master/images/team), so only edit the name of the image when sending it for the website (here called `saikat-datta.jpg`). The image should be **exactly 340x454 pixels** and not too large (<500 kb).
 
 ## Projects
 

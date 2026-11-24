@@ -36,7 +36,7 @@ endyear:
 
 ---
 
-I am a PhD student at the Institute for Multiscale Thermofluids at the University of Edinburgh. I obtained my MSc degree in Materials Science and Engineering from TU Delft in the Netherlands.
+I obtained my MSc degree in Materials Science and Engineering from TU Delft in the Netherlands.
 
 
 
@@ -44,7 +44,7 @@ During my Master’s studies, I completed internships at Tata Steel and SKF, whe
 
 
 
-In my PhD, I will continue to work in the field of machine learning potentials (MLP) and develop a MLP for studying thermal problems at solid–liquid interfaces. Specifically, my research will involve training, validating the MLP and applying it in molecular dynamics simulation studies of realistic nanomaterial–coolant liquid systems. Through these simulations, I aim to gain fundamental insights into interfacial thermal transport relevant to advanced cooling technologies and next-generation thermal management applications.
+My PhD research at the Institute for Multiscale Thermofluids at the University of Edinburgh continues in the field of machine learning potentials (MLP) and develops a MLP for studying thermal problems at solid–liquid interfaces. Specifically, it involves training, validating the MLP and applying it in molecular dynamics simulation studies of realistic nanomaterial–coolant liquid systems. Through these simulations, I aim to gain fundamental insights into interfacial thermal transport relevant to advanced cooling technologies and next-generation thermal management applications.
 
 
 

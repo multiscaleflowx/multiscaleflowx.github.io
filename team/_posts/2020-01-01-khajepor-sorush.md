@@ -27,7 +27,7 @@ I have a PhD in computational fluid mechanics where I focused on simulating mult
 I have two years experience of working in the oil and gas industry where I have been involved in different commercial and R&D projects mostly focusing on CFD modelling, numerical app development. 
 
 
-I am currently a research associate at the University of Edinburgh and concentrating on simulating powder spreading processes of additive manufacturing. A high-performance computational framework is being created to understand underlying physical phenomena. This helps us to improve the processability of powders.
+My work as a research associate at the University of Edinburgh concentrates on simulating powder spreading processes of additive manufacturing. A high-performance computational framework was created to understand underlying physical phenomena. This helps us to improve the processability of powders.
 
 
 

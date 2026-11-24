@@ -18,8 +18,8 @@ startyear: 2021
 endyear: 2025
 ---
 
-I am a PhD student at the University of Edinburgh. I come from China where I obtained my bachelor’s and master’s degree in School of Aerospace Science and Engineering at Beihang University. My research mainly focuses on droplet dynamics and computational nonequilibrium phase change dynamics.
+I come from China where I obtained my bachelor’s and master’s degree in School of Aerospace Science and Engineering at Beihang University. My research mainly focuses on droplet dynamics and computational nonequilibrium phase change dynamics.
 
 My master thesis is about droplet jumping phenomenon on superhydrophobic surface, including the investigation of moving droplet jumping phenomenon induced by coalescence and single droplet jumping phenomenon induced by Laplace pressure. I performed simulation in OpenFOAM and conducted corresponding experiment to declare the underlying mechanisms of these phenomena.
  
-My PhD project is about kinetic modelling of cavitation. Cavitation is a phenomenon in which many tiny bubbles expand and collapse instantly within a liquid (water) because of the pressure variation. My recent work focuses on developing an efficient model based on Enskog-Vlasov equation. The developed model will be used to investigate the bubble dynamics, heat generation, and pressure distribution during the bubble cavitation process, to deepen the understanding of this novel phenomenon.
+My PhD project at the University of Edinburgh is about kinetic modelling of cavitation. Cavitation is a phenomenon in which many tiny bubbles expand and collapse instantly within a liquid (water) because of the pressure variation. My work focuses on developing an efficient model based on Enskog-Vlasov equation. The developed model is used to investigate the bubble dynamics, heat generation, and pressure distribution during the bubble cavitation process, to deepen the understanding of this novel phenomenon.
